@@ -2,4 +2,6 @@
 return {
   "leafo/moonscript-vim",
   "lluchs/vim-wren",
+  "fladson/vim-kitty",
+  "dylanaraps/wal.vim",
 }

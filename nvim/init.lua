@@ -130,19 +130,6 @@ require('lazy').setup({
   },
 
   {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
-    priority = 1000,
-    config = function()
-      require 'onedark'.setup {
-        style = "warmer",
-        transparent = true,
-      }
-      vim.cmd.colorscheme 'onedark'
-    end,
-  },
-
-  {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
     -- See `:help lualine.txt`
@@ -251,8 +238,9 @@ vim.o.timeoutlen = 300
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
--- NOTE: You should make sure your terminal supports this
-vim.o.termguicolors = true
+-- -- NOTE: You should make sure your terminal supports this
+-- vim.o.termguicolors = true
+vim.cmd.colorscheme 'wal'
 
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
@@ -284,6 +272,8 @@ vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = tr
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 
 vim.keymap.set('n', '<leader>t', ':sp<CR><C-w>j:term<CR>i', { desc = "Open a terminal" })
+vim.keymap.set('n', '<leader>T', ':vs<CR><C-w>l:term<CR>i', { desc = "Open a terminal, sideways" })
+--vim.keymap.set('t', '<Esc>', "<C-\\><C-n>", { silent = true })
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
@@ -473,6 +463,12 @@ local servers = {
       telemetry = { enable = false },
       runtime = { version = "Lua 5.4" },
     },
+  },
+
+  ols = {
+    enable_document_symbols = true,
+    enable_snippets = true,
+    enable_hover = true,
   },
 }
 
