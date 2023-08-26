@@ -5,6 +5,7 @@ local config = require 'core.config'
 local ime = require 'core.ime'
 local style = require 'core.style'
 local DocView = require 'core.docview'
+local overwrite = require 'plugins.overwrite'
 
 -- the alignment thing wasn't really a good idea from the start
 
@@ -41,6 +42,8 @@ config.plugins.expandblink = common.merge({
 	},
 }, config.plugins.expandblink)
 
+local ovr = pcall(require, 'plugins.overwrite')
+
 function DocView:draw_overlay()
 	if core.active_view == self then
 		local minline, maxline = self:get_visible_line_range()
@@ -62,7 +65,9 @@ end
 
 local phaseShift = math.sqrt(2)/2
 
+local old_dw_dc = DocView.draw_caret
 function DocView:draw_caret(x, y)
+	if overwrite() then return old_dw_dc(self, x, y) end
 	local t = ((core.blink_timer - core.blink_start) % config.blink_period) / config.blink_period
 	local halfP = config.plugins.expandblink.period == "half"
 	if halfP and t < 0.5 then t = 1
