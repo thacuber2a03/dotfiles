@@ -23,7 +23,7 @@ function md -d "display a markdown file in Lynx"
 		return
 	end
 
-	pandoc -fmarkdown -thtml $argv[1] && lynx --stdin
+	pandoc -fmarkdown -thtml $argv[1] | lynx --stdin
 end
 
 # luarocks
