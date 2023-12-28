@@ -25,8 +25,8 @@ return {
 			map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
 			map('n', '<A-.>', '<Cmd>BufferNext<CR>', opts)
 			-- Re-order to previous/next
-			map('n', '<A-<>', '<Cmd>BufferMovePrevious<CR>', opts)
-			map('n', '<A->>', '<Cmd>BufferMoveNext<CR>', opts)
+			map('n', '<C-,>', '<Cmd>BufferMovePrevious<CR>', opts)
+			map('n', '<C-.>', '<Cmd>BufferMoveNext<CR>', opts)
 		end,
 		version = '^1.0.0',
 	}

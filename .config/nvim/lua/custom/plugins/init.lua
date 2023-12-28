@@ -6,4 +6,5 @@ set.expandtab = false
 
 return {
 	"marekmaskarinec/vim-umka",
+	"lluchs/vim-wren",
 }
