@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=~/.local/state/klight
+if [ -f ${FILE} ]; then
+  xset -led 3 && rm ${FILE}
+else
+  xset led 3 && touch ${FILE}
+fi

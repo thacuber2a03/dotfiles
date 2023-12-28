@@ -1,7 +1,9 @@
--- You can add your own plugins here or in other files in this directory!
---  I promise not to create any merge conflicts in this directory :)
---
--- See the kickstart.nvim README for more information
+local set = vim.opt
+local tabwidth = 2
+set.tabstop = tabwidth
+set.shiftwidth = tabwidth
+set.expandtab = false
+
 return {
 	"marekmaskarinec/vim-umka",
 }
