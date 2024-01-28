@@ -68,9 +68,32 @@ function fish_user_key_bindings
 	bind \e\[3\;5~ kill-word
 end
 
-alsactl -f ~/.config/asound.state restore
-system76-power profile battery
-killall io.elementary.appcenter
-# xrandr --output eDP-1 --scale "1.25x1.25" --filter bilinear
-wal -Rq
-togglebklight
+source /home/thacuber2a03/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+
+# there's no need for this to be here, I just love it so much
+function bytebeat -d "play some bytebeat"
+	if test -z $argv[1]
+		printf "usage: bytebeat <program> [init code]"
+		return
+	end
+
+	set -l tmpfile (mktemp)
+	if test $status -ne 0
+		return
+	end
+
+	if test -z $argv[2]
+		printf "#include <math.h>\nmain(t){for(;;t++)putchar(%s);}" $argv[1] > "$tmpfile"
+	else
+		printf "#include <math.h>\nmain(t){%sfor(;;t++)putchar(%s);}" $argv[2] $argv[1] > "$tmpfile"
+	end
+	gcc -xc "$tmpfile" -std=c89 -o "$tmpfile.out"
+
+	if test $status -eq 0
+		"$tmpfile.out" | aplay &
+		rm "$tmpfile" "$tmpfile.out"
+		fg
+	else
+		rm "$tmpfile" "$tmpfile.out"
+	end
+end
