@@ -74,11 +74,22 @@ end
 --]]
 
 do -- lsp
+	local lsp = require 'plugins.lsp'
 	local lspconfig = require 'plugins.lsp.config'
 
 	lspconfig.rust_analyzer.setup()
 
 	lspconfig.solargraph.setup()
+
+	lsp.add_server {
+		name = "uiua_lsp",
+		language = "Uiua",
+		file_patterns = { "%.ua$" },
+		command = { "uiua", "lsp" },
+		settings = {
+			
+		}
+	}
 end
 
 --[[

@@ -68,8 +68,6 @@ function fish_user_key_bindings
 	bind \e\[3\;5~ kill-word
 end
 
-source /home/thacuber2a03/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
-
 # there's no need for this to be here, I just love it so much
 function bytebeat -d "play some bytebeat"
 	if test -z $argv[1]
@@ -96,4 +94,10 @@ function bytebeat -d "play some bytebeat"
 	else
 		rm "$tmpfile" "$tmpfile.out"
 	end
+end
+
+source /home/thacuber2a03/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+
+if test -e ~/.cache/wal/colors.fish
+    source ~/.cache/wal/colors.fish
 end

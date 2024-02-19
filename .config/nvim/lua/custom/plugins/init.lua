@@ -14,6 +14,8 @@ local map = function(mode, lhs, rhs) vim.api.nvim_set_keymap(mode, lhs, rhs, opt
 map('n', "<leader>t", ":sp<CR><C-w>j:term<CR>i")
 map('n', "<leader>T", ":vs<CR><C-w>l:term<CR>i")
 
+set.list = true
+
 return {
 	"marekmaskarinec/vim-umka",
 	"lluchs/vim-wren",
@@ -32,6 +34,6 @@ return {
 		},
 	},
 	"leafo/moonscript-vim",
-	
+
 	"nvim-treesitter/playground",
 }
