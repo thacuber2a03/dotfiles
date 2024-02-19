@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+    wal -i "/home/thacuber2a03/Imágenes/Fondos de escritorio"
+if test -e ~/.cache/wal/colors.fish
+    source ~/.cache/wal/colors.fish
+end
