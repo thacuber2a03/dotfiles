@@ -1,0 +1,3896 @@
+23:14:00 [info] Furnace version 0.6.
+23:14:00 [debug] opening config for read: /home/thacuber2a03/.config/furnace/furnace.cfg
+23:14:00 [trace] trying: /home/thacuber2a03/.config/furnace/furnace.cfg
+23:14:00 [info] loading config.
+23:14:00 [debug] end of file (Operation not permitted)
+23:14:00 [debug] setting default preset
+23:14:00 [debug] preset size 76
+23:14:00 [info] initializing audio.
+23:14:00 [info] using low latency mode.
+23:14:00 [trace] listing audio devices
+23:14:00 [trace] setting callback
+23:14:00 [trace] calling init
+23:14:00 [debug] SDL audio driver: pulseaudio
+23:14:00 [trace] opening audio device...
+23:14:00 [trace] got info: 2 channels, 512 bufsize
+23:14:00 [trace] allocating oscBuf...
+23:14:00 [info] initializing MIDI.
+23:14:00 [debug] listing devices.
+23:14:00 [debug] got port count.
+23:14:00 [info] opening MIDI input.
+23:14:00 [debug] finding port Midi Through:Midi Through Port-0...
+23:14:00 [trace] - 0: Midi Through:Midi Through Port-0
+23:14:00 [debug] opening port 0...
+23:14:00 [trace] no MIDI output device selected.
+23:14:00 [trace] initAudioBackend done
+23:14:00 [trace] creating blip_buf
+23:14:00 [trace] setting blip rate of samp_bb (44100.000000)
+23:14:00 [trace] initializing dispatch...
+23:14:00 [debug] rendering samples...
+23:14:00 [info] initializing GUI.
+23:14:00 [trace] setting window type to NORMAL.
+23:14:00 [debug] initializing video...
+23:14:00 [trace] video backend: x11
+23:14:00 [trace] scaling managed by application.
+23:14:00 [debug] auto-detecting UI scale factor.
+23:14:00 [debug] scale factor: 1.000000
+23:14:00 [trace] loading image 0 to pool.
+23:14:00 [trace] 256x256
+23:14:00 [trace] portrait: 0 (1366x704)
+23:14:00 [debug] bounds check: display 0 is at 25x50x1341x743: xy
+23:14:00 [trace] window size: 1366x704
+23:14:00 [info] render backend: OpenGL
+23:14:00 [debug] creating window...
+23:14:00 [debug] maximizing as it doesn't fit (1366x743+0+25).
+23:14:00 [trace] available render drivers:
+23:14:00 [trace] - opengl
+23:14:00 [trace] - opengles2
+23:14:00 [trace] - software
+23:14:00 [debug] starting render backend...
+23:14:01 [trace] render backend started
+23:14:01 [trace] canvas size: 1366x704
+23:14:01 [debug] preparing user interface...
+23:14:01 [debug] auto-detecting UI scale factor.
+23:14:01 [debug] scale factor: 1.000000
+23:14:01 [debug] building font...
+23:14:01 [debug] preparing layout...
+23:14:01 [info] done!
+23:14:01 [debug] key input: event filter
+23:14:01 [trace] window moved to 0x64
+23:14:01 [trace] portrait: 0 (1366x704)
+23:14:01 [debug] window resized to 1366x704
+23:14:01 [trace] window size changed to 1366x704
+23:14:01 [trace] portrait: 0 (1366x704)
+23:14:01 [debug] window resized to 1366x704
+23:14:01 [trace] window exposed
+23:14:01 [trace] updateWindow is true
+23:14:01 [debug] trying zlib...
+23:14:01 [info] module version 170 (0xaa)
+23:14:01 [debug] systems:
+23:14:01 [debug] - 0: 82 (Yamaha YM2151 (OPM))
+23:14:01 [debug] - 1: 9b (SegaPCM)
+23:14:01 [debug] - 2: 00 (Unknown)
+23:14:01 [debug] - 3: 00 (Unknown)
+23:14:01 [debug] - 4: 00 (Unknown)
+23:14:01 [debug] - 5: 00 (Unknown)
+23:14:01 [debug] - 6: 00 (Unknown)
+23:14:01 [debug] - 7: 00 (Unknown)
+23:14:01 [debug] - 8: 00 (Unknown)
+23:14:01 [debug] - 9: 00 (Unknown)
+23:14:01 [debug] - 10: 00 (Unknown)
+23:14:01 [debug] - 11: 00 (Unknown)
+23:14:01 [debug] - 12: 00 (Unknown)
+23:14:01 [debug] - 13: 00 (Unknown)
+23:14:01 [debug] - 14: 00 (Unknown)
+23:14:01 [debug] - 15: 00 (Unknown)
+23:14:01 [debug] - 16: 00 (Unknown)
+23:14:01 [debug] - 17: 00 (Unknown)
+23:14:01 [debug] - 18: 00 (Unknown)
+23:14:01 [debug] - 19: 00 (Unknown)
+23:14:01 [debug] - 20: 00 (Unknown)
+23:14:01 [debug] - 21: 00 (Unknown)
+23:14:01 [debug] - 22: 00 (Unknown)
+23:14:01 [debug] - 23: 00 (Unknown)
+23:14:01 [debug] - 24: 00 (Unknown)
+23:14:01 [debug] - 25: 00 (Unknown)
+23:14:01 [debug] - 26: 00 (Unknown)
+23:14:01 [debug] - 27: 00 (Unknown)
+23:14:01 [debug] - 28: 00 (Unknown)
+23:14:01 [debug] - 29: 00 (Unknown)
+23:14:01 [debug] - 30: 00 (Unknown)
+23:14:01 [debug] - 31: 00 (Unknown)
+23:14:01 [info]  by 
+23:14:01 [debug] reading orders (3)...
+23:14:01 [debug] reading chip flags...
+23:14:01 [debug] reading asset directories...
+23:14:01 [debug] reading instrument 0 at 4dc...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1290
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 1 at 50a...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1336
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 2 at 538...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1382
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 3 at 566...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1428
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 4 at 594...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1474
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 5 at 5c2...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1520
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 6 at 5f0...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1600
+23:14:01 [trace] - NA
+23:14:01 [trace] - FM
+23:14:01 [trace] - LD
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 7 at 640...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1680
+23:14:01 [trace] - NA
+23:14:01 [trace] - FM
+23:14:01 [trace] - LD
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 8 at 690...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1726
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 9 at 6be...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1772
+23:14:01 [trace] - NA
+23:14:01 [trace] - SM
+23:14:01 [trace] - EN
+23:14:01 [debug] reading instrument 10 at 6ec...
+23:14:01 [trace] reading new instrument data...
+23:14:01 [trace] data length: 1858
+23:14:01 [trace] - NA
+23:14:01 [trace] - FM
+23:14:01 [trace] - LD
+23:14:01 [trace] - EN
+23:14:01 [trace] initInternal(8,16971)
+23:14:01 [trace] initInternal(8,52122)
+23:14:01 [trace] initInternal(8,256)
+23:14:01 [trace] initInternal(8,65536)
+23:14:01 [trace] initInternal(8,256)
+23:14:01 [trace] initInternal(8,256)
+23:14:01 [trace] initInternal(8,36011)
+23:14:01 [trace] initInternal(8,58689)
+23:14:01 [debug] reading pattern in 38c33...
+23:14:01 [debug] - 0, 0, 0 (new)
+23:14:01 [debug] reading pattern in 38c84...
+23:14:01 [debug] - 0, 0, 1 (new)
+23:14:01 [debug] reading pattern in 38cd3...
+23:14:01 [debug] - 0, 0, 2 (new)
+23:14:01 [debug] reading pattern in 38ce1...
+23:14:01 [debug] - 0, 1, 0 (new)
+23:14:01 [debug] reading pattern in 38d32...
+23:14:01 [debug] - 0, 1, 1 (new)
+23:14:01 [debug] reading pattern in 38d81...
+23:14:01 [debug] - 0, 1, 2 (new)
+23:14:01 [debug] reading pattern in 38d8f...
+23:14:01 [debug] - 0, 2, 0 (new)
+23:14:01 [debug] reading pattern in 38deb...
+23:14:01 [debug] - 0, 2, 1 (new)
+23:14:01 [debug] reading pattern in 38e41...
+23:14:01 [debug] - 0, 2, 2 (new)
+23:14:01 [debug] reading pattern in 38e4f...
+23:14:01 [debug] - 0, 3, 0 (new)
+23:14:01 [debug] reading pattern in 38eab...
+23:14:01 [debug] - 0, 3, 1 (new)
+23:14:01 [debug] reading pattern in 38f01...
+23:14:01 [debug] - 0, 3, 2 (new)
+23:14:01 [debug] reading pattern in 38f0f...
+23:14:01 [debug] - 0, 4, 0 (new)
+23:14:01 [debug] reading pattern in 38f77...
+23:14:01 [debug] - 0, 4, 1 (new)
+23:14:01 [debug] reading pattern in 38fd0...
+23:14:01 [debug] - 0, 4, 2 (new)
+23:14:01 [debug] reading pattern in 38fde...
+23:14:01 [debug] - 0, 5, 0 (new)
+23:14:01 [debug] reading pattern in 39046...
+23:14:01 [debug] - 0, 5, 1 (new)
+23:14:01 [debug] reading pattern in 3909e...
+23:14:01 [debug] - 0, 5, 2 (new)
+23:14:01 [debug] reading pattern in 390ac...
+23:14:01 [debug] - 0, 6, 0 (new)
+23:14:01 [debug] reading pattern in 391cc...
+23:14:01 [debug] - 0, 6, 1 (new)
+23:14:01 [debug] reading pattern in 39235...
+23:14:01 [debug] - 0, 6, 2 (new)
+23:14:01 [debug] reading pattern in 39243...
+23:14:01 [debug] - 0, 7, 0 (new)
+23:14:01 [debug] reading pattern in 39357...
+23:14:01 [debug] - 0, 7, 1 (new)
+23:14:01 [debug] reading pattern in 393d5...
+23:14:01 [debug] - 0, 7, 2 (new)
+23:14:01 [debug] reading pattern in 393ed...
+23:14:01 [debug] - 0, 8, 0 (new)
+23:14:01 [debug] reading pattern in 394d3...
+23:14:01 [debug] - 0, 8, 1 (new)
+23:14:01 [debug] reading pattern in 394f9...
+23:14:01 [debug] - 0, 8, 2 (new)
+23:14:01 [debug] reading pattern in 39507...
+23:14:01 [debug] - 0, 9, 0 (new)
+23:14:01 [debug] reading pattern in 395ec...
+23:14:01 [debug] - 0, 9, 1 (new)
+23:14:01 [debug] reading pattern in 3961a...
+23:14:01 [debug] - 0, 9, 2 (new)
+23:14:01 [debug] reading pattern in 39628...
+23:14:01 [debug] - 0, 10, 0 (new)
+23:14:01 [debug] reading pattern in 396ff...
+23:14:01 [debug] - 0, 10, 1 (new)
+23:14:01 [debug] reading pattern in 3973a...
+23:14:01 [debug] - 0, 10, 2 (new)
+23:14:01 [debug] reading pattern in 39748...
+23:14:01 [debug] - 0, 11, 0 (new)
+23:14:01 [debug] reading pattern in 39816...
+23:14:01 [debug] - 0, 11, 1 (new)
+23:14:01 [debug] reading pattern in 39859...
+23:14:01 [debug] - 0, 11, 2 (new)
+23:14:01 [debug] reading pattern in 39867...
+23:14:01 [debug] - 0, 12, 14 (new)
+23:14:01 [debug] reading pattern in 39875...
+23:14:01 [debug] - 0, 12, 1 (new)
+23:14:01 [debug] reading pattern in 3989c...
+23:14:01 [debug] - 0, 12, 2 (new)
+23:14:01 [debug] reading pattern in 398aa...
+23:14:01 [debug] - 0, 13, 0 (new)
+23:14:01 [debug] reading pattern in 398ca...
+23:14:01 [debug] - 0, 13, 1 (new)
+23:14:01 [debug] reading pattern in 398f1...
+23:14:01 [debug] - 0, 13, 2 (new)
+23:14:01 [debug] reading pattern in 398ff...
+23:14:01 [debug] - 0, 14, 0 (new)
+23:14:01 [debug] reading pattern in 3991f...
+23:14:01 [debug] - 0, 14, 1 (new)
+23:14:01 [debug] reading pattern in 39946...
+23:14:01 [debug] - 0, 14, 2 (new)
+23:14:01 [debug] reading pattern in 39954...
+23:14:01 [debug] - 0, 15, 0 (new)
+23:14:01 [debug] reading pattern in 39974...
+23:14:01 [debug] - 0, 15, 1 (new)
+23:14:01 [debug] reading pattern in 3999b...
+23:14:01 [debug] - 0, 15, 2 (new)
+23:14:01 [debug] reading pattern in 399a9...
+23:14:01 [debug] - 0, 16, 0 (new)
+23:14:01 [debug] reading pattern in 399cb...
+23:14:01 [debug] - 0, 16, 1 (new)
+23:14:01 [debug] reading pattern in 399f3...
+23:14:01 [debug] - 0, 16, 2 (new)
+23:14:01 [debug] reading pattern in 39a01...
+23:14:01 [debug] - 0, 17, 0 (new)
+23:14:01 [debug] reading pattern in 39a23...
+23:14:01 [debug] - 0, 17, 1 (new)
+23:14:01 [debug] reading pattern in 39a4b...
+23:14:01 [debug] - 0, 17, 2 (new)
+23:14:01 [debug] reading pattern in 39a59...
+23:14:01 [debug] - 0, 18, 0 (new)
+23:14:01 [debug] reading pattern in 39a7b...
+23:14:01 [debug] - 0, 18, 1 (new)
+23:14:01 [debug] reading pattern in 39aa3...
+23:14:01 [debug] - 0, 18, 2 (new)
+23:14:01 [debug] reading pattern in 39ab1...
+23:14:01 [debug] - 0, 19, 0 (new)
+23:14:01 [debug] reading pattern in 39ad3...
+23:14:01 [debug] - 0, 19, 1 (new)
+23:14:01 [debug] reading pattern in 39afb...
+23:14:01 [debug] - 0, 19, 2 (new)
+23:14:01 [debug] reading pattern in 39b09...
+23:14:01 [debug] - 0, 20, 0 (new)
+23:14:01 [debug] reading pattern in 39b22...
+23:14:01 [debug] - 0, 20, 1 (new)
+23:14:01 [debug] reading pattern in 39b45...
+23:14:01 [debug] - 0, 20, 2 (new)
+23:14:01 [debug] reading pattern in 39b53...
+23:14:01 [debug] - 0, 21, 0 (new)
+23:14:01 [debug] reading pattern in 39b71...
+23:14:01 [debug] - 0, 21, 1 (new)
+23:14:01 [debug] reading pattern in 39b95...
+23:14:01 [debug] - 0, 21, 2 (new)
+23:14:01 [debug] reading pattern in 39ba3...
+23:14:01 [debug] - 0, 22, 0 (new)
+23:14:01 [debug] reading pattern in 39bf3...
+23:14:01 [debug] - 0, 22, 1 (new)
+23:14:01 [debug] reading pattern in 39c20...
+23:14:01 [debug] - 0, 22, 2 (new)
+23:14:01 [debug] reading pattern in 39c2e...
+23:14:01 [debug] - 0, 23, 0 (new)
+23:14:01 [debug] reading pattern in 39daf...
+23:14:01 [debug] - 0, 23, 1 (new)
+23:14:01 [debug] reading pattern in 39dda...
+23:14:01 [debug] - 0, 23, 2 (new)
+23:14:01 [trace] terminating dispatch...
+23:14:01 [trace] initializing dispatch...
+23:14:01 [debug] rendering samples...
+23:14:01 [trace] initInternal(16,16971)
+23:14:01 [trace] initInternal(16,52122)
+23:14:01 [trace] initInternal(16,256)
+23:14:01 [trace] initInternal(16,65536)
+23:14:01 [trace] initInternal(16,256)
+23:14:01 [trace] initInternal(16,256)
+23:14:01 [trace] initInternal(16,36011)
+23:14:01 [trace] initInternal(16,58689)
+23:14:01 [trace] - sample 0 will be at b5 with length 424b
+23:14:01 [trace]   and it ends in 66
+23:14:01 [trace] - sample 1 will be at 10066 with length cb9a
+23:14:01 [trace]   and it ends in 203
+23:14:01 [trace] - sample 2 will be at 1cc00 with length 100
+23:14:01 [trace]   and it ends in 204
+23:14:01 [trace] - sample 3 will be at 20001 with length feff
+23:14:01 [trace]   and it ends in 254
+23:14:01 [trace] - sample 4 will be at 30000 with length 100
+23:14:01 [trace]   and it ends in 0
+23:14:01 [trace] - sample 5 will be at 30100 with length 100
+23:14:01 [trace]   and it ends in 1
+23:14:01 [trace] - sample 6 will be at 30255 with length 8cab
+23:14:01 [trace]   and it ends in 142
+23:14:01 [trace] - sample 7 will be at 400bf with length e541
+23:14:01 [trace]   and it ends in 229
+23:14:01 [debug] initializing small sinc integral table.
+23:14:01 [trace] creating chan osc work pool
+23:14:01 [debug] creating FFT plan for channel 0
+23:14:01 [debug] creating FFT plan for channel 1
+23:14:01 [debug] creating FFT plan for channel 2
+23:14:01 [debug] creating FFT plan for channel 3
+23:14:01 [debug] creating FFT plan for channel 4
+23:14:01 [debug] creating FFT plan for channel 5
+23:14:01 [debug] creating FFT plan for channel 6
+23:14:01 [debug] creating FFT plan for channel 7
+23:14:01 [debug] creating FFT plan for channel 8
+23:14:01 [debug] creating FFT plan for channel 9
+23:14:01 [debug] creating FFT plan for channel 10
+23:14:01 [debug] creating FFT plan for channel 11
+23:14:01 [debug] creating FFT plan for channel 12
+23:14:01 [debug] creating FFT plan for channel 13
+23:14:01 [debug] creating FFT plan for channel 14
+23:14:01 [debug] creating FFT plan for channel 15
+23:14:01 [debug] creating FFT plan for channel 16
+23:14:01 [debug] creating FFT plan for channel 17
+23:14:01 [debug] creating FFT plan for channel 18
+23:14:01 [debug] creating FFT plan for channel 19
+23:14:01 [debug] creating FFT plan for channel 20
+23:14:01 [debug] creating FFT plan for channel 21
+23:14:01 [debug] creating FFT plan for channel 22
+23:14:01 [debug] creating FFT plan for channel 23
+23:14:01 [trace] loading image 1 to pool.
+23:14:01 [trace] 1024x512
+23:14:01 [trace] loading image 2 to pool.
+23:14:01 [trace] 512x512
+23:14:01 [trace] loading image 3 to pool.
+23:14:01 [trace] 1024x1024
+23:14:01 [trace] loading image 5 to pool.
+23:14:01 [trace] 512x512
+23:14:01 [trace] playSub() called
+23:14:01 [trace] goal: 0 goalRow: 0
+23:14:01 [trace] playSub() took 270µs
+23:14:03 [trace] loading image 6 to pool.
+23:14:03 [trace] 1024x512
+23:14:06 [trace] loading image 4 to pool.
+23:14:06 [trace] 1024x512
+23:14:11 [trace] ending intro
+23:14:11 [trace] terminating dispatch...
+23:14:11 [debug] preset size 76
+23:14:11 [trace] initializing dispatch...
+23:14:11 [debug] rendering samples...
+23:14:34 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:14:34 [trace] curFileName: 
+23:14:34 [debug] saving backup...
+23:14:34 [trace] writing file...
+23:14:34 [debug] backup saved.
+23:14:37 [trace] playSub() called
+23:14:37 [trace] goal: 0 goalRow: 0
+23:14:37 [trace] playSub() took 122µs
+23:14:46 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:04 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:15:04 [trace] curFileName: 
+23:15:04 [debug] saving backup...
+23:15:04 [trace] writing file...
+23:15:04 [debug] backup saved.
+23:15:06 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:07 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:08 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:08 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:11 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:12 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:12 [trace] finish selection: 0.0,2 - 0.0,2
+23:15:12 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:12 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:12 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:13 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:13 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:13 [trace] finish selection: 0.0,2 - 0.0,2
+23:15:13 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:13 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:14 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:18 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:18 [trace] finish selection: 0.0,1 - 0.0,1
+23:15:19 [trace] finish selection: 0.0,0 - 0.0,0
+23:15:19 [trace] playSub() called
+23:15:19 [trace] goal: 0 goalRow: 0
+23:15:19 [trace] playSub() took 133µs
+23:15:20 [trace] finish selection: 0.0,4 - 0.0,4
+23:15:21 [trace] finish selection: 0.0,5 - 0.0,5
+23:15:21 [trace] finish selection: 0.0,4 - 0.0,4
+23:15:21 [trace] finish selection: 0.0,4 - 0.0,4
+23:15:23 [trace] playSub() called
+23:15:23 [trace] goal: 0 goalRow: 0
+23:15:23 [trace] playSub() took 131µs
+23:15:28 [trace] finish selection: 0.0,4 - 0.0,4
+23:15:28 [trace] playSub() called
+23:15:28 [trace] goal: 0 goalRow: 0
+23:15:28 [trace] playSub() took 131µs
+23:15:29 [trace] finish selection: 0.0,7 - 0.0,7
+23:15:29 [trace] finish selection: 0.0,6 - 0.0,6
+23:15:29 [trace] finish selection: 0.0,5 - 0.0,5
+23:15:30 [trace] finish selection: 0.0,4 - 0.0,4
+23:15:30 [trace] finish selection: 0.0,4 - 0.0,4
+23:15:30 [trace] finish selection: 0.0,5 - 0.0,5
+23:15:30 [trace] finish selection: 0.0,6 - 0.0,6
+23:15:30 [trace] finish selection: 0.0,7 - 0.0,7
+23:15:30 [trace] finish selection: 0.0,8 - 0.0,8
+23:15:30 [trace] playSub() called
+23:15:30 [trace] goal: 0 goalRow: 0
+23:15:30 [trace] playSub() took 123µs
+23:15:31 [trace] finish selection: 0.0,13 - 0.0,13
+23:15:32 [trace] finish selection: 0.0,12 - 0.0,12
+23:15:32 [trace] finish selection: 0.0,11 - 0.0,11
+23:15:32 [trace] finish selection: 0.0,10 - 0.0,10
+23:15:32 [trace] finish selection: 0.0,9 - 0.0,9
+23:15:32 [trace] finish selection: 0.0,8 - 0.0,8
+23:15:32 [trace] finish selection: 0.0,7 - 0.0,7
+23:15:32 [trace] finish selection: 0.0,6 - 0.0,6
+23:15:32 [trace] finish selection: 0.0,7 - 0.0,7
+23:15:33 [trace] finish selection: 0.0,8 - 0.0,8
+23:15:33 [trace] finish selection: 0.0,8 - 0.0,8
+23:15:33 [trace] playSub() called
+23:15:33 [trace] goal: 0 goalRow: 0
+23:15:33 [trace] playSub() took 488µs
+23:15:34 [trace] finish selection: 0.0,8 - 0.0,8
+23:15:34 [trace] finish selection: 0.0,9 - 0.0,9
+23:15:34 [trace] finish selection: 0.0,10 - 0.0,10
+23:15:34 [trace] finish selection: 0.0,11 - 0.0,11
+23:15:34 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:15:34 [trace] curFileName: 
+23:15:34 [debug] saving backup...
+23:15:34 [trace] writing file...
+23:15:34 [debug] backup saved.
+23:15:35 [trace] finish selection: 0.0,12 - 0.0,12
+23:15:35 [trace] finish selection: 0.0,13 - 0.0,13
+23:15:38 [trace] finish selection: 0.0,12 - 0.0,12
+23:15:38 [trace] finish selection: 0.0,13 - 0.0,13
+23:15:38 [trace] finish selection: 0.0,14 - 0.0,14
+23:15:38 [trace] finish selection: 0.0,15 - 0.0,15
+23:15:38 [trace] finish selection: 0.0,16 - 0.0,16
+23:15:39 [trace] finish selection: 0.0,17 - 0.0,17
+23:15:40 [trace] finish selection: 0.0,18 - 0.0,18
+23:15:40 [trace] finish selection: 0.0,19 - 0.0,19
+23:15:41 [trace] finish selection: 0.0,18 - 0.0,18
+23:15:42 [trace] finish selection: 0.0,19 - 0.0,19
+23:15:42 [trace] playSub() called
+23:15:42 [trace] goal: 0 goalRow: 0
+23:15:42 [trace] playSub() took 128µs
+23:15:43 [trace] finish selection: 0.0,21 - 0.0,21
+23:15:44 [trace] playSub() called
+23:15:44 [trace] goal: 0 goalRow: 0
+23:15:44 [trace] playSub() took 154µs
+23:15:45 [trace] finish selection: 0.0,20 - 0.0,20
+23:15:46 [trace] finish selection: 0.0,19 - 0.0,19
+23:15:46 [trace] finish selection: 0.0,18 - 0.0,18
+23:15:46 [trace] finish selection: 0.0,17 - 0.0,17
+23:15:46 [trace] finish selection: 0.0,16 - 0.0,16
+23:15:46 [trace] finish selection: 0.0,15 - 0.0,15
+23:15:46 [trace] finish selection: 0.0,14 - 0.0,14
+23:15:46 [trace] finish selection: 0.0,13 - 0.0,13
+23:15:46 [trace] finish selection: 0.0,12 - 0.0,12
+23:15:46 [trace] finish selection: 0.0,11 - 0.0,11
+23:15:46 [trace] finish selection: 0.0,10 - 0.0,10
+23:15:46 [trace] finish selection: 0.0,9 - 0.0,9
+23:15:53 [trace] playSub() called
+23:15:53 [trace] goal: 0 goalRow: 0
+23:15:53 [trace] playSub() took 129µs
+23:15:56 [trace] playSub() called
+23:15:56 [trace] goal: 0 goalRow: 0
+23:15:56 [trace] playSub() took 117µs
+23:15:58 [trace] finish selection: 0.0,20 - 0.0,20
+23:16:04 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:16:04 [trace] curFileName: 
+23:16:04 [debug] saving backup...
+23:16:04 [trace] writing file...
+23:16:04 [debug] backup saved.
+23:16:06 [trace] playSub() called
+23:16:06 [trace] goal: 0 goalRow: 0
+23:16:06 [trace] playSub() took 135µs
+23:16:11 [trace] finish selection: 0.3,0 - 0.3,0
+23:16:12 [trace] finish selection: 0.3,0 - 0.3,0
+23:16:12 [trace] playSub() called
+23:16:12 [trace] goal: 0 goalRow: 0
+23:16:12 [trace] playSub() took 143µs
+23:16:12 [trace] finish selection: 0.4,4 - 0.4,4
+23:16:13 [trace] finish selection: 0.3,5 - 0.3,5
+23:16:14 [trace] finish selection: 0.3,4 - 0.3,4
+23:16:15 [trace] finish selection: 0.4,4 - 0.4,4
+23:16:15 [trace] playSub() called
+23:16:15 [trace] goal: 0 goalRow: 0
+23:16:15 [trace] playSub() took 234µs
+23:16:16 [trace] finish selection: 0.3,5 - 0.3,5
+23:16:17 [trace] finish selection: 0.3,6 - 0.3,6
+23:16:17 [trace] playSub() called
+23:16:17 [trace] goal: 0 goalRow: 0
+23:16:17 [trace] playSub() took 138µs
+23:16:18 [trace] finish selection: 0.3,10 - 0.3,10
+23:16:19 [trace] finish selection: 0.3,9 - 0.3,9
+23:16:19 [trace] finish selection: 0.3,10 - 0.3,10
+23:16:19 [trace] finish selection: 0.3,9 - 0.3,9
+23:16:19 [trace] finish selection: 0.3,8 - 0.3,8
+23:16:19 [trace] finish selection: 0.3,7 - 0.3,7
+23:16:19 [trace] finish selection: 0.3,6 - 0.3,6
+23:16:20 [trace] finish selection: 0.3,5 - 0.3,5
+23:16:20 [trace] finish selection: 0.3,4 - 0.3,4
+23:16:20 [trace] finish selection: 0.3,4 - 0.3,4
+23:16:20 [trace] playSub() called
+23:16:20 [trace] goal: 0 goalRow: 0
+23:16:20 [trace] playSub() took 439µs
+23:16:22 [trace] finish selection: 0.3,8 - 0.3,8
+23:16:22 [trace] playSub() called
+23:16:22 [trace] goal: 0 goalRow: 0
+23:16:22 [trace] playSub() took 130µs
+23:16:23 [trace] finish selection: 0.3,5 - 0.3,5
+23:16:23 [trace] finish selection: 0.3,4 - 0.3,4
+23:16:34 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:16:34 [trace] curFileName: 
+23:16:34 [debug] saving backup...
+23:16:34 [trace] writing file...
+23:16:34 [debug] backup saved.
+23:16:36 [trace] playSub() called
+23:16:36 [trace] goal: 0 goalRow: 0
+23:16:36 [trace] playSub() took 217µs
+23:16:40 [trace] playSub() called
+23:16:40 [trace] goal: 0 goalRow: 0
+23:16:40 [trace] playSub() took 113µs
+23:16:51 [trace] playSub() called
+23:16:51 [trace] goal: 0 goalRow: 0
+23:16:51 [trace] playSub() took 128µs
+23:17:02 [trace] finish selection: 1.2,12 - 1.2,12
+23:17:02 [trace] playSub() called
+23:17:02 [trace] goal: 0 goalRow: 0
+23:17:02 [trace] playSub() took 131µs
+23:17:04 [trace] playSub() called
+23:17:04 [trace] goal: 0 goalRow: 0
+23:17:04 [trace] playSub() took 133µs
+23:17:04 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:17:04 [trace] curFileName: 
+23:17:04 [debug] saving backup...
+23:17:04 [trace] writing file...
+23:17:04 [debug] backup saved.
+23:17:19 [trace] playSub() called
+23:17:19 [trace] goal: 0 goalRow: 0
+23:17:19 [trace] playSub() took 129µs
+23:17:28 [trace] playSub() called
+23:17:28 [trace] goal: 0 goalRow: 0
+23:17:28 [trace] playSub() took 136µs
+23:17:31 [trace] finish selection: 2.0,33 - 2.0,33
+23:17:32 [trace] finish selection: 0.0,36 - 0.0,36
+23:17:33 [trace] finish selection: 0.0,36 - 0.0,36
+23:17:34 [trace] finish selection: 0.0,37 - 0.0,37
+23:17:34 [trace] finish selection: 0.0,36 - 0.0,36
+23:17:34 [trace] finish selection: 0.0,36 - 0.0,36
+23:17:34 [trace] playSub() called
+23:17:34 [trace] goal: 0 goalRow: 0
+23:17:34 [trace] playSub() took 140µs
+23:17:34 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:17:34 [trace] curFileName: 
+23:17:34 [debug] saving backup...
+23:17:34 [trace] writing file...
+23:17:34 [debug] backup saved.
+23:17:41 [trace] playSub() called
+23:17:41 [trace] goal: 0 goalRow: 0
+23:17:41 [trace] playSub() took 125µs
+23:17:48 [trace] playSub() called
+23:17:48 [trace] goal: 0 goalRow: 0
+23:17:48 [trace] playSub() took 125µs
+23:17:57 [trace] finish selection: 1.1,47 - 1.1,47
+23:17:57 [trace] playSub() called
+23:17:57 [trace] goal: 0 goalRow: 0
+23:17:57 [trace] playSub() took 125µs
+23:18:04 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:18:04 [trace] curFileName: 
+23:18:04 [debug] saving backup...
+23:18:04 [trace] writing file...
+23:18:04 [debug] backup saved.
+23:18:07 [trace] finish selection: 0.1,42 - 0.1,42
+23:18:07 [trace] playSub() called
+23:18:07 [trace] goal: 0 goalRow: 0
+23:18:07 [trace] playSub() took 366µs
+23:18:12 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:12 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:13 [trace] finish selection: 0.0,37 - 0.0,37
+23:18:13 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:13 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:16 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:24 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:25 [trace] finish selection: 0.0,37 - 0.0,37
+23:18:25 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:26 [trace] finish selection: 0.0,37 - 0.0,37
+23:18:26 [trace] finish selection: 0.0,36 - 0.0,36
+23:18:27 [trace] playSub() called
+23:18:27 [trace] goal: 0 goalRow: 0
+23:18:27 [trace] playSub() took 129µs
+23:18:30 [trace] finish selection: 0.0,37 - 0.0,37
+23:18:31 [trace] finish selection: 0.0,38 - 0.0,38
+23:18:31 [trace] finish selection: 0.0,39 - 0.0,39
+23:18:31 [trace] finish selection: 0.0,40 - 0.0,40
+23:18:31 [trace] finish selection: 0.0,41 - 0.0,41
+23:18:33 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:33 [trace] finish selection: 0.0,43 - 0.0,43
+23:18:34 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:34 [trace] finish selection: 0.0,43 - 0.0,43
+23:18:34 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:34 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:18:34 [trace] curFileName: 
+23:18:34 [debug] saving backup...
+23:18:34 [trace] writing file...
+23:18:34 [debug] backup saved.
+23:18:36 [trace] playSub() called
+23:18:36 [trace] goal: 0 goalRow: 0
+23:18:36 [trace] playSub() took 111µs
+23:18:41 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:41 [trace] finish selection: 0.0,41 - 0.0,41
+23:18:43 [trace] finish selection: 0.0,40 - 0.0,40
+23:18:43 [trace] finish selection: 0.0,41 - 0.0,41
+23:18:44 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:44 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:44 [trace] playSub() called
+23:18:44 [trace] goal: 0 goalRow: 0
+23:18:44 [trace] playSub() took 134µs
+23:18:50 [trace] finish selection: 0.0,44 - 0.0,44
+23:18:50 [trace] finish selection: 0.0,43 - 0.0,43
+23:18:50 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:51 [trace] finish selection: 0.0,43 - 0.0,43
+23:18:54 [trace] finish selection: 0.0,42 - 0.0,42
+23:18:54 [trace] playSub() called
+23:18:54 [trace] goal: 0 goalRow: 0
+23:18:54 [trace] playSub() took 118µs
+23:18:59 [trace] finish selection: 0.0,48 - 0.0,48
+23:18:59 [trace] finish selection: 0.0,47 - 0.0,47
+23:18:59 [trace] finish selection: 0.0,46 - 0.0,46
+23:18:59 [trace] finish selection: 0.0,45 - 0.0,45
+23:18:59 [trace] finish selection: 0.0,44 - 0.0,44
+23:18:59 [trace] finish selection: 0.0,43 - 0.0,43
+23:19:00 [trace] finish selection: 0.0,44 - 0.0,44
+23:19:00 [trace] finish selection: 0.0,43 - 0.0,43
+23:19:00 [trace] finish selection: 0.0,42 - 0.0,42
+23:19:00 [trace] finish selection: 0.0,43 - 0.0,43
+23:19:00 [trace] finish selection: 0.0,43 - 0.0,43
+23:19:00 [trace] finish selection: 0.0,44 - 0.0,44
+23:19:01 [trace] finish selection: 0.0,45 - 0.0,45
+23:19:01 [trace] finish selection: 0.0,46 - 0.0,46
+23:19:01 [trace] finish selection: 0.0,47 - 0.0,47
+23:19:04 [trace] finish selection: 0.0,46 - 0.0,46
+23:19:04 [trace] finish selection: 0.0,47 - 0.0,47
+23:19:04 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:19:04 [trace] curFileName: 
+23:19:04 [debug] saving backup...
+23:19:05 [trace] writing file...
+23:19:05 [debug] backup saved.
+23:19:05 [trace] finish selection: 0.0,46 - 0.0,46
+23:19:05 [trace] finish selection: 0.0,45 - 0.0,45
+23:19:05 [trace] finish selection: 0.0,46 - 0.0,46
+23:19:05 [trace] finish selection: 0.0,45 - 0.0,45
+23:19:05 [trace] finish selection: 0.0,45 - 0.0,45
+23:19:06 [trace] finish selection: 0.0,46 - 0.0,46
+23:19:06 [trace] playSub() called
+23:19:06 [trace] goal: 0 goalRow: 0
+23:19:06 [trace] playSub() took 159µs
+23:19:10 [trace] finish selection: 0.0,50 - 0.0,50
+23:19:10 [trace] finish selection: 0.0,49 - 0.0,49
+23:19:11 [trace] finish selection: 0.0,48 - 0.0,48
+23:19:12 [trace] finish selection: 0.0,49 - 0.0,49
+23:19:12 [trace] finish selection: 0.0,48 - 0.0,48
+23:19:12 [trace] finish selection: 0.0,49 - 0.0,49
+23:19:12 [trace] finish selection: 0.0,50 - 0.0,50
+23:19:13 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:13 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:13 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:14 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:14 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:14 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:15 [trace] finish selection: 0.0,53 - 0.0,53
+23:19:15 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:15 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:16 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:16 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:16 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:17 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:17 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:18 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:18 [trace] playSub() called
+23:19:18 [trace] goal: 0 goalRow: 0
+23:19:18 [trace] playSub() took 118µs
+23:19:23 [trace] finish selection: 0.0,53 - 0.0,53
+23:19:23 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:24 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:24 [trace] finish selection: 0.0,50 - 0.0,50
+23:19:25 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:25 [trace] finish selection: 0.0,51 - 0.0,51
+23:19:25 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:26 [trace] finish selection: 0.0,53 - 0.0,53
+23:19:26 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:27 [trace] finish selection: 0.0,53 - 0.0,53
+23:19:27 [trace] finish selection: 0.0,52 - 0.0,52
+23:19:28 [trace] playSub() called
+23:19:28 [trace] goal: 0 goalRow: 0
+23:19:28 [trace] playSub() took 110µs
+23:19:33 [trace] finish selection: 0.0,56 - 0.0,56
+23:19:33 [trace] finish selection: 0.0,55 - 0.0,55
+23:19:33 [trace] finish selection: 0.0,54 - 0.0,54
+23:19:34 [trace] finish selection: 0.0,55 - 0.0,55
+23:19:34 [trace] finish selection: 0.0,54 - 0.0,54
+23:19:34 [trace] finish selection: 0.0,55 - 0.0,55
+23:19:34 [trace] finish selection: 0.0,54 - 0.0,54
+23:19:34 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:19:34 [trace] curFileName: 
+23:19:34 [debug] saving backup...
+23:19:34 [trace] writing file...
+23:19:34 [debug] backup saved.
+23:19:35 [trace] finish selection: 0.0,55 - 0.0,55
+23:19:36 [trace] finish selection: 0.0,54 - 0.0,54
+23:19:37 [trace] finish selection: 0.0,55 - 0.0,55
+23:19:38 [trace] finish selection: 0.0,54 - 0.0,54
+23:19:38 [trace] finish selection: 0.0,55 - 0.0,55
+23:19:39 [trace] finish selection: 0.0,54 - 0.0,54
+23:19:39 [trace] playSub() called
+23:19:39 [trace] goal: 0 goalRow: 0
+23:19:39 [trace] playSub() took 137µs
+23:19:53 [trace] finish selection: 0.0,36 - 0.4,63
+23:19:54 [trace] finish selection: 0.0,36 - 0.4,63
+23:19:59 [trace] playSub() called
+23:19:59 [trace] goal: 0 goalRow: 0
+23:19:59 [trace] playSub() took 119µs
+23:20:02 [trace] end of orders reached
+23:20:02 [debug] last loop pos: 204 for a size of 512 and runLeftG of 78848
+23:20:04 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:20:04 [trace] curFileName: 
+23:20:04 [debug] saving backup...
+23:20:04 [trace] writing file...
+23:20:04 [debug] backup saved.
+23:20:07 [trace] finish selection: 0.2,15 - 0.2,15
+23:20:08 [trace] finish selection: 0.2,15 - 0.2,15
+23:20:08 [trace] finish selection: 0.2,35 - 0.2,35
+23:20:08 [trace] finish selection: 0.1,35 - 0.1,35
+23:20:09 [trace] finish selection: 0.0,35 - 0.0,35
+23:20:09 [trace] finish selection: 0.0,34 - 0.0,34
+23:20:09 [trace] finish selection: 0.0,35 - 0.0,35
+23:20:09 [trace] finish selection: 0.0,0 - 0.0,0
+23:20:10 [trace] playSub() called
+23:20:10 [trace] goal: 1 goalRow: 0
+23:20:10 [trace] playSub() took 432µs
+23:20:12 [trace] finish selection: 0.0,29 - 0.0,29
+23:20:12 [trace] finish selection: 0.0,30 - 0.0,30
+23:20:13 [trace] finish selection: 0.0,31 - 0.0,31
+23:20:13 [trace] finish selection: 0.0,32 - 0.0,32
+23:20:14 [trace] finish selection: 0.0,31 - 0.0,31
+23:20:14 [trace] finish selection: 0.0,31 - 0.0,31
+23:20:14 [trace] finish selection: 0.0,32 - 0.0,32
+23:20:14 [trace] finish selection: 0.0,33 - 0.0,33
+23:20:14 [trace] finish selection: 0.0,34 - 0.0,34
+23:20:15 [trace] playSub() called
+23:20:15 [trace] goal: 1 goalRow: 0
+23:20:15 [trace] playSub() took 495µs
+23:20:19 [trace] finish selection: 0.0,34 - 0.0,34
+23:20:24 [trace] finish selection: 1.2,15 - 1.2,15
+23:20:24 [trace] playSub() called
+23:20:24 [trace] goal: 0 goalRow: 0
+23:20:24 [trace] playSub() took 110µs
+23:20:29 [trace] finish selection: 1.2,21 - 1.2,21
+23:20:29 [trace] finish selection: 1.2,5 - 1.2,5
+23:20:30 [trace] finish selection: 1.2,4 - 1.2,4
+23:20:30 [trace] finish selection: 1.2,3 - 1.2,3
+23:20:30 [trace] finish selection: 1.2,2 - 1.2,2
+23:20:30 [trace] finish selection: 1.2,1 - 1.2,1
+23:20:30 [trace] finish selection: 1.2,0 - 1.2,0
+23:20:30 [trace] playSub() called
+23:20:30 [trace] goal: 0 goalRow: 0
+23:20:30 [trace] playSub() took 127µs
+23:20:34 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:20:34 [trace] curFileName: 
+23:20:34 [debug] saving backup...
+23:20:34 [trace] writing file...
+23:20:35 [debug] backup saved.
+23:20:35 [trace] end of orders reached
+23:20:35 [debug] last loop pos: 224 for a size of 512 and runLeftG of 73728
+23:20:42 [trace] finish selection: 1.2,0 - 1.2,0
+23:20:42 [trace] finish selection: 1.3,0 - 1.3,0
+23:20:42 [trace] finish selection: 1.4,0 - 1.4,0
+23:20:42 [trace] finish selection: 2.0,0 - 2.0,0
+23:20:42 [trace] finish selection: 2.1,0 - 2.1,0
+23:20:42 [trace] finish selection: 2.2,0 - 2.2,0
+23:20:42 [trace] finish selection: 2.3,0 - 2.3,0
+23:20:42 [trace] finish selection: 2.4,0 - 2.4,0
+23:20:43 [trace] finish selection: 3.0,0 - 3.0,0
+23:20:43 [trace] finish selection: 3.1,0 - 3.1,0
+23:20:44 [trace] finish selection: 3.0,0 - 3.0,0
+23:20:44 [trace] finish selection: 3.0,1 - 3.0,1
+23:20:45 [trace] finish selection: 3.0,2 - 3.0,2
+23:20:45 [trace] finish selection: 3.0,1 - 3.0,1
+23:20:45 [trace] finish selection: 3.0,2 - 3.0,2
+23:20:45 [trace] finish selection: 3.0,3 - 3.0,3
+23:20:45 [trace] finish selection: 3.0,4 - 3.0,4
+23:20:45 [trace] finish selection: 3.0,5 - 3.0,5
+23:20:46 [trace] playSub() called
+23:20:46 [trace] goal: 0 goalRow: 0
+23:20:46 [trace] playSub() took 209µs
+23:20:46 [trace] finish selection: 3.0,6 - 3.0,6
+23:20:46 [trace] finish selection: 3.0,5 - 3.0,5
+23:20:47 [trace] finish selection: 3.0,4 - 3.0,4
+23:20:47 [trace] finish selection: 3.0,3 - 3.0,3
+23:20:47 [trace] finish selection: 3.0,2 - 3.0,2
+23:20:47 [trace] finish selection: 3.0,1 - 3.0,1
+23:20:47 [trace] finish selection: 3.0,0 - 3.0,0
+23:20:47 [trace] finish selection: 3.0,0 - 3.0,0
+23:20:47 [trace] finish selection: 3.0,1 - 3.0,1
+23:20:47 [trace] finish selection: 3.0,1 - 3.0,1
+23:20:47 [trace] finish selection: 3.0,2 - 3.0,2
+23:20:47 [trace] finish selection: 3.0,2 - 3.0,2
+23:20:48 [trace] finish selection: 3.0,3 - 3.0,3
+23:20:48 [trace] finish selection: 3.0,3 - 3.0,3
+23:20:48 [trace] finish selection: 3.0,4 - 3.0,4
+23:20:48 [trace] finish selection: 3.0,4 - 3.0,4
+23:20:48 [trace] finish selection: 3.0,5 - 3.0,5
+23:20:48 [trace] finish selection: 3.0,4 - 3.0,4
+23:20:48 [trace] finish selection: 3.0,3 - 3.0,3
+23:20:48 [trace] finish selection: 3.0,2 - 3.0,2
+23:20:49 [trace] finish selection: 3.0,1 - 3.0,1
+23:20:49 [trace] finish selection: 3.0,0 - 3.0,0
+23:20:49 [trace] finish selection: 3.0,1 - 3.0,1
+23:20:49 [trace] finish selection: 3.0,2 - 3.0,2
+23:20:49 [trace] finish selection: 3.0,3 - 3.0,3
+23:20:49 [trace] finish selection: 3.0,4 - 3.0,4
+23:20:49 [trace] finish selection: 3.0,5 - 3.0,5
+23:20:49 [trace] finish selection: 3.0,6 - 3.0,6
+23:20:50 [trace] finish selection: 3.0,7 - 3.0,7
+23:20:50 [trace] finish selection: 3.0,8 - 3.0,8
+23:20:50 [trace] finish selection: 3.0,9 - 3.0,9
+23:20:50 [trace] finish selection: 3.0,10 - 3.0,10
+23:20:50 [trace] finish selection: 3.0,11 - 3.0,11
+23:20:50 [trace] finish selection: 3.0,12 - 3.0,12
+23:20:50 [trace] finish selection: 3.0,13 - 3.0,13
+23:20:50 [trace] finish selection: 3.0,14 - 3.0,14
+23:20:51 [trace] finish selection: 3.0,15 - 3.0,15
+23:20:51 [trace] finish selection: 3.0,16 - 3.0,16
+23:20:51 [trace] finish selection: 3.0,17 - 3.0,17
+23:20:51 [trace] finish selection: 3.0,18 - 3.0,18
+23:20:51 [trace] finish selection: 3.0,19 - 3.0,19
+23:20:51 [trace] finish selection: 3.0,20 - 3.0,20
+23:20:51 [trace] finish selection: 3.0,21 - 3.0,21
+23:20:51 [trace] finish selection: 3.0,22 - 3.0,22
+23:20:51 [trace] finish selection: 3.0,23 - 3.0,23
+23:20:52 [trace] finish selection: 3.0,24 - 3.0,24
+23:20:52 [trace] finish selection: 3.0,25 - 3.0,25
+23:20:52 [trace] finish selection: 3.0,26 - 3.0,26
+23:20:52 [trace] finish selection: 3.0,27 - 3.0,27
+23:20:52 [trace] finish selection: 3.0,28 - 3.0,28
+23:20:52 [trace] finish selection: 3.0,29 - 3.0,29
+23:20:52 [trace] finish selection: 3.0,30 - 3.0,30
+23:20:52 [trace] finish selection: 3.0,31 - 3.0,31
+23:20:52 [trace] finish selection: 3.0,32 - 3.0,32
+23:20:53 [trace] finish selection: 3.0,33 - 3.0,33
+23:20:53 [trace] finish selection: 3.0,34 - 3.0,34
+23:20:53 [trace] finish selection: 3.0,35 - 3.0,35
+23:20:54 [trace] playSub() called
+23:20:54 [trace] goal: 0 goalRow: 0
+23:20:54 [trace] playSub() took 143µs
+23:20:58 [trace] finish selection: 3.0,27 - 3.0,27
+23:20:58 [trace] finish selection: 3.0,34 - 3.0,34
+23:20:59 [trace] playSub() called
+23:20:59 [trace] goal: 1 goalRow: 0
+23:20:59 [trace] playSub() took 435µs
+23:21:00 [trace] finish selection: 3.0,7 - 3.0,7
+23:21:00 [trace] finish selection: 3.0,27 - 3.0,27
+23:21:00 [trace] playSub() called
+23:21:00 [trace] goal: 0 goalRow: 0
+23:21:00 [trace] playSub() took 126µs
+23:21:04 [trace] finish selection: 3.0,22 - 3.0,22
+23:21:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:21:05 [trace] curFileName: 
+23:21:05 [debug] saving backup...
+23:21:05 [trace] writing file...
+23:21:05 [debug] backup saved.
+23:21:05 [trace] finish selection: 3.0,6 - 3.0,6
+23:21:05 [trace] finish selection: 3.0,5 - 3.0,5
+23:21:05 [trace] playSub() called
+23:21:05 [trace] goal: 0 goalRow: 0
+23:21:05 [trace] playSub() took 104µs
+23:21:10 [trace] end of orders reached
+23:21:10 [debug] last loop pos: 224 for a size of 512 and runLeftG of 73728
+23:21:11 [trace] finish selection: 3.0,0 - 3.0,0
+23:21:11 [trace] finish selection: 3.0,1 - 3.0,1
+23:21:13 [trace] finish selection: 3.0,2 - 3.0,2
+23:21:13 [trace] finish selection: 3.0,0 - 3.0,35
+23:21:13 [trace] finish selection: 3.0,0 - 3.4,35
+23:21:13 [trace] finish selection: 3.0,0 - 3.4,35
+23:21:14 [trace] finish selection: 3.0,3 - 3.0,3
+23:21:15 [trace] playSub() called
+23:21:15 [trace] goal: 0 goalRow: 0
+23:21:15 [trace] playSub() took 136µs
+23:21:16 [trace] playSub() called
+23:21:16 [trace] goal: 1 goalRow: 0
+23:21:16 [trace] playSub() took 357µs
+23:21:17 [trace] playSub() called
+23:21:17 [trace] goal: 0 goalRow: 0
+23:21:17 [trace] playSub() took 107µs
+23:21:26 [trace] playSub() called
+23:21:26 [trace] goal: 1 goalRow: 0
+23:21:26 [trace] playSub() took 391µs
+23:21:29 [trace] finish selection: 2.3,25 - 2.3,25
+23:21:29 [trace] finish selection: 2.3,25 - 2.3,25
+23:21:30 [trace] finish selection: 2.3,9 - 2.3,9
+23:21:30 [trace] finish selection: 2.3,29 - 2.3,29
+23:21:30 [trace] playSub() called
+23:21:30 [trace] goal: 0 goalRow: 0
+23:21:30 [trace] playSub() took 129µs
+23:21:31 [trace] finish selection: 2.3,6 - 2.3,6
+23:21:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:21:35 [trace] curFileName: 
+23:21:35 [debug] saving backup...
+23:21:35 [trace] writing file...
+23:21:35 [debug] backup saved.
+23:21:37 [trace] playSub() called
+23:21:37 [trace] goal: 0 goalRow: 0
+23:21:37 [trace] playSub() took 130µs
+23:21:50 [trace] playSub() called
+23:21:50 [trace] goal: 1 goalRow: 0
+23:21:50 [trace] playSub() took 407µs
+23:21:52 [trace] finish selection: 4.2,3 - 4.2,3
+23:21:53 [trace] finish selection: 4.2,3 - 4.2,3
+23:21:53 [trace] playSub() called
+23:21:53 [trace] goal: 0 goalRow: 0
+23:21:53 [trace] playSub() took 157µs
+23:21:55 [trace] finish selection: 4.2,32 - 4.2,32
+23:21:55 [trace] finish selection: 4.1,32 - 4.1,32
+23:21:56 [trace] finish selection: 4.0,32 - 4.0,32
+23:21:56 [trace] finish selection: 3.4,32 - 3.4,32
+23:21:56 [trace] finish selection: 3.3,32 - 3.3,32
+23:21:56 [trace] finish selection: 3.2,32 - 3.2,32
+23:21:56 [trace] finish selection: 3.1,32 - 3.1,32
+23:21:56 [trace] finish selection: 3.0,32 - 3.0,32
+23:21:56 [trace] finish selection: 2.4,32 - 2.4,32
+23:21:56 [trace] finish selection: 2.3,32 - 2.3,32
+23:21:56 [trace] finish selection: 2.2,32 - 2.2,32
+23:21:56 [trace] finish selection: 2.1,32 - 2.1,32
+23:21:56 [trace] finish selection: 2.0,32 - 2.0,32
+23:21:56 [trace] finish selection: 1.4,32 - 1.4,32
+23:21:56 [trace] finish selection: 1.3,32 - 1.3,32
+23:21:56 [trace] finish selection: 1.2,32 - 1.2,32
+23:21:56 [trace] finish selection: 1.1,32 - 1.1,32
+23:21:56 [trace] finish selection: 1.0,32 - 1.0,32
+23:21:56 [trace] finish selection: 0.4,32 - 0.4,32
+23:21:56 [trace] finish selection: 0.3,32 - 0.3,32
+23:21:56 [trace] finish selection: 0.3,31 - 0.3,31
+23:21:56 [trace] finish selection: 0.3,30 - 0.3,30
+23:21:57 [trace] finish selection: 0.3,29 - 0.3,29
+23:21:57 [trace] finish selection: 0.3,28 - 0.3,28
+23:21:58 [trace] finish selection: 0.3,27 - 0.3,27
+23:21:58 [trace] finish selection: 0.3,26 - 0.3,26
+23:21:58 [trace] finish selection: 0.3,27 - 0.3,27
+23:21:58 [trace] finish selection: 0.4,27 - 0.4,27
+23:21:59 [trace] playSub() called
+23:21:59 [trace] goal: 0 goalRow: 0
+23:21:59 [trace] playSub() took 136µs
+23:22:01 [trace] finish selection: 0.3,2 - 0.3,2
+23:22:02 [trace] finish selection: 0.3,1 - 0.3,1
+23:22:02 [trace] finish selection: 0.3,0 - 0.3,0
+23:22:02 [trace] finish selection: 0.3,35 - 0.3,35
+23:22:02 [trace] finish selection: 0.3,34 - 0.3,34
+23:22:02 [trace] finish selection: 0.3,33 - 0.3,33
+23:22:02 [trace] finish selection: 0.3,32 - 0.3,32
+23:22:02 [trace] finish selection: 0.3,31 - 0.3,31
+23:22:02 [trace] finish selection: 0.3,30 - 0.3,30
+23:22:02 [trace] finish selection: 0.3,29 - 0.3,29
+23:22:02 [trace] finish selection: 0.3,28 - 0.3,28
+23:22:02 [trace] finish selection: 0.4,28 - 0.4,28
+23:22:03 [trace] finish selection: 0.4,27 - 0.4,27
+23:22:03 [trace] playSub() called
+23:22:03 [trace] goal: 0 goalRow: 0
+23:22:03 [trace] playSub() took 144µs
+23:22:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:22:05 [trace] curFileName: 
+23:22:05 [debug] saving backup...
+23:22:05 [trace] writing file...
+23:22:05 [debug] backup saved.
+23:22:06 [trace] finish selection: 0.3,34 - 0.3,34
+23:22:06 [trace] finish selection: 0.3,33 - 0.3,33
+23:22:06 [trace] finish selection: 0.3,32 - 0.3,32
+23:22:06 [trace] finish selection: 0.3,31 - 0.3,31
+23:22:07 [trace] finish selection: 0.3,30 - 0.3,30
+23:22:07 [trace] finish selection: 0.3,29 - 0.3,29
+23:22:07 [trace] finish selection: 0.3,28 - 0.3,28
+23:22:07 [trace] finish selection: 0.3,27 - 0.3,27
+23:22:07 [trace] finish selection: 0.3,27 - 0.3,27
+23:22:07 [trace] finish selection: 0.3,28 - 0.3,28
+23:22:08 [trace] finish selection: 0.3,29 - 0.3,29
+23:22:08 [trace] finish selection: 0.3,30 - 0.3,30
+23:22:08 [trace] finish selection: 0.4,30 - 0.4,30
+23:22:08 [trace] finish selection: 0.4,31 - 0.4,31
+23:22:08 [trace] finish selection: 0.2,31 - 0.2,31
+23:22:09 [trace] finish selection: 0.2,32 - 0.2,32
+23:22:09 [trace] finish selection: 0.2,33 - 0.2,33
+23:22:10 [trace] finish selection: 0.3,33 - 0.3,33
+23:22:10 [trace] finish selection: 0.4,33 - 0.4,33
+23:22:10 [trace] playSub() called
+23:22:10 [trace] goal: 0 goalRow: 0
+23:22:10 [trace] playSub() took 141µs
+23:22:13 [trace] finish selection: 0.3,4 - 0.3,4
+23:22:13 [trace] finish selection: 0.3,3 - 0.3,3
+23:22:14 [trace] finish selection: 0.3,2 - 0.3,2
+23:22:14 [trace] finish selection: 0.3,1 - 0.3,1
+23:22:15 [trace] playSub() called
+23:22:15 [trace] goal: 1 goalRow: 0
+23:22:15 [trace] playSub() took 426µs
+23:22:16 [trace] finish selection: 0.3,22 - 0.3,22
+23:22:17 [trace] finish selection: 0.3,6 - 0.3,6
+23:22:17 [trace] finish selection: 0.3,5 - 0.3,5
+23:22:17 [trace] finish selection: 0.3,4 - 0.3,4
+23:22:17 [trace] finish selection: 0.3,3 - 0.3,3
+23:22:17 [trace] finish selection: 0.3,2 - 0.3,2
+23:22:17 [trace] finish selection: 0.3,1 - 0.3,1
+23:22:17 [trace] finish selection: 0.3,0 - 0.3,0
+23:22:17 [trace] finish selection: 0.3,35 - 0.3,35
+23:22:18 [trace] finish selection: 0.3,34 - 0.3,34
+23:22:18 [trace] finish selection: 0.3,33 - 0.3,33
+23:22:18 [trace] finish selection: 0.3,32 - 0.3,32
+23:22:18 [trace] playSub() called
+23:22:18 [trace] goal: 0 goalRow: 0
+23:22:18 [trace] playSub() took 165µs
+23:22:21 [trace] finish selection: 0.3,3 - 0.3,3
+23:22:21 [trace] finish selection: 0.3,2 - 0.3,2
+23:22:21 [trace] finish selection: 0.3,1 - 0.3,1
+23:22:21 [trace] finish selection: 0.3,0 - 0.3,0
+23:22:21 [trace] finish selection: 0.3,35 - 0.3,35
+23:22:21 [trace] finish selection: 0.3,34 - 0.3,34
+23:22:21 [trace] finish selection: 0.3,33 - 0.3,33
+23:22:21 [trace] finish selection: 0.3,32 - 0.3,32
+23:22:29 [trace] finish selection: 2.0,26 - 2.0,26
+23:22:29 [trace] playSub() called
+23:22:29 [trace] goal: 0 goalRow: 0
+23:22:29 [trace] playSub() took 125µs
+23:22:30 [trace] finish selection: 2.0,4 - 2.0,4
+23:22:32 [trace] finish selection: 0.5,0 - 0.5,0
+23:22:32 [trace] finish selection: 0.5,0 - 0.5,0
+23:22:33 [trace] playSub() called
+23:22:33 [trace] goal: 0 goalRow: 0
+23:22:33 [trace] playSub() took 130µs
+23:22:33 [trace] finish selection: 0.6,7 - 0.6,7
+23:22:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:22:35 [trace] curFileName: 
+23:22:35 [debug] saving backup...
+23:22:35 [trace] writing file...
+23:22:35 [debug] backup saved.
+23:22:35 [trace] finish selection: 0.6,27 - 0.6,27
+23:22:35 [trace] finish selection: 0.6,27 - 0.6,27
+23:22:35 [trace] finish selection: 0.6,28 - 0.6,28
+23:22:35 [trace] finish selection: 0.6,8 - 0.6,8
+23:22:36 [trace] finish selection: 0.6,7 - 0.6,7
+23:22:36 [trace] playSub() called
+23:22:36 [trace] goal: 0 goalRow: 0
+23:22:36 [trace] playSub() took 133µs
+23:22:38 [trace] playSub() called
+23:22:38 [trace] goal: 0 goalRow: 0
+23:22:38 [trace] playSub() took 137µs
+23:22:38 [trace] finish selection: 0.6,6 - 0.6,6
+23:22:39 [trace] finish selection: 0.5,6 - 0.5,6
+23:22:39 [trace] finish selection: 0.4,6 - 0.4,6
+23:22:39 [trace] finish selection: 0.3,6 - 0.3,6
+23:22:39 [trace] finish selection: 0.2,6 - 0.2,6
+23:22:39 [trace] finish selection: 0.1,6 - 0.1,6
+23:22:39 [trace] finish selection: 0.1,5 - 0.1,5
+23:22:39 [trace] finish selection: 0.1,4 - 0.1,4
+23:22:39 [trace] finish selection: 0.1,3 - 0.1,3
+23:22:40 [trace] finish selection: 0.1,2 - 0.1,2
+23:22:40 [trace] finish selection: 0.1,1 - 0.1,1
+23:22:40 [trace] finish selection: 0.2,1 - 0.2,1
+23:22:40 [trace] finish selection: 0.2,0 - 0.2,0
+23:22:40 [trace] finish selection: 0.2,1 - 0.2,1
+23:22:40 [trace] finish selection: 0.2,2 - 0.2,2
+23:22:41 [trace] finish selection: 0.2,3 - 0.2,3
+23:22:41 [trace] finish selection: 0.2,4 - 0.2,4
+23:22:41 [trace] finish selection: 0.2,5 - 0.2,5
+23:22:41 [trace] finish selection: 0.2,6 - 0.2,6
+23:22:41 [trace] playSub() called
+23:22:41 [trace] goal: 0 goalRow: 0
+23:22:41 [trace] playSub() took 268µs
+23:22:43 [trace] finish selection: 0.2,18 - 0.2,18
+23:22:43 [trace] finish selection: 0.2,17 - 0.2,17
+23:22:43 [trace] finish selection: 0.2,16 - 0.2,16
+23:22:43 [trace] finish selection: 0.2,15 - 0.2,15
+23:22:43 [trace] finish selection: 0.2,14 - 0.2,14
+23:22:43 [trace] finish selection: 0.2,13 - 0.2,13
+23:22:43 [trace] finish selection: 0.2,12 - 0.2,12
+23:22:43 [trace] finish selection: 0.2,11 - 0.2,11
+23:22:43 [trace] finish selection: 0.2,10 - 0.2,10
+23:22:43 [trace] finish selection: 0.2,9 - 0.2,9
+23:22:43 [trace] finish selection: 0.2,8 - 0.2,8
+23:22:43 [trace] finish selection: 0.2,7 - 0.2,7
+23:22:43 [trace] finish selection: 0.2,6 - 0.2,6
+23:22:43 [trace] finish selection: 0.2,5 - 0.2,5
+23:22:43 [trace] finish selection: 0.2,4 - 0.2,4
+23:22:43 [trace] finish selection: 0.2,3 - 0.2,3
+23:22:43 [trace] finish selection: 0.2,2 - 0.2,2
+23:22:44 [trace] finish selection: 0.2,1 - 0.2,1
+23:22:44 [trace] finish selection: 0.2,0 - 0.2,0
+23:22:44 [trace] finish selection: 0.2,1 - 0.2,1
+23:22:44 [trace] finish selection: 0.2,2 - 0.2,2
+23:22:44 [trace] finish selection: 0.2,3 - 0.2,3
+23:22:45 [trace] finish selection: 0.2,4 - 0.2,4
+23:22:45 [trace] finish selection: 0.2,5 - 0.2,5
+23:22:45 [trace] finish selection: 0.2,6 - 0.2,6
+23:22:45 [trace] finish selection: 0.2,7 - 0.2,7
+23:22:45 [trace] finish selection: 0.2,6 - 0.2,6
+23:22:45 [trace] finish selection: 0.2,5 - 0.2,5
+23:22:45 [trace] finish selection: 0.2,4 - 0.2,4
+23:22:46 [trace] finish selection: 0.2,3 - 0.2,3
+23:22:46 [trace] finish selection: 0.2,2 - 0.2,2
+23:22:46 [trace] finish selection: 0.2,1 - 0.2,1
+23:22:46 [trace] finish selection: 0.3,1 - 0.3,1
+23:22:46 [trace] finish selection: 0.3,0 - 0.3,0
+23:22:46 [trace] finish selection: 0.3,1 - 0.3,1
+23:22:47 [trace] finish selection: 0.3,2 - 0.3,2
+23:22:47 [trace] finish selection: 0.3,3 - 0.3,3
+23:22:47 [trace] finish selection: 0.3,4 - 0.3,4
+23:22:47 [trace] finish selection: 0.2,4 - 0.2,4
+23:22:47 [trace] finish selection: 0.2,5 - 0.2,5
+23:22:47 [trace] finish selection: 0.1,5 - 0.1,5
+23:22:48 [trace] finish selection: 0.1,6 - 0.1,6
+23:22:48 [trace] finish selection: 0.1,7 - 0.1,7
+23:22:48 [trace] finish selection: 0.1,8 - 0.1,8
+23:22:48 [trace] finish selection: 0.1,9 - 0.1,9
+23:22:48 [trace] finish selection: 0.1,10 - 0.1,10
+23:22:48 [trace] finish selection: 0.1,11 - 0.1,11
+23:22:48 [trace] finish selection: 0.1,12 - 0.1,12
+23:22:48 [trace] finish selection: 0.1,13 - 0.1,13
+23:22:48 [trace] finish selection: 0.2,13 - 0.2,13
+23:22:48 [trace] finish selection: 0.2,12 - 0.2,12
+23:22:49 [trace] finish selection: 0.2,13 - 0.2,13
+23:22:49 [trace] finish selection: 0.2,14 - 0.2,14
+23:22:49 [trace] finish selection: 0.2,15 - 0.2,15
+23:22:49 [trace] finish selection: 0.2,16 - 0.2,16
+23:22:49 [trace] finish selection: 0.2,17 - 0.2,17
+23:22:50 [trace] finish selection: 0.2,18 - 0.2,18
+23:22:50 [trace] playSub() called
+23:22:50 [trace] goal: 0 goalRow: 0
+23:22:50 [trace] playSub() took 129µs
+23:22:53 [trace] finish selection: 0.2,30 - 0.2,30
+23:22:53 [trace] finish selection: 0.2,29 - 0.2,29
+23:22:53 [trace] finish selection: 0.2,28 - 0.2,28
+23:22:53 [trace] finish selection: 0.2,27 - 0.2,27
+23:22:53 [trace] finish selection: 0.2,26 - 0.2,26
+23:22:53 [trace] finish selection: 0.2,25 - 0.2,25
+23:22:54 [trace] finish selection: 0.3,25 - 0.3,25
+23:22:54 [trace] finish selection: 0.3,24 - 0.3,24
+23:22:54 [trace] finish selection: 0.4,24 - 0.4,24
+23:22:55 [trace] finish selection: 0.3,24 - 0.3,24
+23:22:56 [trace] playSub() called
+23:22:56 [trace] goal: 0 goalRow: 0
+23:22:56 [trace] playSub() took 114µs
+23:22:59 [trace] finish selection: 0.4,0 - 0.4,0
+23:22:59 [trace] finish selection: 0.4,35 - 0.4,35
+23:22:59 [trace] finish selection: 0.4,0 - 0.4,0
+23:23:00 [trace] finish selection: 0.3,0 - 0.3,0
+23:23:00 [trace] finish selection: 0.2,0 - 0.2,0
+23:23:00 [trace] playSub() called
+23:23:00 [trace] goal: 1 goalRow: 0
+23:23:00 [trace] playSub() took 423µs
+23:23:01 [trace] finish selection: 0.2,5 - 0.2,5
+23:23:01 [trace] finish selection: 0.2,4 - 0.2,4
+23:23:02 [trace] finish selection: 0.2,3 - 0.2,3
+23:23:02 [trace] finish selection: 0.2,2 - 0.2,2
+23:23:02 [trace] finish selection: 0.3,2 - 0.3,2
+23:23:02 [trace] finish selection: 0.3,1 - 0.3,1
+23:23:02 [trace] finish selection: 0.4,1 - 0.4,1
+23:23:02 [trace] finish selection: 0.4,0 - 0.4,0
+23:23:02 [trace] finish selection: 0.5,0 - 0.5,0
+23:23:02 [trace] finish selection: 0.6,0 - 0.6,0
+23:23:03 [trace] finish selection: 0.5,0 - 0.5,0
+23:23:03 [trace] finish selection: 0.4,0 - 0.4,0
+23:23:03 [trace] finish selection: 0.4,1 - 0.4,1
+23:23:03 [trace] finish selection: 0.4,2 - 0.4,2
+23:23:03 [trace] finish selection: 0.4,3 - 0.4,3
+23:23:03 [trace] finish selection: 0.5,3 - 0.5,3
+23:23:04 [trace] finish selection: 0.5,2 - 0.5,2
+23:23:04 [trace] finish selection: 0.6,2 - 0.6,2
+23:23:04 [trace] finish selection: 0.6,1 - 0.6,1
+23:23:04 [trace] finish selection: 0.6,0 - 0.6,0
+23:23:04 [trace] finish selection: 0.5,0 - 0.5,0
+23:23:04 [trace] finish selection: 0.5,1 - 0.5,1
+23:23:04 [trace] finish selection: 0.4,1 - 0.4,1
+23:23:04 [trace] finish selection: 0.4,2 - 0.4,2
+23:23:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:23:05 [trace] curFileName: 
+23:23:05 [debug] saving backup...
+23:23:05 [trace] writing file...
+23:23:05 [debug] backup saved.
+23:23:05 [trace] finish selection: 0.3,2 - 0.3,2
+23:23:05 [trace] finish selection: 0.3,3 - 0.3,3
+23:23:05 [trace] finish selection: 0.2,3 - 0.2,3
+23:23:07 [trace] finish selection: 0.2,4 - 0.2,4
+23:23:07 [trace] finish selection: 0.2,5 - 0.2,5
+23:23:08 [trace] finish selection: 0.2,6 - 0.2,6
+23:23:08 [trace] finish selection: 0.2,7 - 0.2,7
+23:23:08 [trace] finish selection: 0.1,7 - 0.1,7
+23:23:08 [trace] finish selection: 0.1,8 - 0.1,8
+23:23:09 [trace] finish selection: 0.0,8 - 0.0,8
+23:23:10 [trace] finish selection: 0.0,9 - 0.0,9
+23:23:10 [trace] finish selection: 0.0,8 - 0.0,8
+23:23:10 [trace] finish selection: 0.0,9 - 0.0,9
+23:23:10 [trace] finish selection: 0.0,8 - 0.0,8
+23:23:11 [trace] finish selection: 0.1,8 - 0.1,8
+23:23:11 [trace] finish selection: 0.2,8 - 0.2,8
+23:23:11 [trace] finish selection: 0.2,9 - 0.2,9
+23:23:11 [trace] finish selection: 0.2,10 - 0.2,10
+23:23:12 [trace] playSub() called
+23:23:12 [trace] goal: 1 goalRow: 0
+23:23:12 [trace] playSub() took 429µs
+23:23:13 [trace] finish selection: 0.2,14 - 0.2,14
+23:23:13 [trace] finish selection: 0.2,34 - 0.2,34
+23:23:13 [trace] playSub() called
+23:23:13 [trace] goal: 0 goalRow: 0
+23:23:13 [trace] playSub() took 125µs
+23:23:19 [trace] finish selection: 0.2,24 - 0.2,24
+23:23:19 [trace] finish selection: 0.2,0 - 0.2,0
+23:23:19 [trace] playSub() called
+23:23:19 [trace] goal: 1 goalRow: 0
+23:23:19 [trace] playSub() took 429µs
+23:23:21 [trace] finish selection: 0.0,23 - 0.0,23
+23:23:21 [trace] finish selection: 0.0,7 - 0.0,7
+23:23:21 [trace] finish selection: 0.0,27 - 0.0,27
+23:23:25 [trace] playSub() called
+23:23:25 [trace] goal: 0 goalRow: 0
+23:23:25 [trace] playSub() took 160µs
+23:23:29 [trace] finish selection: 0.0,5 - 0.0,5
+23:23:29 [trace] finish selection: 0.0,25 - 0.0,25
+23:23:29 [trace] playSub() called
+23:23:29 [trace] goal: 0 goalRow: 0
+23:23:29 [trace] playSub() took 146µs
+23:23:33 [trace] playSub() called
+23:23:33 [trace] goal: 1 goalRow: 0
+23:23:33 [trace] playSub() took 422µs
+23:23:33 [trace] finish selection: 0.0,3 - 0.0,3
+23:23:34 [trace] finish selection: 0.0,2 - 0.0,2
+23:23:34 [trace] finish selection: 0.0,1 - 0.0,1
+23:23:34 [trace] finish selection: 0.1,1 - 0.1,1
+23:23:34 [trace] finish selection: 0.2,1 - 0.2,1
+23:23:34 [trace] finish selection: 0.2,2 - 0.2,2
+23:23:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:23:35 [trace] curFileName: 
+23:23:35 [debug] saving backup...
+23:23:35 [trace] writing file...
+23:23:35 [debug] backup saved.
+23:23:35 [trace] finish selection: 0.2,3 - 0.2,3
+23:23:35 [trace] finish selection: 0.2,2 - 0.2,2
+23:23:35 [trace] finish selection: 0.2,1 - 0.2,1
+23:23:35 [trace] finish selection: 0.2,0 - 0.2,0
+23:23:35 [trace] playSub() called
+23:23:35 [trace] goal: 1 goalRow: 0
+23:23:35 [trace] playSub() took 423µs
+23:23:36 [trace] finish selection: 0.2,6 - 0.2,6
+23:23:36 [trace] playSub() called
+23:23:36 [trace] goal: 0 goalRow: 0
+23:23:36 [trace] playSub() took 133µs
+23:23:39 [trace] finish selection: 0.2,7 - 0.2,7
+23:23:40 [trace] finish selection: 0.2,6 - 0.2,6
+23:23:40 [trace] finish selection: 0.2,5 - 0.2,5
+23:23:40 [trace] finish selection: 0.2,4 - 0.2,4
+23:23:40 [trace] finish selection: 0.2,5 - 0.2,5
+23:23:41 [trace] finish selection: 0.2,6 - 0.2,6
+23:23:41 [trace] finish selection: 0.2,7 - 0.2,7
+23:23:41 [trace] finish selection: 0.2,8 - 0.2,8
+23:23:41 [trace] finish selection: 0.1,8 - 0.1,8
+23:23:41 [trace] finish selection: 0.0,8 - 0.0,8
+23:23:41 [trace] finish selection: 0.0,8 - 0.0,8
+23:23:42 [trace] finish selection: 0.0,9 - 0.0,9
+23:23:42 [trace] finish selection: 0.0,10 - 0.0,10
+23:23:42 [trace] finish selection: 0.1,10 - 0.1,10
+23:23:42 [trace] finish selection: 0.2,10 - 0.2,10
+23:23:42 [trace] finish selection: 0.2,9 - 0.2,9
+23:23:42 [trace] finish selection: 0.3,9 - 0.3,9
+23:23:43 [trace] finish selection: 0.2,9 - 0.2,9
+23:23:43 [trace] finish selection: 0.2,8 - 0.2,8
+23:23:43 [trace] finish selection: 0.2,8 - 0.2,8
+23:23:43 [trace] finish selection: 0.2,9 - 0.2,9
+23:23:43 [trace] finish selection: 0.2,10 - 0.2,10
+23:23:48 [trace] finish selection: 0.2,11 - 0.2,11
+23:23:48 [trace] finish selection: 0.2,12 - 0.2,12
+23:23:49 [trace] finish selection: 0.2,13 - 0.2,13
+23:23:49 [trace] finish selection: 0.2,14 - 0.2,14
+23:23:49 [trace] finish selection: 0.2,15 - 0.2,15
+23:23:49 [trace] finish selection: 0.2,16 - 0.2,16
+23:23:50 [trace] playSub() called
+23:23:50 [trace] goal: 1 goalRow: 0
+23:23:50 [trace] playSub() took 566µs
+23:23:54 [trace] finish selection: 0.2,18 - 0.2,18
+23:23:54 [trace] finish selection: 0.2,19 - 0.2,19
+23:23:54 [trace] finish selection: 0.2,20 - 0.2,20
+23:23:55 [trace] finish selection: 0.2,21 - 0.2,21
+23:23:55 [trace] finish selection: 0.2,22 - 0.2,22
+23:23:55 [trace] finish selection: 0.3,22 - 0.3,22
+23:23:55 [trace] finish selection: 0.3,23 - 0.3,23
+23:23:56 [trace] finish selection: 0.4,23 - 0.4,23
+23:23:56 [trace] finish selection: 0.4,24 - 0.4,24
+23:23:57 [trace] finish selection: 0.5,24 - 0.5,24
+23:23:57 [trace] finish selection: 0.6,24 - 0.6,24
+23:23:57 [trace] finish selection: 0.5,24 - 0.5,24
+23:23:57 [trace] finish selection: 0.5,24 - 0.5,24
+23:23:57 [trace] finish selection: 0.5,25 - 0.5,25
+23:23:58 [trace] finish selection: 0.4,25 - 0.4,25
+23:23:58 [trace] finish selection: 0.3,25 - 0.3,25
+23:23:58 [trace] playSub() called
+23:23:58 [trace] goal: 1 goalRow: 0
+23:23:58 [trace] playSub() took 636µs
+23:23:59 [trace] finish selection: 0.3,5 - 0.3,5
+23:23:59 [trace] playSub() called
+23:23:59 [trace] goal: 0 goalRow: 0
+23:23:59 [trace] playSub() took 137µs
+23:24:04 [trace] end of orders reached
+23:24:04 [debug] last loop pos: 224 for a size of 512 and runLeftG of 73728
+23:24:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:24:05 [trace] curFileName: 
+23:24:05 [debug] saving backup...
+23:24:05 [trace] writing file...
+23:24:05 [debug] backup saved.
+23:24:09 [trace] finish selection: 0.3,32 - 0.3,32
+23:24:10 [trace] finish selection: 0.2,32 - 0.2,32
+23:24:10 [trace] finish selection: 0.2,33 - 0.2,33
+23:24:10 [trace] finish selection: 0.2,32 - 0.2,32
+23:24:13 [trace] finish selection: 0.3,32 - 0.3,32
+23:24:13 [trace] finish selection: 0.2,32 - 0.2,32
+23:24:13 [trace] finish selection: 0.2,33 - 0.2,33
+23:24:13 [trace] finish selection: 0.3,33 - 0.3,33
+23:24:13 [trace] finish selection: 0.4,33 - 0.4,33
+23:24:14 [trace] finish selection: 0.4,32 - 0.4,32
+23:24:14 [trace] finish selection: 0.3,32 - 0.3,32
+23:24:14 [trace] finish selection: 0.3,33 - 0.3,33
+23:24:14 [trace] finish selection: 0.2,33 - 0.2,33
+23:24:15 [trace] finish selection: 0.2,32 - 0.2,32
+23:24:15 [trace] finish selection: 0.2,33 - 0.2,33
+23:24:17 [trace] finish selection: 0.2,34 - 0.2,34
+23:24:17 [trace] finish selection: 0.3,34 - 0.3,34
+23:24:17 [trace] finish selection: 0.4,34 - 0.4,34
+23:24:17 [trace] finish selection: 0.4,33 - 0.4,33
+23:24:18 [trace] finish selection: 0.4,32 - 0.4,32
+23:24:18 [trace] finish selection: 0.5,32 - 0.5,32
+23:24:18 [trace] finish selection: 0.5,32 - 0.5,32
+23:24:19 [trace] finish selection: 0.5,33 - 0.5,33
+23:24:19 [trace] finish selection: 0.4,33 - 0.4,33
+23:24:19 [trace] finish selection: 0.4,32 - 0.4,32
+23:24:19 [trace] finish selection: 0.3,32 - 0.3,32
+23:24:20 [trace] finish selection: 0.4,32 - 0.4,32
+23:24:20 [trace] finish selection: 0.3,32 - 0.3,32
+23:24:21 [trace] finish selection: 0.3,33 - 0.3,33
+23:24:21 [trace] finish selection: 0.3,34 - 0.3,34
+23:24:21 [trace] finish selection: 0.2,34 - 0.2,34
+23:24:21 [trace] playSub() called
+23:24:21 [trace] goal: 1 goalRow: 0
+23:24:21 [trace] playSub() took 436µs
+23:24:24 [trace] end of orders reached
+23:24:24 [debug] last loop pos: 368 for a size of 512 and runLeftG of 36864
+23:24:24 [trace] playSub() called
+23:24:24 [trace] goal: 0 goalRow: 0
+23:24:24 [trace] playSub() took 110µs
+23:24:25 [trace] playSub() called
+23:24:25 [trace] goal: 0 goalRow: 0
+23:24:25 [trace] playSub() took 132µs
+23:24:28 [trace] playSub() called
+23:24:28 [trace] goal: 0 goalRow: 0
+23:24:28 [trace] playSub() took 135µs
+23:24:30 [trace] finish selection: 0.4,21 - 0.4,22
+23:24:32 [trace] finish selection: 0.2,16 - 0.2,16
+23:24:33 [trace] end of orders reached
+23:24:33 [debug] last loop pos: 224 for a size of 512 and runLeftG of 73728
+23:24:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:24:35 [trace] curFileName: 
+23:24:35 [debug] saving backup...
+23:24:35 [trace] writing file...
+23:24:35 [debug] backup saved.
+23:24:38 [trace] playSub() called
+23:24:38 [trace] goal: 0 goalRow: 0
+23:24:38 [trace] playSub() took 117µs
+23:24:42 [trace] finish selection: 3.2,18 - 3.2,18
+23:24:42 [trace] end of orders reached
+23:24:43 [trace] playSub() called
+23:24:43 [trace] goal: 1 goalRow: 0
+23:24:43 [trace] playSub() took 412µs
+23:24:43 [trace] finish selection: 3.2,5 - 3.2,5
+23:24:44 [trace] finish selection: 3.2,25 - 3.2,25
+23:24:44 [trace] finish selection: 3.1,25 - 3.1,25
+23:24:44 [trace] finish selection: 3.0,25 - 3.0,25
+23:24:44 [trace] finish selection: 2.4,25 - 2.4,25
+23:24:44 [trace] finish selection: 2.3,25 - 2.3,25
+23:24:44 [trace] finish selection: 2.2,25 - 2.2,25
+23:24:45 [trace] finish selection: 2.1,25 - 2.1,25
+23:24:45 [trace] finish selection: 2.1,0 - 2.1,0
+23:24:45 [trace] finish selection: 2.0,0 - 2.0,0
+23:24:46 [trace] finish selection: 2.0,1 - 2.0,1
+23:24:46 [trace] finish selection: 2.0,0 - 2.0,0
+23:24:47 [trace] finish selection: 2.0,1 - 2.0,1
+23:24:48 [trace] finish selection: 2.0,0 - 2.0,0
+23:24:48 [trace] finish selection: 2.0,1 - 2.0,1
+23:24:49 [trace] playSub() called
+23:24:49 [trace] goal: 0 goalRow: 0
+23:24:49 [trace] playSub() took 112µs
+23:24:51 [trace] finish selection: 2.0,17 - 2.0,17
+23:24:52 [trace] finish selection: 2.0,1 - 2.0,1
+23:24:53 [trace] finish selection: 2.0,0 - 2.0,0
+23:24:53 [trace] playSub() called
+23:24:53 [trace] goal: 0 goalRow: 0
+23:24:53 [trace] playSub() took 117µs
+23:24:56 [trace] finish selection: 2.0,23 - 2.0,23
+23:24:56 [trace] finish selection: 2.0,0 - 2.0,0
+23:24:57 [trace] finish selection: 2.0,1 - 2.0,1
+23:24:57 [trace] finish selection: 2.0,0 - 2.0,0
+23:24:58 [trace] playSub() called
+23:24:58 [trace] goal: 0 goalRow: 0
+23:24:58 [trace] playSub() took 132µs
+23:25:01 [trace] finish selection: 2.0,30 - 2.0,30
+23:25:01 [trace] finish selection: 2.0,0 - 2.0,0
+23:25:01 [trace] playSub() called
+23:25:01 [trace] goal: 0 goalRow: 0
+23:25:01 [trace] playSub() took 130µs
+23:25:02 [trace] finish selection: 2.0,6 - 2.0,6
+23:25:02 [trace] finish selection: 2.0,5 - 2.0,5
+23:25:03 [trace] finish selection: 2.0,4 - 2.0,4
+23:25:03 [trace] finish selection: 2.0,3 - 2.0,3
+23:25:03 [trace] finish selection: 2.0,2 - 2.0,2
+23:25:03 [trace] finish selection: 2.0,1 - 2.0,1
+23:25:03 [trace] finish selection: 2.0,0 - 2.0,0
+23:25:04 [trace] finish selection: 2.0,1 - 2.0,1
+23:25:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:25:05 [trace] curFileName: 
+23:25:05 [debug] saving backup...
+23:25:05 [trace] writing file...
+23:25:05 [debug] backup saved.
+23:25:06 [trace] finish selection: 2.0,0 - 2.0,0
+23:25:07 [trace] playSub() called
+23:25:07 [trace] goal: 0 goalRow: 0
+23:25:07 [trace] playSub() took 149µs
+23:25:09 [trace] finish selection: 2.0,4 - 2.0,4
+23:25:10 [trace] finish selection: 2.0,3 - 2.0,3
+23:25:10 [trace] finish selection: 2.0,2 - 2.0,2
+23:25:10 [trace] finish selection: 2.0,1 - 2.0,1
+23:25:11 [trace] finish selection: 2.0,0 - 2.0,0
+23:25:11 [trace] playSub() called
+23:25:11 [trace] goal: 1 goalRow: 0
+23:25:11 [trace] playSub() took 436µs
+23:25:14 [trace] end of orders reached
+23:25:14 [trace] finish selection: 2.0,35 - 2.0,35
+23:25:15 [trace] finish selection: 2.0,19 - 2.0,19
+23:25:15 [trace] finish selection: 2.0,3 - 2.0,3
+23:25:15 [trace] playSub() called
+23:25:15 [trace] goal: 0 goalRow: 0
+23:25:26 [trace] playSub() called
+23:25:26 [trace] goal: 0 goalRow: 0
+23:25:26 [trace] playSub() took 124µs
+23:25:28 [trace] finish selection: 2.2,3 - 2.2,3
+23:25:28 [trace] finish selection: 2.2,3 - 2.2,3
+23:25:29 [trace] finish selection: 2.2,0 - 2.2,35
+23:25:31 [trace] finish selection: 2.0,0 - 2.4,35
+23:25:33 [trace] finish selection: 2.0,0 - 2.4,35
+23:25:34 [trace] playSub() called
+23:25:34 [trace] goal: 0 goalRow: 0
+23:25:34 [trace] playSub() took 129µs
+23:25:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:25:35 [trace] curFileName: 
+23:25:35 [debug] saving backup...
+23:25:35 [trace] writing file...
+23:25:35 [debug] backup saved.
+23:25:37 [trace] playSub() called
+23:25:37 [trace] goal: 0 goalRow: 0
+23:25:37 [trace] playSub() took 395µs
+23:25:37 [trace] finish selection: 2.0,0 - 2.4,35
+23:25:37 [trace] finish selection: 2.2,2 - 2.2,2
+23:25:37 [trace] finish selection: 2.1,2 - 2.1,2
+23:25:38 [trace] finish selection: 2.1,1 - 2.1,1
+23:25:38 [trace] finish selection: 2.0,1 - 2.0,1
+23:25:42 [trace] finish selection: 2.0,0 - 2.0,0
+23:25:42 [trace] finish selection: 1.4,0 - 1.4,0
+23:25:42 [trace] finish selection: 1.3,0 - 1.3,0
+23:25:42 [trace] finish selection: 1.2,0 - 1.2,0
+23:25:42 [trace] finish selection: 1.1,0 - 1.1,0
+23:25:42 [trace] finish selection: 1.0,0 - 1.0,0
+23:25:42 [trace] finish selection: 0.6,0 - 0.6,0
+23:25:42 [trace] finish selection: 0.5,0 - 0.5,0
+23:25:43 [trace] finish selection: 0.4,0 - 0.4,0
+23:25:43 [trace] finish selection: 0.3,0 - 0.3,0
+23:26:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:26:05 [trace] curFileName: 
+23:26:05 [debug] saving backup...
+23:26:05 [trace] writing file...
+23:26:05 [debug] backup saved.
+23:26:07 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:08 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:08 [trace] playSub() called
+23:26:08 [trace] goal: 0 goalRow: 0
+23:26:08 [trace] playSub() took 287µs
+23:26:11 [trace] finish selection: 2.0,7 - 2.0,7
+23:26:12 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:12 [trace] finish selection: 2.0,1 - 2.0,1
+23:26:13 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:13 [trace] finish selection: 2.0,1 - 2.0,1
+23:26:13 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:14 [trace] playSub() called
+23:26:14 [trace] goal: 0 goalRow: 0
+23:26:14 [trace] playSub() took 119µs
+23:26:15 [trace] finish selection: 2.0,17 - 2.0,17
+23:26:16 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:16 [trace] finish selection: 2.0,1 - 2.0,1
+23:26:16 [trace] finish selection: 2.0,2 - 2.0,2
+23:26:17 [trace] finish selection: 2.0,1 - 2.0,1
+23:26:18 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:18 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:18 [trace] finish selection: 2.0,1 - 2.0,1
+23:26:18 [trace] finish selection: 2.0,1 - 2.0,1
+23:26:18 [trace] finish selection: 2.0,2 - 2.0,2
+23:26:18 [trace] finish selection: 2.0,1 - 2.0,1
+23:26:19 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:19 [trace] playSub() called
+23:26:19 [trace] goal: 0 goalRow: 0
+23:26:19 [trace] playSub() took 129µs
+23:26:20 [trace] finish selection: 2.0,7 - 2.0,7
+23:26:21 [trace] finish selection: 2.0,27 - 2.0,27
+23:26:21 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:23 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:24 [trace] finish selection: 2.0,16 - 2.0,16
+23:26:24 [trace] finish selection: 2.0,32 - 2.0,32
+23:26:24 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:25 [trace] finish selection: 0.0,0 - 0.0,0
+23:26:25 [trace] playSub() called
+23:26:25 [trace] goal: 0 goalRow: 0
+23:26:25 [trace] playSub() took 273µs
+23:26:26 [trace] finish selection: 0.0,8 - 0.0,8
+23:26:26 [trace] finish selection: 0.0,7 - 0.0,7
+23:26:26 [trace] finish selection: 0.0,6 - 0.0,6
+23:26:26 [trace] finish selection: 0.0,5 - 0.0,5
+23:26:26 [trace] finish selection: 0.0,4 - 0.0,4
+23:26:26 [trace] finish selection: 0.0,3 - 0.0,3
+23:26:26 [trace] finish selection: 0.0,2 - 0.0,2
+23:26:26 [trace] finish selection: 0.0,1 - 0.0,1
+23:26:26 [trace] finish selection: 0.0,0 - 0.0,0
+23:26:27 [trace] finish selection: 0.0,35 - 0.0,35
+23:26:27 [trace] finish selection: 0.0,34 - 0.0,34
+23:26:27 [trace] finish selection: 0.0,33 - 0.0,33
+23:26:27 [trace] finish selection: 0.0,32 - 0.0,32
+23:26:27 [trace] finish selection: 0.1,32 - 0.1,32
+23:26:27 [trace] finish selection: 0.2,32 - 0.2,32
+23:26:27 [trace] finish selection: 0.3,32 - 0.3,32
+23:26:27 [trace] finish selection: 0.4,32 - 0.4,32
+23:26:27 [trace] finish selection: 0.5,32 - 0.5,32
+23:26:27 [trace] finish selection: 0.6,32 - 0.6,32
+23:26:27 [trace] finish selection: 1.0,32 - 1.0,32
+23:26:27 [trace] finish selection: 1.1,32 - 1.1,32
+23:26:27 [trace] finish selection: 1.2,32 - 1.2,32
+23:26:27 [trace] finish selection: 1.3,32 - 1.3,32
+23:26:27 [trace] finish selection: 1.4,32 - 1.4,32
+23:26:27 [trace] finish selection: 2.0,32 - 2.0,32
+23:26:27 [trace] finish selection: 2.1,32 - 2.1,32
+23:26:27 [trace] finish selection: 2.2,32 - 2.2,32
+23:26:28 [trace] finish selection: 2.2,33 - 2.2,33
+23:26:28 [trace] finish selection: 2.2,34 - 2.2,34
+23:26:28 [trace] finish selection: 2.2,35 - 2.2,35
+23:26:29 [trace] finish selection: 2.2,0 - 2.2,0
+23:26:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:26:35 [trace] curFileName: 
+23:26:35 [debug] saving backup...
+23:26:35 [trace] writing file...
+23:26:35 [debug] backup saved.
+23:26:43 [trace] finish selection: 2.1,0 - 2.1,0
+23:26:43 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:44 [trace] playSub() called
+23:26:44 [trace] goal: 0 goalRow: 0
+23:26:44 [trace] playSub() took 274µs
+23:26:46 [trace] finish selection: 2.0,24 - 2.0,24
+23:26:48 [trace] finish selection: 2.0,0 - 2.0,0
+23:26:48 [trace] playSub() called
+23:26:48 [trace] goal: 0 goalRow: 0
+23:26:48 [trace] playSub() took 120µs
+23:26:51 [trace] finish selection: 2.0,31 - 2.0,31
+23:26:51 [trace] finish selection: 2.0,30 - 2.0,30
+23:26:51 [trace] finish selection: 2.0,29 - 2.0,29
+23:26:51 [trace] finish selection: 2.0,28 - 2.0,28
+23:26:51 [trace] finish selection: 2.0,27 - 2.0,27
+23:26:51 [trace] finish selection: 2.0,26 - 2.0,26
+23:26:51 [trace] finish selection: 2.0,25 - 2.0,25
+23:26:51 [trace] finish selection: 2.0,24 - 2.0,24
+23:26:51 [trace] finish selection: 2.0,23 - 2.0,23
+23:26:51 [trace] finish selection: 2.0,22 - 2.0,22
+23:26:51 [trace] finish selection: 2.0,21 - 2.0,21
+23:26:51 [trace] finish selection: 2.0,20 - 2.0,20
+23:26:51 [trace] finish selection: 2.0,19 - 2.0,19
+23:26:51 [trace] finish selection: 2.0,18 - 2.0,18
+23:26:51 [trace] finish selection: 2.0,17 - 2.0,17
+23:26:51 [trace] finish selection: 2.0,16 - 2.0,16
+23:26:51 [trace] finish selection: 2.0,15 - 2.0,15
+23:26:51 [trace] finish selection: 2.0,14 - 2.0,14
+23:26:51 [trace] finish selection: 2.0,13 - 2.0,13
+23:26:51 [trace] finish selection: 2.0,12 - 2.0,12
+23:26:52 [trace] finish selection: 2.0,11 - 2.0,11
+23:26:52 [trace] finish selection: 2.0,10 - 2.0,10
+23:26:52 [trace] finish selection: 2.0,9 - 2.0,9
+23:26:52 [trace] finish selection: 2.0,8 - 2.0,8
+23:26:52 [trace] finish selection: 2.0,7 - 2.0,7
+23:26:52 [trace] finish selection: 2.0,6 - 2.0,6
+23:26:52 [trace] finish selection: 2.0,5 - 2.0,5
+23:26:52 [trace] finish selection: 2.0,4 - 2.0,4
+23:27:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:27:05 [trace] curFileName: 
+23:27:05 [debug] saving backup...
+23:27:05 [trace] writing file...
+23:27:05 [debug] backup saved.
+23:27:08 [trace] finish selection: 2.0,3 - 2.0,3
+23:27:08 [trace] finish selection: 2.0,2 - 2.0,2
+23:27:08 [trace] finish selection: 2.0,1 - 2.0,1
+23:27:08 [trace] finish selection: 2.0,0 - 2.0,0
+23:27:09 [trace] playSub() called
+23:27:09 [trace] goal: 0 goalRow: 0
+23:27:09 [trace] playSub() took 135µs
+23:27:11 [trace] finish selection: 2.0,29 - 2.0,29
+23:27:18 [trace] finish selection: 2.0,28 - 2.0,28
+23:27:18 [trace] finish selection: 2.0,0 - 2.0,0
+23:27:19 [trace] finish selection: 2.0,20 - 2.0,20
+23:27:19 [trace] finish selection: 2.0,35 - 2.0,35
+23:27:20 [trace] finish selection: 4.4,35 - 4.4,35
+23:27:20 [trace] finish selection: 4.4,15 - 4.4,15
+23:27:20 [trace] playSub() called
+23:27:20 [trace] goal: 0 goalRow: 0
+23:27:20 [trace] playSub() took 197µs
+23:27:21 [trace] finish selection: 4.4,2 - 4.4,2
+23:27:21 [trace] finish selection: 4.4,1 - 4.4,1
+23:27:21 [trace] finish selection: 4.3,1 - 4.3,1
+23:27:21 [trace] finish selection: 4.2,1 - 4.2,1
+23:27:21 [trace] finish selection: 4.1,1 - 4.1,1
+23:27:21 [trace] finish selection: 4.0,1 - 4.0,1
+23:27:21 [trace] finish selection: 3.4,1 - 3.4,1
+23:27:21 [trace] finish selection: 3.3,1 - 3.3,1
+23:27:21 [trace] finish selection: 3.2,1 - 3.2,1
+23:27:21 [trace] finish selection: 3.1,1 - 3.1,1
+23:27:21 [trace] finish selection: 3.0,1 - 3.0,1
+23:27:21 [trace] finish selection: 2.4,1 - 2.4,1
+23:27:21 [trace] finish selection: 2.3,1 - 2.3,1
+23:27:21 [trace] finish selection: 2.2,1 - 2.2,1
+23:27:22 [trace] finish selection: 2.1,1 - 2.1,1
+23:27:22 [trace] finish selection: 2.0,1 - 2.0,1
+23:27:22 [trace] finish selection: 1.4,1 - 1.4,1
+23:27:22 [trace] finish selection: 1.4,0 - 1.4,0
+23:27:22 [trace] finish selection: 2.0,0 - 2.0,0
+23:27:23 [trace] finish selection: 2.0,1 - 2.0,1
+23:27:23 [trace] finish selection: 2.0,0 - 2.0,0
+23:27:23 [trace] finish selection: 1.4,0 - 1.4,0
+23:27:23 [trace] finish selection: 1.4,0 - 1.4,0
+23:27:23 [trace] playSub() called
+23:27:23 [trace] goal: 0 goalRow: 0
+23:27:23 [trace] playSub() took 157µs
+23:27:28 [trace] finish selection: 1.4,27 - 1.4,27
+23:27:28 [trace] finish selection: 1.4,11 - 1.4,11
+23:27:29 [trace] finish selection: 1.4,31 - 1.4,31
+23:27:29 [trace] playSub() called
+23:27:29 [trace] goal: 0 goalRow: 0
+23:27:29 [trace] playSub() took 133µs
+23:27:31 [trace] finish selection: 0.1,6 - 0.1,6
+23:27:31 [trace] finish selection: 0.1,6 - 0.1,6
+23:27:31 [trace] finish selection: 0.1,0 - 0.1,35
+23:27:32 [trace] finish selection: 0.0,0 - 0.6,35
+23:27:32 [trace] finish selection: 0.0,0 - 0.6,35
+23:27:33 [trace] finish selection: 1.0,3 - 1.0,3
+23:27:33 [trace] finish selection: 1.0,3 - 1.0,3
+23:27:33 [trace] playSub() called
+23:27:33 [trace] goal: 0 goalRow: 0
+23:27:33 [trace] playSub() took 128µs
+23:27:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:27:35 [trace] curFileName: 
+23:27:35 [debug] saving backup...
+23:27:35 [trace] writing file...
+23:27:35 [debug] backup saved.
+23:27:35 [trace] playSub() called
+23:27:35 [trace] goal: 0 goalRow: 0
+23:27:35 [trace] playSub() took 135µs
+23:27:36 [trace] finish selection: 1.0,35 - 1.0,35
+23:27:37 [trace] finish selection: 1.0,19 - 1.0,19
+23:27:37 [trace] finish selection: 1.0,3 - 1.0,3
+23:27:38 [trace] finish selection: 1.0,4 - 1.0,4
+23:27:38 [trace] finish selection: 1.0,5 - 1.0,5
+23:27:38 [trace] finish selection: 1.0,4 - 1.0,4
+23:27:39 [trace] finish selection: 1.0,35 - 1.0,35
+23:27:39 [trace] finish selection: 1.1,35 - 1.1,35
+23:27:39 [trace] finish selection: 1.2,35 - 1.2,35
+23:27:42 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:44 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:44 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:45 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:45 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:45 [trace] playSub() called
+23:27:45 [trace] goal: 0 goalRow: 0
+23:27:45 [trace] playSub() took 97µs
+23:27:47 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:47 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:47 [trace] playSub() called
+23:27:47 [trace] goal: 0 goalRow: 0
+23:27:47 [trace] playSub() took 135µs
+23:27:51 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:51 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:52 [trace] playSub() called
+23:27:52 [trace] goal: 0 goalRow: 0
+23:27:52 [trace] playSub() took 139µs
+23:27:55 [trace] playSub() called
+23:27:55 [trace] goal: 0 goalRow: 0
+23:27:55 [trace] playSub() took 128µs
+23:27:57 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:57 [trace] playSub() called
+23:27:57 [trace] goal: 0 goalRow: 0
+23:27:57 [trace] playSub() took 172µs
+23:27:58 [trace] finish selection: 1.2,0 - 1.2,35
+23:27:59 [trace] playSub() called
+23:27:59 [trace] goal: 0 goalRow: 0
+23:27:59 [trace] playSub() took 208µs
+23:28:02 [trace] finish selection: 1.2,0 - 1.2,35
+23:28:02 [trace] finish selection: 1.2,4 - 1.2,4
+23:28:02 [trace] finish selection: 1.2,3 - 1.2,3
+23:28:02 [trace] finish selection: 1.2,2 - 1.2,2
+23:28:02 [trace] finish selection: 1.2,1 - 1.2,1
+23:28:03 [trace] finish selection: 1.2,0 - 1.2,0
+23:28:03 [trace] finish selection: 1.2,35 - 1.2,35
+23:28:03 [trace] finish selection: 1.2,34 - 1.2,34
+23:28:04 [trace] finish selection: 1.3,34 - 1.3,34
+23:28:04 [trace] finish selection: 1.4,34 - 1.4,34
+23:28:04 [trace] playSub() called
+23:28:04 [trace] goal: 0 goalRow: 0
+23:28:04 [trace] playSub() took 131µs
+23:28:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:28:05 [trace] curFileName: 
+23:28:05 [debug] saving backup...
+23:28:05 [trace] writing file...
+23:28:05 [debug] backup saved.
+23:28:07 [trace] finish selection: 1.3,3 - 1.3,3
+23:28:08 [trace] finish selection: 1.3,2 - 1.3,2
+23:28:08 [trace] finish selection: 1.3,1 - 1.3,1
+23:28:08 [trace] finish selection: 1.3,0 - 1.3,0
+23:28:08 [trace] finish selection: 1.3,35 - 1.3,35
+23:28:08 [trace] finish selection: 1.3,34 - 1.3,34
+23:28:08 [trace] finish selection: 1.3,33 - 1.3,33
+23:28:08 [trace] finish selection: 1.3,32 - 1.3,32
+23:28:09 [trace] finish selection: 1.3,16 - 1.3,16
+23:28:14 [trace] finish selection: 1.3,0 - 1.3,0
+23:28:14 [trace] finish selection: 1.4,1 - 1.4,1
+23:28:15 [trace] finish selection: 1.3,0 - 1.3,0
+23:28:16 [trace] finish selection: 1.3,0 - 1.3,0
+23:28:16 [trace] finish selection: 1.3,0 - 1.3,0
+23:28:16 [trace] finish selection: 1.2,0 - 1.2,0
+23:28:17 [trace] finish selection: 1.2,1 - 1.2,1
+23:28:18 [trace] finish selection: 1.2,2 - 1.2,2
+23:28:19 [trace] finish selection: 1.2,1 - 1.2,1
+23:28:19 [trace] finish selection: 1.2,0 - 1.2,0
+23:28:19 [trace] finish selection: 1.2,0 - 1.2,0
+23:28:20 [trace] finish selection: 1.2,1 - 1.2,1
+23:28:20 [trace] finish selection: 1.2,1 - 1.2,1
+23:28:20 [trace] finish selection: 1.2,2 - 1.2,2
+23:28:20 [trace] finish selection: 1.2,1 - 1.2,1
+23:28:20 [trace] finish selection: 1.2,2 - 1.2,2
+23:28:20 [trace] finish selection: 1.3,2 - 1.3,2
+23:28:20 [trace] finish selection: 1.3,1 - 1.3,1
+23:28:22 [trace] playSub() called
+23:28:22 [trace] goal: 0 goalRow: 0
+23:28:22 [trace] playSub() took 301µs
+23:28:23 [trace] playSub() called
+23:28:23 [trace] goal: 0 goalRow: 0
+23:28:23 [trace] playSub() took 138µs
+23:28:24 [trace] finish selection: 1.4,4 - 1.4,4
+23:28:24 [trace] finish selection: 1.4,3 - 1.4,3
+23:28:24 [trace] finish selection: 1.4,2 - 1.4,2
+23:28:24 [trace] finish selection: 1.4,1 - 1.4,1
+23:28:25 [trace] finish selection: 1.4,0 - 1.4,0
+23:28:25 [trace] playSub() called
+23:28:25 [trace] goal: 0 goalRow: 0
+23:28:25 [trace] playSub() took 149µs
+23:28:29 [trace] finish selection: 1.3,14 - 1.3,14
+23:28:29 [trace] finish selection: 1.3,34 - 1.3,34
+23:28:29 [trace] playSub() called
+23:28:29 [trace] goal: 0 goalRow: 0
+23:28:29 [trace] playSub() took 122µs
+23:28:30 [trace] finish selection: 1.3,4 - 1.3,4
+23:28:30 [trace] finish selection: 1.3,3 - 1.3,3
+23:28:30 [trace] finish selection: 1.3,2 - 1.3,2
+23:28:33 [trace] finish selection: 1.3,1 - 1.3,1
+23:28:33 [trace] finish selection: 1.3,0 - 1.3,0
+23:28:33 [trace] finish selection: 1.4,0 - 1.4,0
+23:28:34 [trace] finish selection: 1.5,0 - 1.5,0
+23:28:34 [trace] finish selection: 1.6,0 - 1.6,0
+23:28:35 [trace] playSub() called
+23:28:35 [trace] goal: 0 goalRow: 0
+23:28:35 [trace] playSub() took 126µs
+23:28:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:28:35 [trace] curFileName: 
+23:28:35 [debug] saving backup...
+23:28:35 [trace] writing file...
+23:28:35 [debug] backup saved.
+23:28:36 [trace] playSub() called
+23:28:36 [trace] goal: 0 goalRow: 0
+23:28:36 [trace] playSub() took 129µs
+23:28:37 [trace] playSub() called
+23:28:37 [trace] goal: 0 goalRow: 0
+23:28:37 [trace] playSub() took 138µs
+23:28:39 [trace] playSub() called
+23:28:39 [trace] goal: 0 goalRow: 0
+23:28:39 [trace] playSub() took 132µs
+23:28:42 [trace] playSub() called
+23:28:42 [trace] goal: 0 goalRow: 0
+23:28:42 [trace] playSub() took 131µs
+23:28:45 [trace] playSub() called
+23:28:45 [trace] goal: 0 goalRow: 0
+23:28:45 [trace] playSub() took 121µs
+23:28:46 [trace] playSub() called
+23:28:46 [trace] goal: 0 goalRow: 0
+23:28:46 [trace] playSub() took 132µs
+23:28:48 [trace] finish selection: 1.3,10 - 1.3,10
+23:28:49 [trace] finish selection: 1.3,10 - 1.3,10
+23:28:49 [trace] finish selection: 1.3,10 - 1.3,10
+23:28:49 [trace] playSub() called
+23:28:49 [trace] goal: 0 goalRow: 0
+23:28:49 [trace] playSub() took 136µs
+23:28:54 [trace] finish selection: 1.3,34 - 1.3,34
+23:28:55 [trace] finish selection: 1.3,34 - 1.3,34
+23:28:55 [trace] finish selection: 1.3,34 - 1.3,34
+23:28:55 [trace] finish selection: 1.3,35 - 1.3,35
+23:28:56 [trace] finish selection: 1.2,35 - 1.2,35
+23:28:56 [trace] finish selection: 1.1,35 - 1.1,35
+23:28:56 [debug] opening save file dialog with curPath /home/thacuber2a03/.local/bin/Furnace/demos/nes/
+23:29:04 [debug] returning 
+23:29:04 [debug] curPath: /home/thacuber2a03/.local/bin/Furnace/demos/nes
+23:29:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:29:05 [trace] curFileName: 
+23:29:05 [debug] saving backup...
+23:29:05 [trace] writing file...
+23:29:05 [debug] backup saved.
+23:29:05 [trace] playSub() called
+23:29:05 [trace] goal: 1 goalRow: 0
+23:29:05 [trace] playSub() took 697µs
+23:29:06 [trace] finish selection: 1.1,4 - 1.1,4
+23:29:06 [trace] playSub() called
+23:29:06 [trace] goal: 0 goalRow: 0
+23:29:06 [trace] playSub() took 127µs
+23:29:09 [trace] finish selection: 1.1,2 - 1.1,2
+23:29:09 [trace] finish selection: 1.1,1 - 1.1,1
+23:29:10 [trace] finish selection: 1.1,0 - 1.1,0
+23:29:10 [trace] finish selection: 1.2,0 - 1.2,0
+23:29:11 [trace] finish selection: 1.3,0 - 1.3,0
+23:29:13 [trace] finish selection: 1.4,0 - 1.4,0
+23:29:14 [trace] finish selection: 1.3,0 - 1.3,0
+23:29:15 [trace] finish selection: 1.4,0 - 1.4,0
+23:29:15 [trace] playSub() called
+23:29:15 [trace] goal: 1 goalRow: 0
+23:29:15 [trace] playSub() took 499µs
+23:29:16 [trace] finish selection: 1.3,6 - 1.3,6
+23:29:16 [trace] finish selection: 1.3,5 - 1.3,5
+23:29:16 [trace] finish selection: 1.3,4 - 1.3,4
+23:29:16 [trace] finish selection: 1.2,4 - 1.2,4
+23:29:16 [trace] finish selection: 1.2,3 - 1.2,3
+23:29:16 [trace] finish selection: 1.1,3 - 1.1,3
+23:29:17 [trace] finish selection: 1.1,2 - 1.1,2
+23:29:17 [trace] finish selection: 1.0,2 - 1.0,2
+23:29:18 [trace] finish selection: 0.6,2 - 0.6,2
+23:29:18 [trace] finish selection: 0.6,0 - 0.6,35
+23:29:19 [trace] finish selection: 0.6,0 - 0.6,35
+23:29:19 [trace] finish selection: 0.0,0 - 0.6,35
+23:29:19 [trace] finish selection: 0.0,0 - 0.6,35
+23:29:19 [trace] finish selection: 1.0,2 - 1.0,2
+23:29:19 [trace] finish selection: 1.1,2 - 1.1,2
+23:29:20 [trace] finish selection: 1.1,3 - 1.1,3
+23:29:20 [trace] finish selection: 1.0,3 - 1.0,3
+23:29:20 [trace] playSub() called
+23:29:20 [trace] goal: 1 goalRow: 0
+23:29:20 [trace] playSub() took 462µs
+23:29:23 [trace] finish selection: 1.0,35 - 1.0,35
+23:29:24 [trace] finish selection: 1.0,19 - 1.0,19
+23:29:24 [trace] finish selection: 1.0,3 - 1.0,3
+23:29:25 [trace] finish selection: 1.0,23 - 1.0,23
+23:29:25 [trace] finish selection: 1.0,24 - 1.0,24
+23:29:25 [trace] finish selection: 1.0,25 - 1.0,25
+23:29:25 [trace] finish selection: 1.0,26 - 1.0,26
+23:29:25 [trace] finish selection: 1.0,27 - 1.0,27
+23:29:25 [trace] finish selection: 1.0,28 - 1.0,28
+23:29:25 [trace] finish selection: 1.0,29 - 1.0,29
+23:29:26 [trace] finish selection: 1.0,30 - 1.0,30
+23:29:26 [trace] finish selection: 0.6,30 - 0.6,30
+23:29:26 [trace] finish selection: 0.5,30 - 0.5,30
+23:29:27 [trace] finish selection: 0.5,29 - 0.5,29
+23:29:27 [trace] finish selection: 0.6,29 - 0.6,29
+23:29:27 [trace] finish selection: 1.0,29 - 1.0,29
+23:29:27 [trace] finish selection: 1.1,29 - 1.1,29
+23:29:28 [trace] finish selection: 1.0,29 - 1.0,29
+23:29:28 [trace] finish selection: 0.6,29 - 0.6,29
+23:29:28 [trace] finish selection: 0.5,29 - 0.5,29
+23:29:35 [trace] finish selection: 0.3,24 - 0.4,29
+23:29:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:29:35 [trace] curFileName: 
+23:29:35 [debug] saving backup...
+23:29:35 [trace] writing file...
+23:29:35 [debug] backup saved.
+23:29:35 [trace] finish selection: 0.3,25 - 0.3,25
+23:29:35 [trace] finish selection: 0.3,26 - 0.3,26
+23:29:35 [trace] finish selection: 0.3,27 - 0.3,27
+23:29:35 [trace] finish selection: 0.3,28 - 0.3,28
+23:29:35 [trace] finish selection: 0.3,29 - 0.3,29
+23:29:36 [trace] finish selection: 0.4,29 - 0.4,29
+23:29:36 [trace] finish selection: 0.5,29 - 0.5,29
+23:29:36 [trace] finish selection: 0.6,29 - 0.6,29
+23:29:36 [trace] finish selection: 1.0,29 - 1.0,29
+23:29:36 [trace] finish selection: 1.1,29 - 1.1,29
+23:29:36 [trace] finish selection: 1.2,29 - 1.2,29
+23:29:36 [trace] finish selection: 1.3,29 - 1.3,29
+23:29:36 [trace] finish selection: 1.4,29 - 1.4,29
+23:29:36 [trace] finish selection: 1.5,29 - 1.5,29
+23:29:37 [trace] finish selection: 1.5,28 - 1.5,28
+23:29:37 [trace] finish selection: 1.4,28 - 1.4,28
+23:29:42 [trace] finish selection: 1.3,28 - 1.3,34
+23:29:45 [trace] finish selection: 1.3,35 - 1.3,35
+23:29:45 [trace] finish selection: 1.3,0 - 1.3,0
+23:29:46 [trace] finish selection: 1.3,1 - 1.3,1
+23:29:46 [trace] finish selection: 1.3,0 - 1.3,0
+23:29:46 [trace] finish selection: 1.3,0 - 1.3,0
+23:29:46 [trace] finish selection: 1.3,1 - 1.3,1
+23:29:47 [trace] finish selection: 1.3,2 - 1.3,2
+23:29:47 [trace] finish selection: 1.4,2 - 1.4,2
+23:29:48 [trace] playSub() called
+23:29:48 [trace] goal: 1 goalRow: 0
+23:29:48 [trace] playSub() took 519µs
+23:29:49 [trace] finish selection: 1.3,9 - 1.3,9
+23:29:49 [trace] finish selection: 1.3,8 - 1.3,8
+23:29:49 [trace] finish selection: 1.2,8 - 1.2,8
+23:29:49 [trace] finish selection: 1.2,7 - 1.2,7
+23:29:49 [trace] finish selection: 1.2,6 - 1.2,6
+23:29:49 [trace] finish selection: 1.1,6 - 1.1,6
+23:29:49 [trace] finish selection: 1.1,5 - 1.1,5
+23:29:50 [trace] finish selection: 1.1,4 - 1.1,4
+23:29:54 [trace] finish selection: 1.0,4 - 1.0,4
+23:29:54 [trace] finish selection: 1.0,5 - 1.0,5
+23:29:55 [trace] playSub() called
+23:29:55 [trace] goal: 1 goalRow: 0
+23:29:55 [trace] playSub() took 503µs
+23:29:56 [trace] finish selection: 1.0,9 - 1.0,9
+23:29:56 [trace] finish selection: 1.1,9 - 1.1,9
+23:29:56 [trace] finish selection: 1.2,9 - 1.2,9
+23:29:58 [trace] finish selection: 1.2,0 - 1.2,35
+23:29:59 [trace] finish selection: 1.2,0 - 1.2,35
+23:29:59 [trace] finish selection: 1.2,0 - 1.2,35
+23:29:59 [trace] finish selection: 1.2,0 - 1.2,35
+23:29:59 [trace] finish selection: 1.2,0 - 1.2,35
+23:30:00 [trace] finish selection: 1.2,0 - 1.2,35
+23:30:00 [trace] finish selection: 1.2,0 - 1.2,35
+23:30:02 [trace] finish selection: 1.2,0 - 1.2,35
+23:30:02 [trace] finish selection: 1.2,8 - 1.2,8
+23:30:02 [trace] finish selection: 1.2,7 - 1.2,7
+23:30:02 [trace] finish selection: 1.2,6 - 1.2,6
+23:30:03 [trace] finish selection: 1.3,6 - 1.3,6
+23:30:03 [trace] finish selection: 1.3,5 - 1.3,5
+23:30:03 [trace] finish selection: 1.3,5 - 1.3,5
+23:30:04 [trace] finish selection: 1.3,6 - 1.3,6
+23:30:04 [trace] finish selection: 1.3,26 - 1.3,26
+23:30:04 [trace] playSub() called
+23:30:04 [trace] goal: 0 goalRow: 0
+23:30:04 [trace] playSub() took 127µs
+23:30:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:30:05 [trace] curFileName: 
+23:30:05 [debug] saving backup...
+23:30:05 [trace] writing file...
+23:30:05 [debug] backup saved.
+23:30:08 [trace] playSub() called
+23:30:08 [trace] goal: 1 goalRow: 0
+23:30:08 [trace] playSub() took 530µs
+23:30:09 [trace] playSub() called
+23:30:09 [trace] goal: 1 goalRow: 0
+23:30:09 [trace] playSub() took 641µs
+23:30:09 [trace] playSub() called
+23:30:09 [trace] goal: 1 goalRow: 0
+23:30:09 [trace] playSub() took 493µs
+23:30:10 [trace] finish selection: 1.3,9 - 1.3,9
+23:30:10 [trace] finish selection: 1.3,8 - 1.3,8
+23:30:11 [trace] finish selection: 1.3,7 - 1.3,7
+23:30:11 [trace] finish selection: 1.3,6 - 1.3,6
+23:30:13 [trace] playSub() called
+23:30:13 [trace] goal: 1 goalRow: 0
+23:30:13 [trace] playSub() took 525µs
+23:30:13 [trace] playSub() called
+23:30:13 [trace] goal: 1 goalRow: 0
+23:30:13 [trace] playSub() took 495µs
+23:30:15 [trace] playSub() called
+23:30:15 [trace] goal: 0 goalRow: 0
+23:30:15 [trace] playSub() took 143µs
+23:30:20 [trace] end of orders reached
+23:30:20 [debug] last loop pos: 224 for a size of 512 and runLeftG of 73728
+23:30:22 [trace] playSub() called
+23:30:22 [trace] goal: 0 goalRow: 0
+23:30:22 [trace] playSub() took 134µs
+23:30:26 [trace] finish selection: 1.5,5 - 1.5,5
+23:30:27 [trace] finish selection: 1.5,5 - 1.5,5
+23:30:27 [trace] finish selection: 1.5,5 - 1.5,5
+23:30:27 [trace] playSub() called
+23:30:27 [trace] goal: 1 goalRow: 0
+23:30:27 [trace] playSub() took 496µs
+23:30:28 [trace] playSub() called
+23:30:28 [trace] goal: 1 goalRow: 0
+23:30:28 [trace] playSub() took 495µs
+23:30:30 [trace] end of orders reached
+23:30:30 [debug] last loop pos: 368 for a size of 512 and runLeftG of 36864
+23:30:32 [trace] playSub() called
+23:30:32 [trace] goal: 0 goalRow: 0
+23:30:32 [trace] playSub() took 137µs
+23:30:33 [trace] finish selection: 1.5,5 - 1.5,5
+23:30:34 [trace] finish selection: 1.5,4 - 1.5,4
+23:30:34 [trace] finish selection: 1.6,4 - 1.6,4
+23:30:34 [trace] playSub() called
+23:30:34 [trace] goal: 0 goalRow: 0
+23:30:34 [trace] playSub() took 132µs
+23:30:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:30:35 [trace] curFileName: 
+23:30:35 [debug] saving backup...
+23:30:35 [trace] writing file...
+23:30:35 [debug] backup saved.
+23:30:37 [trace] playSub() called
+23:30:37 [trace] goal: 0 goalRow: 0
+23:30:37 [trace] playSub() took 133µs
+23:30:41 [trace] playSub() called
+23:30:41 [trace] goal: 1 goalRow: 0
+23:30:41 [trace] playSub() took 548µs
+23:30:42 [trace] finish selection: 1.5,6 - 1.5,6
+23:30:42 [trace] finish selection: 1.5,5 - 1.5,5
+23:30:42 [trace] finish selection: 1.5,25 - 1.5,25
+23:30:43 [trace] playSub() called
+23:30:43 [trace] goal: 0 goalRow: 0
+23:30:43 [trace] playSub() took 125µs
+23:30:43 [trace] finish selection: 1.5,4 - 1.5,4
+23:30:43 [trace] finish selection: 1.5,4 - 1.5,4
+23:30:44 [trace] playSub() called
+23:30:44 [trace] goal: 0 goalRow: 0
+23:30:44 [trace] playSub() took 167µs
+23:30:47 [trace] finish selection: 1.5,3 - 1.5,3
+23:30:47 [trace] finish selection: 1.4,3 - 1.4,3
+23:30:47 [trace] finish selection: 1.4,4 - 1.4,4
+23:30:47 [trace] finish selection: 1.3,4 - 1.3,4
+23:30:47 [trace] playSub() called
+23:30:47 [trace] goal: 1 goalRow: 0
+23:30:47 [trace] playSub() took 493µs
+23:30:50 [debug] opening save file dialog with curPath /home/thacuber2a03/.local/bin/Furnace/demos/nes/
+23:30:54 [debug] returning 
+23:30:54 [debug] curPath: /home/thacuber2a03/.local/bin/Furnace/demos/nes
+23:30:54 [trace] finish selection: 1.3,30 - 1.3,30
+23:30:55 [trace] finish selection: 1.3,29 - 1.3,29
+23:30:55 [trace] finish selection: 1.3,29 - 1.3,29
+23:30:55 [trace] finish selection: 1.3,30 - 1.3,30
+23:30:55 [trace] finish selection: 1.3,14 - 1.3,14
+23:30:56 [trace] finish selection: 1.3,34 - 1.3,34
+23:30:56 [trace] playSub() called
+23:30:56 [trace] goal: 0 goalRow: 0
+23:30:56 [trace] playSub() took 376µs
+23:31:00 [trace] playSub() called
+23:31:00 [trace] goal: 0 goalRow: 0
+23:31:00 [trace] playSub() took 201µs
+23:31:04 [trace] finish selection: 2.0,0 - 2.0,0
+23:31:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:31:05 [trace] curFileName: 
+23:31:05 [debug] saving backup...
+23:31:05 [trace] writing file...
+23:31:05 [debug] backup saved.
+23:31:17 [trace] playSub() called
+23:31:17 [trace] goal: 1 goalRow: 0
+23:31:17 [trace] playSub() took 505µs
+23:31:18 [trace] finish selection: 2.0,6 - 2.0,6
+23:31:18 [trace] playSub() called
+23:31:18 [trace] goal: 0 goalRow: 0
+23:31:18 [trace] playSub() took 166µs
+23:31:21 [trace] finish selection: 2.0,4 - 2.0,4
+23:31:21 [trace] finish selection: 2.0,3 - 2.0,3
+23:31:22 [trace] finish selection: 2.0,2 - 2.0,2
+23:31:26 [trace] finish selection: 2.0,1 - 2.0,1
+23:31:26 [trace] finish selection: 2.0,0 - 2.0,0
+23:31:27 [trace] finish selection: 2.0,1 - 2.0,1
+23:31:27 [trace] finish selection: 2.0,0 - 2.0,0
+23:31:27 [trace] playSub() called
+23:31:27 [trace] goal: 0 goalRow: 0
+23:31:27 [trace] playSub() took 119µs
+23:31:31 [trace] playSub() called
+23:31:31 [trace] goal: 1 goalRow: 0
+23:31:31 [trace] audio is soft-locked (0)
+23:31:31 [trace] playSub() took 513µs
+23:31:32 [trace] playSub() called
+23:31:32 [trace] goal: 0 goalRow: 0
+23:31:32 [trace] playSub() took 154µs
+23:31:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:31:35 [trace] curFileName: 
+23:31:35 [debug] saving backup...
+23:31:35 [trace] writing file...
+23:31:35 [debug] backup saved.
+23:31:54 [trace] finish selection: 0.0,0 - 0.6,35
+23:31:55 [trace] finish selection: 0.0,0 - 0.6,35
+23:31:55 [trace] finish selection: 0.0,0 - 0.6,35
+23:31:57 [trace] finish selection: 1.0,4 - 1.0,4
+23:31:58 [trace] finish selection: 1.0,4 - 1.0,4
+23:31:58 [trace] finish selection: 1.0,35 - 1.0,35
+23:31:59 [trace] finish selection: 1.0,35 - 1.0,35
+23:31:59 [trace] finish selection: 1.0,35 - 1.0,35
+23:32:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:32:05 [trace] curFileName: 
+23:32:05 [debug] saving backup...
+23:32:05 [trace] writing file...
+23:32:05 [debug] backup saved.
+23:32:07 [trace] finish selection: 1.0,1 - 1.3,35
+23:32:08 [trace] finish selection: 0.1,4 - 0.1,4
+23:32:08 [trace] finish selection: 0.1,4 - 0.1,4
+23:32:09 [trace] finish selection: 0.1,0 - 0.1,35
+23:32:09 [trace] finish selection: 0.0,0 - 0.6,35
+23:32:10 [trace] finish selection: 1.0,1 - 1.0,1
+23:32:11 [trace] finish selection: 1.0,1 - 1.0,1
+23:32:12 [trace] playSub() called
+23:32:12 [trace] goal: 1 goalRow: 0
+23:32:12 [trace] playSub() took 746µs
+23:32:15 [trace] finish selection: 1.0,26 - 1.0,26
+23:32:16 [trace] finish selection: 1.0,10 - 1.0,10
+23:32:16 [trace] finish selection: 1.0,30 - 1.0,30
+23:32:17 [trace] finish selection: 1.0,31 - 1.0,31
+23:32:17 [trace] finish selection: 1.0,32 - 1.0,32
+23:32:17 [trace] finish selection: 1.0,33 - 1.0,33
+23:32:17 [trace] finish selection: 1.0,34 - 1.0,34
+23:32:17 [trace] finish selection: 1.0,35 - 1.0,35
+23:32:17 [trace] finish selection: 1.0,0 - 1.0,0
+23:32:17 [trace] finish selection: 1.0,1 - 1.0,1
+23:32:17 [trace] finish selection: 1.0,2 - 1.0,2
+23:32:18 [trace] finish selection: 1.0,35 - 1.0,35
+23:32:18 [trace] finish selection: 1.0,34 - 1.0,34
+23:32:18 [trace] finish selection: 1.0,33 - 1.0,33
+23:32:18 [trace] finish selection: 1.0,32 - 1.0,32
+23:32:18 [trace] finish selection: 1.0,31 - 1.0,31
+23:32:18 [trace] finish selection: 1.0,30 - 1.0,30
+23:32:18 [trace] finish selection: 1.0,29 - 1.0,29
+23:32:18 [trace] finish selection: 1.0,28 - 1.0,28
+23:32:18 [trace] finish selection: 1.0,27 - 1.0,27
+23:32:18 [trace] finish selection: 1.0,26 - 1.0,26
+23:32:19 [trace] finish selection: 1.0,25 - 1.0,25
+23:32:19 [trace] finish selection: 1.0,24 - 1.0,24
+23:32:19 [trace] finish selection: 1.0,23 - 1.0,23
+23:32:19 [trace] finish selection: 1.0,22 - 1.0,22
+23:32:19 [trace] finish selection: 1.0,21 - 1.0,21
+23:32:19 [trace] finish selection: 1.0,20 - 1.0,20
+23:32:19 [trace] finish selection: 1.0,19 - 1.0,19
+23:32:19 [trace] finish selection: 1.0,18 - 1.0,18
+23:32:19 [trace] finish selection: 1.0,17 - 1.0,17
+23:32:19 [trace] finish selection: 1.0,16 - 1.0,16
+23:32:19 [trace] finish selection: 1.0,15 - 1.0,15
+23:32:19 [trace] finish selection: 1.0,14 - 1.0,14
+23:32:19 [trace] finish selection: 1.0,13 - 1.0,13
+23:32:19 [trace] finish selection: 1.0,12 - 1.0,12
+23:32:19 [trace] finish selection: 1.0,11 - 1.0,11
+23:32:19 [trace] finish selection: 1.0,10 - 1.0,10
+23:32:19 [trace] finish selection: 1.0,9 - 1.0,9
+23:32:19 [trace] finish selection: 1.0,8 - 1.0,8
+23:32:19 [trace] finish selection: 1.0,7 - 1.0,7
+23:32:19 [trace] finish selection: 1.0,6 - 1.0,6
+23:32:19 [trace] finish selection: 1.0,5 - 1.0,5
+23:32:19 [trace] finish selection: 1.0,4 - 1.0,4
+23:32:19 [trace] finish selection: 1.0,3 - 1.0,3
+23:32:31 [trace] finish selection: 1.0,2 - 1.0,2
+23:32:31 [trace] finish selection: 1.1,2 - 1.1,2
+23:32:31 [trace] finish selection: 1.2,2 - 1.2,2
+23:32:32 [trace] finish selection: 1.3,2 - 1.3,2
+23:32:32 [trace] finish selection: 1.3,1 - 1.3,1
+23:32:33 [trace] finish selection: 1.2,1 - 1.2,1
+23:32:33 [trace] finish selection: 1.1,1 - 1.1,1
+23:32:33 [trace] playSub() called
+23:32:33 [trace] goal: 1 goalRow: 0
+23:32:33 [trace] playSub() took 484µs
+23:32:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:32:35 [trace] curFileName: 
+23:32:35 [debug] saving backup...
+23:32:35 [trace] writing file...
+23:32:35 [debug] backup saved.
+23:32:35 [trace] finish selection: 1.0,20 - 1.0,20
+23:32:36 [trace] finish selection: 1.0,4 - 1.0,4
+23:32:37 [trace] finish selection: 1.0,0 - 1.0,0
+23:32:37 [trace] playSub() called
+23:32:37 [trace] goal: 0 goalRow: 0
+23:32:37 [trace] playSub() took 140µs
+23:32:41 [trace] finish selection: 1.0,10 - 1.0,10
+23:32:42 [trace] finish selection: 1.0,0 - 1.0,0
+23:32:42 [trace] finish selection: 1.0,35 - 1.0,35
+23:32:42 [trace] finish selection: 1.1,35 - 1.1,35
+23:32:42 [trace] finish selection: 1.2,35 - 1.2,35
+23:32:42 [trace] finish selection: 1.3,35 - 1.3,35
+23:32:42 [trace] finish selection: 1.4,35 - 1.4,35
+23:32:43 [trace] finish selection: 1.4,34 - 1.4,34
+23:32:43 [trace] finish selection: 1.3,34 - 1.3,34
+23:32:43 [trace] finish selection: 1.3,33 - 1.3,33
+23:32:43 [trace] finish selection: 1.3,32 - 1.3,32
+23:32:44 [trace] finish selection: 1.3,31 - 1.3,31
+23:32:44 [trace] finish selection: 1.3,30 - 1.3,30
+23:32:44 [trace] finish selection: 1.3,29 - 1.3,29
+23:32:44 [trace] finish selection: 1.3,28 - 1.3,28
+23:32:44 [trace] finish selection: 1.3,27 - 1.3,27
+23:32:44 [trace] finish selection: 1.3,26 - 1.3,26
+23:32:44 [trace] playSub() called
+23:32:44 [trace] goal: 0 goalRow: 0
+23:32:44 [trace] playSub() took 126µs
+23:32:45 [trace] finish selection: 1.3,9 - 1.3,9
+23:32:46 [trace] playSub() called
+23:32:46 [trace] goal: 0 goalRow: 0
+23:32:46 [trace] playSub() took 319µs
+23:32:47 [trace] finish selection: 1.3,10 - 1.3,10
+23:32:47 [trace] finish selection: 1.3,10 - 1.3,10
+23:32:47 [trace] playSub() called
+23:32:47 [trace] goal: 0 goalRow: 0
+23:32:47 [trace] playSub() took 123µs
+23:32:50 [trace] finish selection: 1.3,34 - 1.3,34
+23:32:50 [trace] finish selection: 1.3,34 - 1.3,34
+23:32:50 [trace] playSub() called
+23:32:50 [trace] goal: 0 goalRow: 0
+23:32:50 [trace] playSub() took 171µs
+23:32:55 [trace] finish selection: 1.3,33 - 1.3,33
+23:32:56 [trace] finish selection: 1.3,32 - 1.3,32
+23:32:56 [trace] finish selection: 1.3,31 - 1.3,31
+23:32:56 [trace] finish selection: 1.3,30 - 1.3,30
+23:32:56 [trace] finish selection: 1.3,29 - 1.3,29
+23:32:56 [trace] finish selection: 1.3,28 - 1.3,28
+23:32:56 [trace] finish selection: 1.3,27 - 1.3,27
+23:32:56 [trace] finish selection: 1.3,26 - 1.3,26
+23:32:56 [trace] finish selection: 1.3,25 - 1.3,25
+23:32:56 [trace] finish selection: 1.3,24 - 1.3,24
+23:32:56 [trace] finish selection: 1.3,23 - 1.3,23
+23:32:56 [trace] finish selection: 1.3,22 - 1.3,22
+23:32:56 [trace] playSub() called
+23:32:56 [trace] goal: 1 goalRow: 0
+23:32:56 [trace] playSub() took 515µs
+23:32:57 [trace] finish selection: 1.3,8 - 1.3,8
+23:32:57 [trace] finish selection: 1.3,7 - 1.3,7
+23:32:57 [trace] finish selection: 1.3,6 - 1.3,6
+23:32:57 [trace] finish selection: 1.3,5 - 1.3,5
+23:32:57 [trace] finish selection: 1.3,4 - 1.3,4
+23:32:57 [trace] finish selection: 1.3,3 - 1.3,3
+23:32:57 [trace] finish selection: 1.3,2 - 1.3,2
+23:32:57 [trace] finish selection: 1.3,1 - 1.3,1
+23:32:58 [trace] playSub() called
+23:32:58 [trace] goal: 1 goalRow: 0
+23:32:58 [trace] playSub() took 542µs
+23:32:58 [trace] finish selection: 1.3,0 - 1.3,0
+23:32:59 [trace] finish selection: 1.4,0 - 1.4,0
+23:32:59 [trace] finish selection: 1.5,0 - 1.5,0
+23:32:59 [trace] finish selection: 1.6,0 - 1.6,0
+23:32:59 [trace] finish selection: 2.0,0 - 2.0,0
+23:33:00 [trace] finish selection: 2.1,0 - 2.1,0
+23:33:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:33:05 [trace] curFileName: 
+23:33:05 [debug] saving backup...
+23:33:05 [trace] writing file...
+23:33:05 [debug] backup saved.
+23:33:12 [trace] finish selection: 2.0,19 - 2.0,19
+23:33:12 [trace] finish selection: 1.6,19 - 1.6,19
+23:33:12 [trace] finish selection: 1.5,19 - 1.5,19
+23:33:12 [trace] finish selection: 1.4,19 - 1.4,19
+23:33:12 [trace] finish selection: 1.3,19 - 1.3,19
+23:33:12 [trace] finish selection: 1.2,19 - 1.2,19
+23:33:13 [trace] finish selection: 1.1,19 - 1.1,19
+23:33:13 [trace] finish selection: 1.0,19 - 1.0,19
+23:33:13 [trace] finish selection: 0.6,19 - 0.6,19
+23:33:13 [trace] finish selection: 0.5,19 - 0.5,19
+23:33:13 [trace] finish selection: 0.4,19 - 0.4,19
+23:33:13 [trace] finish selection: 0.3,19 - 0.3,19
+23:33:13 [trace] finish selection: 0.2,19 - 0.2,19
+23:33:13 [trace] finish selection: 0.1,19 - 0.1,19
+23:33:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:33:35 [trace] curFileName: 
+23:33:35 [debug] saving backup...
+23:33:35 [trace] writing file...
+23:33:35 [debug] backup saved.
+23:33:41 [trace] playSub() called
+23:33:41 [trace] goal: 1 goalRow: 0
+23:33:41 [trace] playSub() took 676µs
+23:33:42 [trace] playSub() called
+23:33:42 [trace] goal: 1 goalRow: 0
+23:33:42 [trace] audio is soft-locked (1)
+23:33:42 [trace] playSub() took 515µs
+23:33:47 [trace] finish selection: 0.0,5 - 0.0,5
+23:33:47 [trace] finish selection: 0.0,4 - 0.0,4
+23:33:47 [trace] finish selection: 0.0,3 - 0.0,3
+23:33:47 [trace] finish selection: 0.0,2 - 0.0,2
+23:33:47 [trace] finish selection: 0.1,2 - 0.1,2
+23:33:47 [trace] finish selection: 0.1,1 - 0.1,1
+23:33:47 [trace] finish selection: 0.2,1 - 0.2,1
+23:33:47 [trace] finish selection: 0.2,0 - 0.2,0
+23:33:48 [trace] finish selection: 0.3,0 - 0.3,0
+23:33:48 [trace] finish selection: 0.4,0 - 0.4,0
+23:33:48 [trace] finish selection: 0.5,0 - 0.5,0
+23:33:48 [trace] finish selection: 0.5,0 - 0.5,0
+23:33:48 [trace] finish selection: 0.5,1 - 0.5,1
+23:33:49 [trace] playSub() called
+23:33:49 [trace] goal: 1 goalRow: 0
+23:33:49 [trace] playSub() took 474µs
+23:33:50 [trace] finish selection: 0.5,8 - 0.5,8
+23:33:51 [trace] finish selection: 0.5,7 - 0.5,7
+23:33:51 [trace] finish selection: 0.5,6 - 0.5,6
+23:33:51 [trace] finish selection: 0.5,5 - 0.5,5
+23:33:51 [trace] finish selection: 0.5,4 - 0.5,4
+23:33:51 [trace] finish selection: 0.5,3 - 0.5,3
+23:33:51 [trace] finish selection: 0.5,2 - 0.5,2
+23:33:52 [trace] playSub() called
+23:33:52 [trace] goal: 1 goalRow: 0
+23:33:52 [trace] playSub() took 518µs
+23:33:52 [trace] finish selection: 0.5,5 - 0.5,5
+23:33:52 [trace] finish selection: 0.5,4 - 0.5,4
+23:33:52 [trace] finish selection: 0.5,3 - 0.5,3
+23:33:52 [trace] finish selection: 0.5,2 - 0.5,2
+23:33:53 [trace] finish selection: 0.6,2 - 0.6,2
+23:33:53 [trace] finish selection: 1.0,2 - 1.0,2
+23:33:53 [trace] finish selection: 1.1,2 - 1.1,2
+23:33:53 [trace] finish selection: 1.2,2 - 1.2,2
+23:33:53 [trace] finish selection: 1.3,2 - 1.3,2
+23:33:53 [trace] finish selection: 1.4,2 - 1.4,2
+23:33:53 [trace] finish selection: 1.5,2 - 1.5,2
+23:33:53 [trace] finish selection: 1.6,2 - 1.6,2
+23:33:53 [trace] finish selection: 2.0,2 - 2.0,2
+23:33:53 [trace] finish selection: 2.1,2 - 2.1,2
+23:33:53 [trace] finish selection: 2.1,1 - 2.1,1
+23:33:54 [trace] finish selection: 2.2,1 - 2.2,1
+23:33:54 [trace] finish selection: 2.1,1 - 2.1,1
+23:33:55 [trace] finish selection: 2.1,0 - 2.1,0
+23:33:55 [trace] finish selection: 2.0,0 - 2.0,0
+23:33:55 [trace] finish selection: 2.0,0 - 2.0,0
+23:33:56 [trace] playSub() called
+23:33:56 [trace] goal: 1 goalRow: 0
+23:33:56 [trace] playSub() took 509µs
+23:33:56 [trace] finish selection: 2.0,6 - 2.0,6
+23:33:57 [trace] finish selection: 2.0,5 - 2.0,5
+23:33:57 [trace] finish selection: 2.0,4 - 2.0,4
+23:33:57 [trace] finish selection: 2.0,3 - 2.0,3
+23:33:57 [trace] finish selection: 2.0,2 - 2.0,2
+23:33:57 [trace] finish selection: 2.0,1 - 2.0,1
+23:33:57 [trace] playSub() called
+23:33:57 [trace] goal: 1 goalRow: 0
+23:33:57 [trace] audio is soft-locked (2)
+23:33:57 [trace] playSub() took 707µs
+23:34:00 [trace] finish selection: 2.0,8 - 2.0,8
+23:34:01 [trace] finish selection: 2.0,7 - 2.0,7
+23:34:01 [trace] finish selection: 2.0,6 - 2.0,6
+23:34:01 [trace] finish selection: 2.0,5 - 2.0,5
+23:34:01 [trace] finish selection: 2.0,4 - 2.0,4
+23:34:01 [trace] finish selection: 2.0,3 - 2.0,3
+23:34:01 [trace] finish selection: 2.0,2 - 2.0,2
+23:34:01 [trace] finish selection: 2.0,1 - 2.0,1
+23:34:05 [trace] finish selection: 2.0,0 - 2.0,0
+23:34:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:34:05 [trace] curFileName: 
+23:34:05 [debug] saving backup...
+23:34:05 [trace] writing file...
+23:34:05 [debug] backup saved.
+23:34:06 [trace] finish selection: 2.0,1 - 2.0,1
+23:34:07 [trace] playSub() called
+23:34:07 [trace] goal: 1 goalRow: 0
+23:34:07 [trace] playSub() took 521µs
+23:34:07 [trace] finish selection: 2.0,3 - 2.0,3
+23:34:07 [trace] finish selection: 2.0,2 - 2.0,2
+23:34:08 [trace] finish selection: 2.0,1 - 2.0,1
+23:34:08 [trace] playSub() called
+23:34:08 [trace] goal: 1 goalRow: 0
+23:34:08 [trace] playSub() took 604µs
+23:34:09 [trace] finish selection: 2.0,3 - 2.0,3
+23:34:10 [trace] finish selection: 2.0,10 - 2.0,10
+23:34:10 [trace] finish selection: 2.0,9 - 2.0,9
+23:34:10 [trace] finish selection: 2.0,8 - 2.0,8
+23:34:10 [trace] finish selection: 2.0,7 - 2.0,7
+23:34:10 [trace] finish selection: 2.0,6 - 2.0,6
+23:34:10 [trace] finish selection: 2.0,5 - 2.0,5
+23:34:11 [trace] finish selection: 2.0,4 - 2.0,4
+23:34:11 [trace] finish selection: 2.0,3 - 2.0,3
+23:34:11 [trace] finish selection: 2.0,2 - 2.0,2
+23:34:11 [trace] finish selection: 2.0,1 - 2.0,1
+23:34:12 [trace] playSub() called
+23:34:12 [trace] goal: 1 goalRow: 0
+23:34:12 [trace] playSub() took 560µs
+23:34:13 [trace] finish selection: 2.0,5 - 2.0,5
+23:34:13 [trace] finish selection: 2.0,7 - 2.0,7
+23:34:13 [trace] finish selection: 2.0,6 - 2.0,6
+23:34:13 [trace] finish selection: 2.0,5 - 2.0,5
+23:34:13 [trace] finish selection: 2.0,4 - 2.0,4
+23:34:13 [trace] finish selection: 2.0,3 - 2.0,3
+23:34:13 [trace] finish selection: 2.0,2 - 2.0,2
+23:34:14 [trace] finish selection: 2.0,1 - 2.0,1
+23:34:15 [trace] finish selection: 2.0,0 - 2.0,0
+23:34:15 [trace] finish selection: 1.6,0 - 1.6,0
+23:34:15 [trace] finish selection: 1.5,0 - 1.5,0
+23:34:15 [trace] finish selection: 1.4,0 - 1.4,0
+23:34:15 [trace] finish selection: 1.3,0 - 1.3,0
+23:34:16 [trace] finish selection: 1.2,0 - 1.2,0
+23:34:16 [trace] finish selection: 1.1,0 - 1.1,0
+23:34:16 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:17 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:17 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:17 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:17 [trace] playSub() called
+23:34:17 [trace] goal: 1 goalRow: 0
+23:34:17 [trace] playSub() took 515µs
+23:34:20 [trace] finish selection: 1.0,7 - 1.0,7
+23:34:20 [trace] finish selection: 1.1,7 - 1.1,7
+23:34:20 [trace] finish selection: 1.1,6 - 1.1,6
+23:34:20 [trace] finish selection: 1.1,5 - 1.1,5
+23:34:20 [trace] finish selection: 1.1,4 - 1.1,4
+23:34:20 [trace] finish selection: 1.1,3 - 1.1,3
+23:34:20 [trace] finish selection: 1.1,2 - 1.1,2
+23:34:20 [trace] finish selection: 1.1,1 - 1.1,1
+23:34:21 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:21 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:22 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:22 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:22 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:22 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:23 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:23 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:23 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:23 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:24 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:24 [trace] playSub() called
+23:34:24 [trace] goal: 1 goalRow: 0
+23:34:24 [trace] playSub() took 537µs
+23:34:25 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:25 [trace] finish selection: 1.0,6 - 1.0,6
+23:34:26 [trace] finish selection: 1.0,9 - 1.0,9
+23:34:26 [trace] finish selection: 1.0,8 - 1.0,8
+23:34:26 [trace] finish selection: 1.0,7 - 1.0,7
+23:34:26 [trace] finish selection: 1.0,6 - 1.0,6
+23:34:26 [trace] finish selection: 1.0,5 - 1.0,5
+23:34:26 [trace] finish selection: 1.0,4 - 1.0,4
+23:34:26 [trace] finish selection: 1.0,3 - 1.0,3
+23:34:26 [trace] finish selection: 1.0,2 - 1.0,2
+23:34:27 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:27 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:27 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:34:35 [trace] curFileName: 
+23:34:35 [debug] saving backup...
+23:34:35 [trace] writing file...
+23:34:35 [debug] backup saved.
+23:34:42 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:42 [trace] finish selection: 1.0,0 - 1.0,0
+23:34:42 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:43 [trace] finish selection: 1.1,1 - 1.1,1
+23:34:43 [trace] finish selection: 1.2,1 - 1.2,1
+23:34:43 [trace] finish selection: 1.3,1 - 1.3,1
+23:34:43 [trace] finish selection: 1.4,1 - 1.4,1
+23:34:43 [trace] finish selection: 1.4,0 - 1.4,0
+23:34:43 [trace] finish selection: 1.5,0 - 1.5,0
+23:34:44 [trace] finish selection: 1.6,0 - 1.6,0
+23:34:44 [trace] finish selection: 2.0,0 - 2.0,0
+23:34:44 [trace] playSub() called
+23:34:44 [trace] goal: 1 goalRow: 0
+23:34:44 [trace] playSub() took 517µs
+23:34:45 [trace] playSub() called
+23:34:45 [trace] goal: 1 goalRow: 0
+23:34:45 [trace] playSub() took 502µs
+23:34:45 [trace] finish selection: 2.0,4 - 2.0,4
+23:34:45 [trace] finish selection: 2.0,24 - 2.0,24
+23:34:46 [trace] playSub() called
+23:34:46 [trace] goal: 0 goalRow: 0
+23:34:46 [trace] playSub() took 134µs
+23:34:49 [trace] finish selection: 2.0,9 - 2.0,9
+23:34:49 [trace] finish selection: 2.0,8 - 2.0,8
+23:34:49 [trace] finish selection: 2.0,7 - 2.0,7
+23:34:49 [trace] finish selection: 2.0,6 - 2.0,6
+23:34:49 [trace] finish selection: 2.0,5 - 2.0,5
+23:34:49 [trace] finish selection: 2.0,4 - 2.0,4
+23:34:49 [trace] finish selection: 2.0,3 - 2.0,3
+23:34:49 [trace] finish selection: 2.0,2 - 2.0,2
+23:34:49 [trace] finish selection: 2.0,1 - 2.0,1
+23:34:50 [trace] finish selection: 1.6,1 - 1.6,1
+23:34:50 [trace] finish selection: 1.5,1 - 1.5,1
+23:34:50 [trace] finish selection: 1.4,1 - 1.4,1
+23:34:50 [trace] finish selection: 1.3,1 - 1.3,1
+23:34:50 [trace] finish selection: 1.2,1 - 1.2,1
+23:34:50 [trace] finish selection: 1.1,1 - 1.1,1
+23:34:50 [trace] finish selection: 1.0,1 - 1.0,1
+23:34:50 [trace] finish selection: 0.6,1 - 0.6,1
+23:34:50 [trace] playSub() called
+23:34:50 [trace] goal: 1 goalRow: 0
+23:34:50 [trace] playSub() took 546µs
+23:34:51 [trace] finish selection: 0.5,6 - 0.5,6
+23:34:51 [trace] finish selection: 0.5,5 - 0.5,5
+23:34:51 [trace] finish selection: 0.5,4 - 0.5,4
+23:34:51 [trace] finish selection: 0.5,3 - 0.5,3
+23:34:51 [trace] finish selection: 0.5,2 - 0.5,2
+23:34:52 [trace] finish selection: 0.5,1 - 0.5,1
+23:34:52 [trace] playSub() called
+23:34:52 [trace] goal: 1 goalRow: 0
+23:34:52 [trace] playSub() took 537µs
+23:34:53 [trace] finish selection: 0.5,9 - 0.5,9
+23:34:53 [trace] playSub() called
+23:34:53 [trace] goal: 1 goalRow: 0
+23:34:53 [trace] playSub() took 503µs
+23:34:54 [trace] playSub() called
+23:34:54 [trace] goal: 1 goalRow: 0
+23:34:54 [trace] playSub() took 450µs
+23:34:59 [trace] playSub() called
+23:34:59 [trace] goal: 0 goalRow: 0
+23:34:59 [trace] playSub() took 145µs
+23:35:04 [trace] end of orders reached
+23:35:04 [debug] last loop pos: 224 for a size of 512 and runLeftG of 73728
+23:35:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:35:05 [trace] curFileName: 
+23:35:05 [debug] saving backup...
+23:35:05 [trace] writing file...
+23:35:05 [debug] backup saved.
+23:35:08 [trace] end of orders reached
+23:35:09 [debug] last loop pos: 448 for a size of 512 and runLeftG of 16384
+23:35:10 [trace] playSub() called
+23:35:10 [trace] goal: 0 goalRow: 0
+23:35:10 [trace] playSub() took 128µs
+23:35:12 [trace] playSub() called
+23:35:12 [trace] goal: 0 goalRow: 0
+23:35:12 [trace] playSub() took 125µs
+23:35:13 [trace] finish selection: 0.5,6 - 0.5,6
+23:35:13 [trace] finish selection: 0.6,6 - 0.6,6
+23:35:13 [trace] finish selection: 1.0,6 - 1.0,6
+23:35:13 [trace] finish selection: 1.1,6 - 1.1,6
+23:35:15 [trace] playSub() called
+23:35:15 [trace] goal: 0 goalRow: 0
+23:35:15 [trace] playSub() took 271µs
+23:35:18 [trace] playSub() called
+23:35:18 [trace] goal: 0 goalRow: 0
+23:35:18 [trace] playSub() took 138µs
+23:35:18 [trace] finish selection: 1.2,8 - 1.2,8
+23:35:19 [trace] finish selection: 1.2,7 - 1.2,7
+23:35:19 [trace] finish selection: 1.2,6 - 1.2,6
+23:35:19 [trace] finish selection: 1.2,5 - 1.2,5
+23:35:19 [trace] finish selection: 1.2,4 - 1.2,4
+23:35:20 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:21 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:21 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:21 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:22 [trace] playSub() called
+23:35:22 [trace] goal: 0 goalRow: 0
+23:35:22 [trace] playSub() took 125µs
+23:35:23 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:24 [trace] finish selection: 1.2,19 - 1.2,19
+23:35:24 [trace] finish selection: 1.2,18 - 1.2,18
+23:35:24 [trace] finish selection: 1.2,17 - 1.2,17
+23:35:24 [trace] finish selection: 1.2,16 - 1.2,16
+23:35:24 [trace] finish selection: 1.2,15 - 1.2,15
+23:35:24 [trace] finish selection: 1.2,14 - 1.2,14
+23:35:24 [trace] finish selection: 1.2,13 - 1.2,13
+23:35:24 [trace] finish selection: 1.2,12 - 1.2,12
+23:35:24 [trace] finish selection: 1.2,11 - 1.2,11
+23:35:24 [trace] finish selection: 1.2,10 - 1.2,10
+23:35:24 [trace] finish selection: 1.2,9 - 1.2,9
+23:35:24 [trace] finish selection: 1.2,8 - 1.2,8
+23:35:24 [trace] finish selection: 1.2,7 - 1.2,7
+23:35:24 [trace] finish selection: 1.3,7 - 1.3,7
+23:35:24 [trace] finish selection: 1.4,7 - 1.4,7
+23:35:24 [trace] finish selection: 1.4,6 - 1.4,6
+23:35:25 [trace] finish selection: 1.5,6 - 1.5,6
+23:35:25 [trace] finish selection: 1.5,5 - 1.5,5
+23:35:25 [trace] finish selection: 1.6,5 - 1.6,5
+23:35:25 [trace] finish selection: 1.6,4 - 1.6,4
+23:35:25 [trace] finish selection: 1.5,4 - 1.5,4
+23:35:25 [trace] finish selection: 1.5,4 - 1.5,4
+23:35:25 [trace] finish selection: 1.5,5 - 1.5,5
+23:35:26 [trace] finish selection: 1.4,5 - 1.4,5
+23:35:26 [trace] finish selection: 1.4,4 - 1.4,4
+23:35:27 [trace] finish selection: 1.3,4 - 1.3,4
+23:35:27 [trace] playSub() called
+23:35:27 [trace] goal: 0 goalRow: 0
+23:35:27 [trace] playSub() took 140µs
+23:35:28 [trace] playSub() called
+23:35:28 [trace] goal: 0 goalRow: 0
+23:35:28 [trace] playSub() took 192µs
+23:35:29 [trace] finish selection: 1.2,17 - 1.2,17
+23:35:29 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:30 [trace] playSub() called
+23:35:30 [trace] goal: 0 goalRow: 0
+23:35:30 [trace] playSub() took 139µs
+23:35:31 [trace] playSub() called
+23:35:31 [trace] goal: 0 goalRow: 0
+23:35:31 [trace] playSub() took 122µs
+23:35:32 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:32 [trace] finish selection: 1.2,2 - 1.2,2
+23:35:32 [trace] finish selection: 1.1,2 - 1.1,2
+23:35:32 [trace] finish selection: 1.1,1 - 1.1,1
+23:35:32 [trace] finish selection: 1.0,1 - 1.0,1
+23:35:32 [trace] finish selection: 1.0,0 - 1.0,0
+23:35:33 [trace] finish selection: 1.0,1 - 1.0,1
+23:35:34 [trace] finish selection: 1.0,0 - 1.0,0
+23:35:35 [trace] finish selection: 1.0,1 - 1.0,1
+23:35:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:35:35 [trace] curFileName: 
+23:35:35 [debug] saving backup...
+23:35:35 [trace] writing file...
+23:35:35 [debug] backup saved.
+23:35:35 [trace] finish selection: 1.0,0 - 1.0,0
+23:35:36 [trace] finish selection: 1.0,1 - 1.0,1
+23:35:36 [trace] playSub() called
+23:35:36 [trace] goal: 0 goalRow: 0
+23:35:36 [trace] playSub() took 150µs
+23:35:36 [trace] finish selection: 1.0,4 - 1.0,4
+23:35:36 [trace] finish selection: 1.0,3 - 1.0,3
+23:35:37 [trace] finish selection: 1.0,2 - 1.0,2
+23:35:37 [trace] finish selection: 1.0,1 - 1.0,1
+23:35:38 [trace] finish selection: 1.0,0 - 1.0,0
+23:35:39 [trace] finish selection: 1.1,0 - 1.1,0
+23:35:39 [trace] finish selection: 1.1,1 - 1.1,1
+23:35:40 [trace] finish selection: 1.0,1 - 1.0,1
+23:35:40 [trace] finish selection: 1.0,0 - 1.0,0
+23:35:40 [trace] finish selection: 1.0,0 - 1.0,0
+23:35:40 [trace] playSub() called
+23:35:40 [trace] goal: 0 goalRow: 0
+23:35:40 [trace] playSub() took 130µs
+23:35:44 [trace] playSub() called
+23:35:44 [trace] goal: 1 goalRow: 0
+23:35:44 [trace] playSub() took 539µs
+23:35:44 [trace] finish selection: 1.0,7 - 1.0,7
+23:35:44 [trace] finish selection: 1.0,6 - 1.0,6
+23:35:45 [trace] finish selection: 1.1,6 - 1.1,6
+23:35:45 [trace] finish selection: 1.1,5 - 1.1,5
+23:35:46 [trace] finish selection: 1.1,4 - 1.1,4
+23:35:46 [trace] finish selection: 1.1,3 - 1.1,3
+23:35:46 [trace] finish selection: 1.1,2 - 1.1,2
+23:35:46 [trace] finish selection: 1.1,1 - 1.1,1
+23:35:46 [trace] finish selection: 1.1,0 - 1.1,0
+23:35:46 [trace] finish selection: 1.1,35 - 1.1,35
+23:35:46 [trace] finish selection: 1.1,34 - 1.1,34
+23:35:46 [trace] playSub() called
+23:35:46 [trace] goal: 0 goalRow: 0
+23:35:46 [trace] playSub() took 120µs
+23:35:48 [trace] finish selection: 1.1,24 - 1.1,24
+23:35:49 [trace] finish selection: 1.2,5 - 1.2,5
+23:35:49 [trace] finish selection: 1.2,4 - 1.2,4
+23:35:49 [trace] finish selection: 1.2,3 - 1.2,3
+23:35:49 [trace] finish selection: 1.2,2 - 1.2,2
+23:35:50 [trace] finish selection: 1.2,1 - 1.2,1
+23:35:50 [trace] finish selection: 1.2,0 - 1.2,0
+23:35:50 [trace] finish selection: 1.2,35 - 1.2,35
+23:35:50 [trace] finish selection: 1.2,34 - 1.2,34
+23:35:50 [trace] finish selection: 1.2,33 - 1.2,33
+23:35:50 [trace] finish selection: 1.2,32 - 1.2,32
+23:35:51 [trace] finish selection: 1.2,33 - 1.2,33
+23:35:51 [trace] finish selection: 1.2,34 - 1.2,34
+23:35:51 [trace] finish selection: 1.2,35 - 1.2,35
+23:35:51 [trace] finish selection: 1.2,0 - 1.2,0
+23:35:51 [trace] finish selection: 1.2,1 - 1.2,1
+23:35:51 [trace] finish selection: 1.2,2 - 1.2,2
+23:35:52 [trace] finish selection: 1.2,3 - 1.2,3
+23:35:52 [trace] finish selection: 1.2,2 - 1.2,2
+23:35:52 [trace] finish selection: 1.2,1 - 1.2,1
+23:35:52 [trace] finish selection: 1.2,0 - 1.2,0
+23:35:53 [trace] finish selection: 1.2,35 - 1.2,35
+23:35:53 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:53 [trace] playSub() called
+23:35:53 [trace] goal: 0 goalRow: 0
+23:35:53 [trace] playSub() took 159µs
+23:35:57 [trace] finish selection: 1.2,0 - 1.2,35
+23:35:58 [trace] playSub() called
+23:35:58 [trace] goal: 1 goalRow: 0
+23:35:58 [trace] playSub() took 532µs
+23:35:59 [trace] playSub() called
+23:35:59 [trace] goal: 1 goalRow: 0
+23:35:59 [trace] playSub() took 511µs
+23:36:01 [trace] playSub() called
+23:36:01 [trace] goal: 1 goalRow: 0
+23:36:01 [trace] playSub() took 503µs
+23:36:03 [trace] finish selection: 1.2,0 - 1.2,35
+23:36:03 [trace] finish selection: 1.2,0 - 1.2,0
+23:36:03 [trace] playSub() called
+23:36:03 [trace] goal: 0 goalRow: 0
+23:36:03 [trace] playSub() took 134µs
+23:36:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:36:05 [trace] curFileName: 
+23:36:05 [debug] saving backup...
+23:36:05 [trace] writing file...
+23:36:05 [debug] backup saved.
+23:36:08 [trace] finish selection: 1.2,32 - 1.2,32
+23:36:09 [trace] finish selection: 1.2,31 - 1.2,31
+23:36:09 [trace] finish selection: 1.2,30 - 1.2,30
+23:36:09 [trace] finish selection: 1.2,29 - 1.2,29
+23:36:09 [trace] finish selection: 1.2,28 - 1.2,28
+23:36:09 [trace] finish selection: 1.2,27 - 1.2,27
+23:36:09 [trace] finish selection: 1.2,26 - 1.2,26
+23:36:09 [trace] finish selection: 1.2,25 - 1.2,25
+23:36:10 [trace] finish selection: 1.2,24 - 1.2,24
+23:36:10 [trace] finish selection: 1.2,23 - 1.2,23
+23:36:12 [trace] finish selection: 1.2,0 - 1.2,35
+23:36:12 [trace] finish selection: 1.2,0 - 1.2,35
+23:36:12 [trace] playSub() called
+23:36:12 [trace] goal: 1 goalRow: 0
+23:36:12 [trace] playSub() took 493µs
+23:36:15 [trace] playSub() called
+23:36:15 [trace] goal: 1 goalRow: 0
+23:36:15 [trace] playSub() took 520µs
+23:36:18 [trace] finish selection: 1.2,0 - 1.2,35
+23:36:18 [trace] finish selection: 1.2,24 - 1.2,24
+23:36:18 [trace] playSub() called
+23:36:18 [trace] goal: 1 goalRow: 23
+23:36:18 [trace] playSub() took 655µs
+23:36:19 [trace] finish selection: 1.2,26 - 1.2,26
+23:36:19 [trace] finish selection: 1.2,10 - 1.2,10
+23:36:20 [trace] finish selection: 1.2,9 - 1.2,9
+23:36:20 [trace] finish selection: 1.2,8 - 1.2,8
+23:36:20 [trace] finish selection: 1.2,7 - 1.2,7
+23:36:20 [trace] finish selection: 1.2,6 - 1.2,6
+23:36:20 [trace] finish selection: 1.2,5 - 1.2,5
+23:36:20 [trace] finish selection: 1.2,4 - 1.2,4
+23:36:21 [trace] finish selection: 1.2,3 - 1.2,3
+23:36:21 [trace] finish selection: 1.2,2 - 1.2,2
+23:36:21 [trace] finish selection: 1.2,1 - 1.2,1
+23:36:23 [trace] end of orders reached
+23:36:23 [debug] last loop pos: 308 for a size of 512 and runLeftG of 52224
+23:36:28 [trace] playSub() called
+23:36:28 [trace] goal: 0 goalRow: 0
+23:36:28 [trace] playSub() took 161µs
+23:36:30 [trace] playSub() called
+23:36:30 [trace] goal: 0 goalRow: 0
+23:36:30 [trace] playSub() took 137µs
+23:36:35 [trace] playSub() called
+23:36:35 [trace] goal: 1 goalRow: 0
+23:36:35 [trace] playSub() took 618µs
+23:36:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:36:35 [trace] curFileName: 
+23:36:35 [debug] saving backup...
+23:36:35 [trace] writing file...
+23:36:35 [debug] backup saved.
+23:36:36 [trace] finish selection: 1.2,11 - 1.2,11
+23:36:36 [trace] finish selection: 1.2,31 - 1.2,31
+23:36:36 [trace] playSub() called
+23:36:36 [trace] goal: 0 goalRow: 0
+23:36:36 [trace] playSub() took 137µs
+23:36:38 [trace] finish selection: 1.2,21 - 1.2,21
+23:36:38 [trace] finish selection: 1.1,26 - 1.1,26
+23:36:38 [trace] finish selection: 1.0,27 - 1.0,27
+23:36:38 [trace] finish selection: 0.6,27 - 0.6,27
+23:36:41 [trace] playSub() called
+23:36:41 [trace] goal: 1 goalRow: 0
+23:36:41 [trace] playSub() took 526µs
+23:36:44 [trace] end of orders reached
+23:36:44 [debug] last loop pos: 368 for a size of 512 and runLeftG of 36864
+23:36:46 [trace] finish selection: 0.5,0 - 0.5,0
+23:36:47 [trace] playSub() called
+23:36:47 [trace] goal: 1 goalRow: 0
+23:36:47 [trace] playSub() took 494µs
+23:36:50 [trace] finish selection: 0.6,32 - 0.6,32
+23:36:50 [trace] finish selection: 0.6,31 - 0.6,31
+23:36:50 [trace] finish selection: 0.6,30 - 0.6,30
+23:36:50 [trace] finish selection: 0.6,29 - 0.6,29
+23:36:50 [trace] finish selection: 0.6,28 - 0.6,28
+23:36:50 [trace] finish selection: 0.6,27 - 0.6,27
+23:36:50 [trace] finish selection: 0.6,26 - 0.6,26
+23:36:50 [trace] finish selection: 0.5,26 - 0.5,26
+23:36:51 [trace] finish selection: 0.5,25 - 0.5,25
+23:36:51 [trace] finish selection: 0.6,25 - 0.6,25
+23:36:51 [trace] finish selection: 1.0,25 - 1.0,25
+23:36:51 [trace] finish selection: 1.1,25 - 1.1,25
+23:36:51 [trace] finish selection: 1.2,25 - 1.2,25
+23:36:52 [trace] finish selection: 1.2,26 - 1.2,26
+23:36:52 [trace] finish selection: 1.2,27 - 1.2,27
+23:36:52 [trace] finish selection: 1.2,28 - 1.2,28
+23:36:57 [trace] finish selection: 1.2,27 - 1.2,27
+23:36:59 [trace] finish selection: 1.2,28 - 1.2,28
+23:36:59 [trace] finish selection: 1.2,29 - 1.2,29
+23:36:59 [trace] playSub() called
+23:36:59 [trace] goal: 1 goalRow: 0
+23:36:59 [trace] playSub() took 484µs
+23:37:02 [trace] finish selection: 1.2,30 - 1.2,30
+23:37:02 [trace] finish selection: 1.2,29 - 1.2,29
+23:37:02 [trace] finish selection: 1.2,28 - 1.2,28
+23:37:02 [trace] finish selection: 1.2,27 - 1.2,27
+23:37:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:37:05 [trace] curFileName: 
+23:37:05 [debug] saving backup...
+23:37:05 [trace] writing file...
+23:37:05 [debug] backup saved.
+23:37:06 [trace] finish selection: 0.6,22 - 1.2,24
+23:37:07 [trace] finish selection: 1.2,23 - 1.2,23
+23:37:08 [trace] finish selection: 1.2,23 - 1.2,28
+23:37:14 [trace] copy: org.tildearrow.furnace - Pattern Data (181)
+2
+..|
+..|
+..|
+..|
+..|
+..|
+23:37:14 [trace] finish selection: 0.2,20 - 0.2,25
+23:37:14 [trace] finish selection: 1.2,28 - 1.2,28
+23:37:15 [trace] finish selection: 1.2,28 - 1.2,28
+23:37:15 [trace] finish selection: 1.3,28 - 1.3,28
+23:37:16 [trace] finish selection: 1.2,28 - 1.2,28
+23:37:16 [trace] finish selection: 1.2,29 - 1.2,29
+23:37:17 [trace] finish selection: 1.2,28 - 1.2,28
+23:37:17 [trace] finish selection: 1.3,28 - 1.3,28
+23:37:17 [trace] finish selection: 1.3,28 - 1.3,28
+23:37:17 [trace] finish selection: 1.3,29 - 1.3,29
+23:37:17 [trace] finish selection: 1.2,29 - 1.2,29
+23:37:17 [trace] finish selection: 1.2,30 - 1.2,30
+23:37:17 [trace] finish selection: 1.2,29 - 1.2,29
+23:37:17 [trace] finish selection: 1.2,28 - 1.2,28
+23:37:18 [trace] playSub() called
+23:37:18 [trace] goal: 1 goalRow: 0
+23:37:18 [trace] audio is soft-locked (3)
+23:37:18 [trace] playSub() took 486µs
+23:37:20 [trace] finish selection: 1.2,30 - 1.2,30
+23:37:20 [trace] finish selection: 1.2,29 - 1.2,29
+23:37:20 [trace] finish selection: 1.2,29 - 1.2,29
+23:37:21 [trace] playSub() called
+23:37:21 [trace] goal: 1 goalRow: 0
+23:37:21 [trace] playSub() took 563µs
+23:37:22 [trace] finish selection: 1.2,12 - 1.2,12
+23:37:22 [trace] finish selection: 1.2,32 - 1.2,32
+23:37:22 [trace] playSub() called
+23:37:22 [trace] goal: 0 goalRow: 0
+23:37:22 [trace] playSub() took 128µs
+23:37:23 [trace] finish selection: 1.2,8 - 1.2,8
+23:37:23 [trace] finish selection: 1.2,7 - 1.2,7
+23:37:23 [trace] finish selection: 1.2,6 - 1.2,6
+23:37:23 [trace] finish selection: 1.2,5 - 1.2,5
+23:37:23 [trace] finish selection: 1.2,4 - 1.2,4
+23:37:24 [trace] finish selection: 1.2,3 - 1.2,3
+23:37:24 [trace] finish selection: 1.2,2 - 1.2,2
+23:37:24 [trace] finish selection: 1.2,1 - 1.2,1
+23:37:24 [trace] playSub() called
+23:37:24 [trace] goal: 0 goalRow: 0
+23:37:24 [trace] playSub() took 156µs
+23:37:32 [trace] finish selection: 1.2,1 - 1.2,1
+23:37:32 [trace] finish selection: 1.2,0 - 1.2,0
+23:37:32 [trace] finish selection: 1.1,0 - 1.1,0
+23:37:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:37:35 [trace] curFileName: 
+23:37:35 [debug] saving backup...
+23:37:35 [trace] writing file...
+23:37:35 [debug] backup saved.
+23:37:48 [trace] finish selection: 1.0,0 - 1.0,0
+23:37:49 [trace] finish selection: 1.0,1 - 1.0,1
+23:37:49 [trace] finish selection: 1.0,0 - 1.0,0
+23:37:51 [trace] finish selection: 1.1,0 - 1.1,0
+23:37:51 [trace] finish selection: 1.2,0 - 1.2,0
+23:37:51 [trace] finish selection: 1.3,0 - 1.3,0
+23:37:51 [trace] finish selection: 1.4,0 - 1.4,0
+23:37:51 [trace] finish selection: 1.5,0 - 1.5,0
+23:37:52 [trace] finish selection: 1.6,0 - 1.6,0
+23:37:52 [trace] finish selection: 2.0,0 - 2.0,0
+23:37:52 [trace] playSub() called
+23:37:52 [trace] goal: 0 goalRow: 0
+23:37:52 [trace] playSub() took 167µs
+23:37:54 [trace] playSub() called
+23:37:54 [trace] goal: 0 goalRow: 0
+23:37:54 [trace] playSub() took 140µs
+23:37:55 [trace] finish selection: 2.0,4 - 2.0,4
+23:37:55 [trace] finish selection: 2.0,3 - 2.0,3
+23:37:55 [trace] finish selection: 2.0,2 - 2.0,2
+23:37:56 [trace] finish selection: 2.0,1 - 2.0,1
+23:37:56 [trace] playSub() called
+23:37:56 [trace] goal: 0 goalRow: 0
+23:37:56 [trace] playSub() took 135µs
+23:37:57 [trace] playSub() called
+23:37:57 [trace] goal: 0 goalRow: 0
+23:37:57 [trace] playSub() took 138µs
+23:37:58 [trace] finish selection: 2.0,5 - 2.0,5
+23:37:58 [trace] finish selection: 2.0,4 - 2.0,4
+23:37:58 [trace] finish selection: 2.0,3 - 2.0,3
+23:37:58 [trace] finish selection: 2.0,2 - 2.0,2
+23:37:59 [trace] finish selection: 2.0,1 - 2.0,1
+23:37:59 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:00 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:00 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:01 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:01 [trace] playSub() called
+23:38:01 [trace] goal: 0 goalRow: 0
+23:38:01 [trace] playSub() took 134µs
+23:38:04 [trace] finish selection: 2.0,33 - 2.0,33
+23:38:04 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:05 [trace] playSub() called
+23:38:05 [trace] goal: 0 goalRow: 0
+23:38:05 [trace] playSub() took 124µs
+23:38:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:38:05 [trace] curFileName: 
+23:38:05 [debug] saving backup...
+23:38:05 [trace] writing file...
+23:38:05 [debug] backup saved.
+23:38:08 [trace] finish selection: 2.0,3 - 2.0,3
+23:38:08 [trace] finish selection: 2.0,2 - 2.0,2
+23:38:08 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:09 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:09 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:09 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:10 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:10 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:11 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:11 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:11 [trace] playSub() called
+23:38:11 [trace] goal: 1 goalRow: 0
+23:38:11 [trace] playSub() took 506µs
+23:38:12 [trace] finish selection: 2.0,9 - 2.0,9
+23:38:13 [trace] playSub() called
+23:38:13 [trace] goal: 0 goalRow: 0
+23:38:13 [trace] playSub() took 130µs
+23:38:16 [trace] finish selection: 2.0,20 - 2.0,20
+23:38:17 [trace] finish selection: 2.0,19 - 2.0,19
+23:38:17 [trace] finish selection: 2.0,18 - 2.0,18
+23:38:17 [trace] finish selection: 2.0,17 - 2.0,17
+23:38:17 [trace] finish selection: 2.0,16 - 2.0,16
+23:38:17 [trace] finish selection: 2.0,15 - 2.0,15
+23:38:17 [trace] finish selection: 2.0,14 - 2.0,14
+23:38:17 [trace] finish selection: 2.0,13 - 2.0,13
+23:38:17 [trace] finish selection: 2.0,12 - 2.0,12
+23:38:17 [trace] finish selection: 2.0,11 - 2.0,11
+23:38:17 [trace] finish selection: 2.0,10 - 2.0,10
+23:38:17 [trace] finish selection: 2.0,9 - 2.0,9
+23:38:17 [trace] finish selection: 2.0,8 - 2.0,8
+23:38:17 [trace] finish selection: 2.0,7 - 2.0,7
+23:38:17 [trace] finish selection: 2.0,6 - 2.0,6
+23:38:17 [trace] finish selection: 2.0,5 - 2.0,5
+23:38:17 [trace] finish selection: 2.0,4 - 2.0,4
+23:38:17 [trace] finish selection: 2.0,3 - 2.0,3
+23:38:17 [trace] finish selection: 2.0,2 - 2.0,2
+23:38:18 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:18 [trace] playSub() called
+23:38:18 [trace] goal: 1 goalRow: 0
+23:38:18 [trace] playSub() took 510µs
+23:38:20 [trace] finish selection: 2.0,2 - 2.0,2
+23:38:20 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:20 [trace] finish selection: 2.0,0 - 2.0,0
+23:38:20 [trace] finish selection: 2.0,35 - 2.0,35
+23:38:20 [trace] finish selection: 2.0,34 - 2.0,34
+23:38:20 [trace] playSub() called
+23:38:20 [trace] goal: 0 goalRow: 0
+23:38:20 [trace] playSub() took 196µs
+23:38:20 [trace] finish selection: 2.0,2 - 2.0,2
+23:38:21 [trace] finish selection: 2.0,1 - 2.0,1
+23:38:21 [trace] finish selection: 1.6,1 - 1.6,1
+23:38:21 [trace] finish selection: 1.5,1 - 1.5,1
+23:38:21 [trace] finish selection: 1.4,1 - 1.4,1
+23:38:21 [trace] finish selection: 1.3,1 - 1.3,1
+23:38:21 [trace] finish selection: 1.2,1 - 1.2,1
+23:38:21 [trace] finish selection: 1.1,1 - 1.1,1
+23:38:21 [trace] finish selection: 1.0,1 - 1.0,1
+23:38:21 [trace] finish selection: 0.6,1 - 0.6,1
+23:38:21 [trace] finish selection: 0.6,2 - 0.6,2
+23:38:22 [trace] finish selection: 0.5,2 - 0.5,2
+23:38:22 [trace] finish selection: 0.5,1 - 0.5,1
+23:38:22 [trace] finish selection: 0.5,0 - 0.5,0
+23:38:22 [trace] finish selection: 0.5,0 - 0.5,0
+23:38:23 [trace] finish selection: 0.5,1 - 0.5,1
+23:38:23 [trace] playSub() called
+23:38:23 [trace] goal: 0 goalRow: 0
+23:38:23 [trace] playSub() took 138µs
+23:38:25 [trace] finish selection: 0.5,2 - 0.5,2
+23:38:25 [trace] finish selection: 0.5,1 - 0.5,1
+23:38:25 [trace] finish selection: 0.5,0 - 0.5,0
+23:38:27 [trace] playSub() called
+23:38:27 [trace] goal: 0 goalRow: 0
+23:38:27 [trace] playSub() took 137µs
+23:38:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:38:35 [trace] curFileName: 
+23:38:35 [debug] saving backup...
+23:38:35 [trace] writing file...
+23:38:35 [debug] backup saved.
+23:38:39 [trace] finish selection: 1.1,34 - 1.1,34
+23:38:40 [trace] finish selection: 0.2,33 - 0.2,33
+23:38:41 [trace] finish selection: 1.4,3 - 1.4,3
+23:38:46 [trace] finish selection: 1.0,0 - 1.0,0
+23:38:47 [trace] finish selection: 1.0,0 - 1.0,0
+23:38:49 [trace] finish selection: 1.0,1 - 1.0,1
+23:38:49 [trace] finish selection: 1.0,0 - 1.0,0
+23:38:49 [trace] finish selection: 1.0,35 - 1.0,35
+23:38:49 [trace] finish selection: 1.0,0 - 1.0,0
+23:38:50 [trace] finish selection: 1.0,1 - 1.0,1
+23:38:50 [trace] finish selection: 1.0,2 - 1.0,2
+23:38:50 [trace] finish selection: 1.0,3 - 1.0,3
+23:38:51 [trace] finish selection: 1.0,2 - 1.0,2
+23:38:51 [trace] finish selection: 1.0,1 - 1.0,1
+23:38:51 [trace] finish selection: 1.1,1 - 1.1,1
+23:38:51 [trace] finish selection: 1.2,1 - 1.2,1
+23:38:52 [trace] finish selection: 1.2,0 - 1.2,0
+23:38:52 [trace] finish selection: 1.2,1 - 1.2,1
+23:38:52 [trace] finish selection: 1.2,2 - 1.2,2
+23:38:52 [trace] finish selection: 1.2,3 - 1.2,3
+23:38:52 [trace] finish selection: 1.2,2 - 1.2,2
+23:38:53 [trace] finish selection: 1.2,1 - 1.2,1
+23:38:53 [trace] finish selection: 1.3,1 - 1.3,1
+23:38:53 [trace] finish selection: 1.3,0 - 1.3,0
+23:38:53 [trace] playSub() called
+23:38:53 [trace] goal: 1 goalRow: 0
+23:38:53 [trace] playSub() took 523µs
+23:38:56 [trace] finish selection: 1.3,4 - 1.3,4
+23:38:57 [trace] finish selection: 1.3,3 - 1.3,3
+23:38:57 [trace] finish selection: 1.3,2 - 1.3,2
+23:38:57 [trace] finish selection: 1.3,1 - 1.3,1
+23:38:57 [trace] finish selection: 1.2,1 - 1.2,1
+23:38:57 [trace] finish selection: 1.1,1 - 1.1,1
+23:39:01 [trace] finish selection: 1.1,2 - 1.1,2
+23:39:01 [trace] finish selection: 1.0,2 - 1.0,2
+23:39:01 [trace] finish selection: 1.0,1 - 1.0,1
+23:39:01 [trace] finish selection: 0.6,1 - 0.6,1
+23:39:01 [trace] finish selection: 0.6,0 - 0.6,0
+23:39:01 [trace] playSub() called
+23:39:01 [trace] goal: 1 goalRow: 0
+23:39:01 [trace] playSub() took 621µs
+23:39:02 [trace] finish selection: 0.6,4 - 0.6,4
+23:39:02 [trace] finish selection: 0.5,9 - 0.5,9
+23:39:02 [trace] finish selection: 0.4,9 - 0.4,9
+23:39:02 [trace] finish selection: 0.3,13 - 0.3,13
+23:39:04 [trace] finish selection: 0.2,5 - 0.2,5
+23:39:05 [trace] finish selection: 0.2,4 - 0.2,4
+23:39:05 [trace] finish selection: 0.2,3 - 0.2,3
+23:39:05 [trace] finish selection: 0.1,3 - 0.1,3
+23:39:05 [trace] finish selection: 0.1,2 - 0.1,2
+23:39:05 [trace] finish selection: 0.0,2 - 0.0,2
+23:39:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:39:05 [trace] curFileName: 
+23:39:05 [debug] saving backup...
+23:39:05 [trace] writing file...
+23:39:05 [debug] backup saved.
+23:39:05 [trace] finish selection: 0.0,1 - 0.0,1
+23:39:05 [trace] finish selection: 0.0,0 - 0.0,0
+23:39:06 [trace] finish selection: 0.0,1 - 0.0,1
+23:39:06 [trace] finish selection: 0.0,0 - 0.0,0
+23:39:07 [trace] finish selection: 0.0,1 - 0.0,1
+23:39:07 [trace] finish selection: 0.0,0 - 0.0,0
+23:39:08 [trace] finish selection: 0.0,1 - 0.0,1
+23:39:08 [trace] finish selection: 0.0,0 - 0.0,0
+23:39:08 [trace] playSub() called
+23:39:08 [trace] goal: 2 goalRow: 0
+23:39:08 [trace] playSub() took 957µs
+23:39:08 [trace] finish selection: 0.0,3 - 0.0,3
+23:39:10 [trace] finish selection: 0.0,2 - 0.0,2
+23:39:10 [trace] playSub() called
+23:39:10 [trace] goal: 2 goalRow: 0
+23:39:10 [trace] playSub() took 797µs
+23:39:11 [trace] finish selection: 0.0,4 - 0.0,4
+23:39:12 [trace] playSub() called
+23:39:12 [trace] goal: 2 goalRow: 0
+23:39:12 [trace] playSub() took 828µs
+23:39:13 [trace] finish selection: 0.0,6 - 0.0,6
+23:39:13 [trace] finish selection: 0.0,5 - 0.0,5
+23:39:13 [trace] finish selection: 0.0,4 - 0.0,4
+23:39:13 [trace] playSub() called
+23:39:13 [trace] goal: 2 goalRow: 0
+23:39:13 [trace] playSub() took 888µs
+23:39:14 [trace] finish selection: 0.0,11 - 0.0,11
+23:39:14 [trace] finish selection: 0.0,10 - 0.0,10
+23:39:14 [trace] finish selection: 0.0,9 - 0.0,9
+23:39:14 [trace] finish selection: 0.0,8 - 0.0,8
+23:39:15 [trace] finish selection: 0.0,7 - 0.0,7
+23:39:15 [trace] finish selection: 0.1,7 - 0.1,7
+23:39:15 [trace] finish selection: 0.1,6 - 0.1,6
+23:39:15 [trace] finish selection: 0.1,5 - 0.1,5
+23:39:15 [trace] finish selection: 0.1,4 - 0.1,4
+23:39:15 [trace] finish selection: 0.1,3 - 0.1,3
+23:39:15 [trace] finish selection: 0.2,3 - 0.2,3
+23:39:15 [trace] finish selection: 0.2,2 - 0.2,2
+23:39:16 [trace] finish selection: 0.2,1 - 0.2,1
+23:39:16 [trace] finish selection: 0.2,0 - 0.2,0
+23:39:16 [trace] finish selection: 0.2,1 - 0.2,1
+23:39:16 [trace] finish selection: 0.2,2 - 0.2,2
+23:39:16 [trace] finish selection: 0.2,3 - 0.2,3
+23:39:17 [trace] finish selection: 0.2,4 - 0.2,4
+23:39:17 [trace] playSub() called
+23:39:17 [trace] goal: 2 goalRow: 0
+23:39:17 [trace] playSub() took 792µs
+23:39:18 [trace] finish selection: 0.2,13 - 0.2,13
+23:39:18 [trace] finish selection: 0.2,12 - 0.2,12
+23:39:18 [trace] finish selection: 0.2,11 - 0.2,11
+23:39:18 [trace] finish selection: 0.2,10 - 0.2,10
+23:39:19 [trace] finish selection: 0.2,9 - 0.2,9
+23:39:19 [trace] finish selection: 0.2,8 - 0.2,8
+23:39:19 [trace] finish selection: 0.3,8 - 0.3,8
+23:39:19 [trace] finish selection: 0.3,7 - 0.3,7
+23:39:19 [trace] finish selection: 0.3,6 - 0.3,6
+23:39:19 [trace] finish selection: 0.3,7 - 0.3,7
+23:39:20 [trace] finish selection: 0.3,8 - 0.3,8
+23:39:20 [trace] finish selection: 0.3,9 - 0.3,9
+23:39:20 [trace] finish selection: 0.3,10 - 0.3,10
+23:39:20 [trace] finish selection: 0.3,11 - 0.3,11
+23:39:20 [trace] finish selection: 0.3,12 - 0.3,12
+23:39:20 [trace] finish selection: 0.3,11 - 0.3,11
+23:39:21 [trace] playSub() called
+23:39:21 [trace] goal: 2 goalRow: 0
+23:39:21 [trace] playSub() took 809µs
+23:39:22 [trace] finish selection: 0.4,15 - 0.4,15
+23:39:22 [trace] finish selection: 0.3,15 - 0.3,15
+23:39:23 [trace] finish selection: 0.3,16 - 0.3,16
+23:39:23 [trace] finish selection: 0.3,17 - 0.3,17
+23:39:23 [trace] finish selection: 0.3,18 - 0.3,18
+23:39:23 [trace] finish selection: 0.4,18 - 0.4,18
+23:39:30 [trace] playSub() called
+23:39:30 [trace] goal: 2 goalRow: 0
+23:39:30 [trace] playSub() took 798µs
+23:39:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:39:35 [trace] curFileName: 
+23:39:35 [debug] saving backup...
+23:39:35 [trace] writing file...
+23:39:35 [debug] backup saved.
+23:39:47 [trace] playSub() called
+23:39:47 [trace] goal: 2 goalRow: 0
+23:39:47 [trace] playSub() took 860µs
+23:39:49 [trace] finish selection: 0.3,32 - 0.3,32
+23:39:50 [trace] finish selection: 0.2,32 - 0.2,32
+23:39:50 [trace] finish selection: 0.2,33 - 0.2,33
+23:39:50 [trace] finish selection: 0.1,33 - 0.1,33
+23:39:50 [trace] finish selection: 0.1,34 - 0.1,34
+23:39:50 [trace] finish selection: 0.0,34 - 0.0,34
+23:39:51 [trace] finish selection: 0.0,33 - 0.0,33
+23:39:53 [trace] finish selection: 0.0,32 - 0.0,32
+23:39:53 [trace] finish selection: 0.0,33 - 0.0,33
+23:39:54 [trace] finish selection: 0.0,34 - 0.0,34
+23:39:55 [trace] playSub() called
+23:39:55 [trace] goal: 2 goalRow: 0
+23:39:55 [trace] audio is soft-locked (4)
+23:39:55 [trace] playSub() took 1192µs
+23:39:57 [trace] finish selection: 0.0,34 - 0.0,34
+23:39:58 [trace] finish selection: 0.1,34 - 0.1,34
+23:39:58 [trace] finish selection: 0.1,33 - 0.1,33
+23:39:58 [trace] finish selection: 0.1,32 - 0.1,32
+23:39:58 [trace] finish selection: 0.2,32 - 0.2,32
+23:39:58 [trace] finish selection: 0.2,33 - 0.2,33
+23:39:59 [trace] finish selection: 0.2,34 - 0.2,34
+23:39:59 [trace] playSub() called
+23:39:59 [trace] goal: 2 goalRow: 0
+23:39:59 [trace] audio is soft-locked (5)
+23:39:59 [trace] playSub() took 937µs
+23:40:02 [trace] finish selection: 0.2,32 - 0.2,32
+23:40:02 [trace] finish selection: 0.2,31 - 0.2,31
+23:40:02 [trace] finish selection: 0.1,31 - 0.1,31
+23:40:02 [trace] finish selection: 0.0,31 - 0.0,31
+23:40:03 [trace] finish selection: 0.0,32 - 0.0,32
+23:40:04 [trace] finish selection: 0.0,33 - 0.0,33
+23:40:05 [trace] finish selection: 0.0,34 - 0.0,34
+23:40:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:40:05 [trace] curFileName: 
+23:40:05 [debug] saving backup...
+23:40:05 [trace] writing file...
+23:40:05 [debug] backup saved.
+23:40:06 [trace] playSub() called
+23:40:06 [trace] goal: 2 goalRow: 0
+23:40:06 [trace] playSub() took 802µs
+23:40:08 [trace] end of orders reached
+23:40:09 [trace] finish selection: 0.0,34 - 0.0,34
+23:40:09 [trace] finish selection: 0.0,33 - 0.0,33
+23:40:09 [trace] finish selection: 0.0,32 - 0.0,32
+23:40:10 [trace] finish selection: 0.0,33 - 0.0,33
+23:40:10 [trace] finish selection: 0.0,32 - 0.0,32
+23:40:10 [trace] playSub() called
+23:40:10 [trace] goal: 2 goalRow: 0
+23:40:10 [trace] audio is soft-locked (6)
+23:40:10 [trace] playSub() took 954µs
+23:40:13 [trace] finish selection: 0.0,34 - 0.0,34
+23:40:13 [trace] finish selection: 0.0,33 - 0.0,33
+23:40:27 [trace] finish selection: 0.0,32 - 0.0,32
+23:40:28 [trace] finish selection: 0.0,33 - 0.0,33
+23:40:28 [trace] finish selection: 0.0,34 - 0.0,34
+23:40:28 [trace] playSub() called
+23:40:28 [trace] goal: 2 goalRow: 0
+23:40:28 [trace] playSub() took 791µs
+23:40:31 [trace] end of orders reached
+23:40:31 [debug] last loop pos: 368 for a size of 512 and runLeftG of 36864
+23:40:31 [trace] finish selection: 0.0,0 - 0.0,0
+23:40:31 [trace] playSub() called
+23:40:31 [trace] goal: 2 goalRow: 0
+23:40:31 [trace] audio is soft-locked (7)
+23:40:31 [trace] playSub() took 934µs
+23:40:32 [trace] finish selection: 0.0,6 - 0.0,6
+23:40:32 [trace] finish selection: 0.0,22 - 0.0,22
+23:40:33 [trace] finish selection: 0.0,2 - 0.0,2
+23:40:34 [trace] playSub() called
+23:40:34 [trace] goal: 0 goalRow: 0
+23:40:34 [trace] playSub() took 241µs
+23:40:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:40:35 [trace] curFileName: 
+23:40:35 [debug] saving backup...
+23:40:35 [trace] writing file...
+23:40:35 [debug] backup saved.
+23:40:41 [trace] end of orders reached
+23:40:41 [debug] last loop pos: 80 for a size of 512 and runLeftG of 110592
+23:40:46 [trace] finish selection: 0.1,35 - 0.1,35
+23:40:57 [trace] finish selection: 0.0,0 - 0.0,0
+23:40:58 [trace] finish selection: 0.0,0 - 0.0,0
+23:40:59 [trace] finish selection: 0.0,1 - 0.0,1
+23:40:59 [trace] finish selection: 0.0,2 - 0.0,2
+23:41:00 [trace] finish selection: 0.0,3 - 0.0,3
+23:41:00 [trace] finish selection: 0.0,2 - 0.0,2
+23:41:00 [trace] finish selection: 0.0,3 - 0.0,3
+23:41:00 [trace] finish selection: 0.0,2 - 0.0,2
+23:41:01 [trace] finish selection: 0.0,3 - 0.0,3
+23:41:01 [trace] playSub() called
+23:41:01 [trace] goal: 3 goalRow: 0
+23:41:01 [trace] playSub() took 1113µs
+23:41:03 [trace] playSub() called
+23:41:03 [trace] goal: 3 goalRow: 0
+23:41:03 [trace] playSub() took 1128µs
+23:41:04 [trace] finish selection: 0.0,10 - 0.0,10
+23:41:04 [trace] finish selection: 0.0,9 - 0.0,9
+23:41:04 [trace] finish selection: 0.0,8 - 0.0,8
+23:41:04 [trace] finish selection: 0.0,7 - 0.0,7
+23:41:04 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:04 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:04 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:04 [trace] finish selection: 0.0,3 - 0.0,3
+23:41:04 [trace] finish selection: 0.0,2 - 0.0,2
+23:41:04 [trace] finish selection: 0.0,1 - 0.0,1
+23:41:04 [trace] finish selection: 0.1,1 - 0.1,1
+23:41:05 [trace] finish selection: 0.1,0 - 0.1,0
+23:41:05 [trace] finish selection: 0.2,0 - 0.2,0
+23:41:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:41:05 [trace] curFileName: 
+23:41:05 [debug] saving backup...
+23:41:05 [trace] writing file...
+23:41:05 [debug] backup saved.
+23:41:05 [trace] finish selection: 0.2,1 - 0.2,1
+23:41:05 [trace] finish selection: 0.2,2 - 0.2,2
+23:41:05 [trace] finish selection: 0.2,1 - 0.2,1
+23:41:05 [trace] finish selection: 0.2,0 - 0.2,0
+23:41:06 [trace] finish selection: 0.2,1 - 0.2,1
+23:41:06 [trace] finish selection: 0.2,1 - 0.2,1
+23:41:06 [trace] finish selection: 0.2,2 - 0.2,2
+23:41:06 [trace] finish selection: 0.1,2 - 0.1,2
+23:41:06 [trace] finish selection: 0.1,1 - 0.1,1
+23:41:07 [trace] finish selection: 0.0,1 - 0.0,1
+23:41:07 [trace] finish selection: 0.0,2 - 0.0,2
+23:41:07 [trace] finish selection: 0.0,2 - 0.0,2
+23:41:07 [trace] finish selection: 0.0,3 - 0.0,3
+23:41:07 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:08 [trace] finish selection: 0.0,3 - 0.0,3
+23:41:08 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:08 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:08 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:08 [trace] finish selection: 0.0,7 - 0.0,7
+23:41:09 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:09 [trace] finish selection: 0.0,7 - 0.0,7
+23:41:09 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:10 [trace] finish selection: 0.0,7 - 0.0,7
+23:41:10 [trace] finish selection: 0.0,27 - 0.0,27
+23:41:11 [trace] playSub() called
+23:41:11 [trace] goal: 2 goalRow: 0
+23:41:11 [trace] playSub() took 842µs
+23:41:14 [trace] finish selection: 0.0,7 - 0.0,7
+23:41:14 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:14 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:14 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:14 [trace] finish selection: 0.0,3 - 0.0,3
+23:41:14 [trace] finish selection: 0.0,2 - 0.0,2
+23:41:14 [trace] finish selection: 0.0,1 - 0.0,1
+23:41:14 [trace] finish selection: 0.0,0 - 0.0,0
+23:41:14 [trace] finish selection: 0.0,35 - 0.0,35
+23:41:14 [trace] finish selection: 0.1,35 - 0.1,35
+23:41:15 [trace] finish selection: 0.1,34 - 0.1,34
+23:41:15 [trace] finish selection: 0.2,34 - 0.2,34
+23:41:15 [trace] finish selection: 0.2,33 - 0.2,33
+23:41:15 [trace] finish selection: 0.3,33 - 0.3,33
+23:41:15 [trace] finish selection: 0.3,32 - 0.3,32
+23:41:15 [trace] finish selection: 0.3,33 - 0.3,33
+23:41:16 [trace] finish selection: 0.3,32 - 0.3,32
+23:41:16 [trace] finish selection: 0.4,32 - 0.4,32
+23:41:16 [trace] finish selection: 0.4,33 - 0.4,33
+23:41:16 [trace] playSub() called
+23:41:16 [trace] goal: 2 goalRow: 0
+23:41:16 [trace] playSub() took 942µs
+23:41:19 [trace] finish selection: 0.4,0 - 0.4,0
+23:41:19 [trace] finish selection: 0.4,20 - 0.4,20
+23:41:19 [trace] finish selection: 0.4,4 - 0.4,4
+23:41:19 [trace] finish selection: 0.4,24 - 0.4,24
+23:41:20 [trace] finish selection: 0.4,8 - 0.4,8
+23:41:21 [trace] playSub() called
+23:41:21 [trace] goal: 0 goalRow: 0
+23:41:21 [trace] playSub() took 158µs
+23:41:29 [trace] finish selection: 0.4,7 - 0.4,7
+23:41:29 [trace] finish selection: 0.4,6 - 0.4,6
+23:41:29 [trace] finish selection: 0.4,5 - 0.4,5
+23:41:29 [trace] finish selection: 0.3,5 - 0.3,5
+23:41:29 [trace] finish selection: 0.2,5 - 0.2,5
+23:41:30 [trace] finish selection: 0.1,5 - 0.1,5
+23:41:30 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:30 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:31 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:31 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:32 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:32 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:33 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:33 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:33 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:33 [trace] playSub() called
+23:41:33 [trace] goal: 3 goalRow: 0
+23:41:33 [trace] playSub() took 1134µs
+23:41:34 [trace] finish selection: 0.0,6 - 0.0,6
+23:41:34 [trace] finish selection: 0.0,5 - 0.0,5
+23:41:34 [trace] finish selection: 0.0,4 - 0.0,4
+23:41:34 [trace] finish selection: 0.1,4 - 0.1,4
+23:41:35 [trace] finish selection: 0.2,4 - 0.2,4
+23:41:35 [trace] playSub() called
+23:41:35 [trace] goal: 3 goalRow: 0
+23:41:35 [trace] playSub() took 1372µs
+23:41:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:41:35 [trace] curFileName: 
+23:41:35 [debug] saving backup...
+23:41:35 [trace] writing file...
+23:41:35 [debug] backup saved.
+23:41:36 [trace] playSub() called
+23:41:36 [trace] goal: 3 goalRow: 0
+23:41:36 [trace] playSub() took 1099µs
+23:41:37 [trace] finish selection: 0.2,7 - 0.2,7
+23:41:37 [trace] finish selection: 0.3,7 - 0.3,7
+23:41:37 [trace] finish selection: 0.4,7 - 0.4,7
+23:41:37 [trace] finish selection: 0.4,8 - 0.4,8
+23:41:38 [trace] finish selection: 0.3,8 - 0.3,8
+23:41:38 [trace] finish selection: 0.3,7 - 0.3,7
+23:41:39 [trace] finish selection: 0.3,6 - 0.3,6
+23:41:39 [trace] finish selection: 0.3,7 - 0.3,7
+23:41:40 [trace] finish selection: 0.3,8 - 0.3,8
+23:41:40 [trace] finish selection: 0.3,7 - 0.3,7
+23:41:40 [trace] finish selection: 0.4,7 - 0.4,7
+23:41:40 [trace] finish selection: 0.4,8 - 0.4,8
+23:41:41 [trace] playSub() called
+23:41:41 [trace] goal: 3 goalRow: 0
+23:41:41 [trace] playSub() took 1111µs
+23:41:42 [trace] finish selection: 0.4,7 - 0.4,7
+23:41:42 [trace] finish selection: 0.4,8 - 0.4,8
+23:41:42 [trace] finish selection: 0.3,8 - 0.3,8
+23:41:43 [trace] finish selection: 0.3,7 - 0.3,7
+23:41:43 [trace] finish selection: 0.3,6 - 0.3,6
+23:41:43 [trace] finish selection: 0.3,5 - 0.3,5
+23:41:43 [trace] finish selection: 0.3,4 - 0.3,4
+23:41:43 [trace] finish selection: 0.3,3 - 0.3,3
+23:41:43 [trace] finish selection: 0.3,2 - 0.3,2
+23:41:43 [trace] finish selection: 0.3,1 - 0.3,1
+23:41:43 [trace] finish selection: 0.3,0 - 0.3,0
+23:41:43 [trace] finish selection: 0.3,35 - 0.3,35
+23:41:43 [trace] finish selection: 0.3,34 - 0.3,34
+23:41:43 [trace] finish selection: 0.3,33 - 0.3,33
+23:41:43 [trace] finish selection: 0.3,32 - 0.3,32
+23:41:43 [trace] finish selection: 0.4,32 - 0.4,32
+23:41:44 [trace] playSub() called
+23:41:44 [trace] goal: 2 goalRow: 0
+23:41:44 [trace] playSub() took 799µs
+23:41:48 [trace] finish selection: 0.5,4 - 0.5,4
+23:41:48 [trace] finish selection: 0.5,5 - 0.5,5
+23:41:48 [trace] playSub() called
+23:41:48 [trace] audio is soft-locked (8)
+23:41:48 [trace] goal: 3 goalRow: 0
+23:41:48 [trace] playSub() took 1128µs
+23:41:49 [trace] finish selection: 0.4,13 - 0.4,13
+23:41:50 [trace] finish selection: 0.3,13 - 0.3,13
+23:41:50 [trace] finish selection: 0.3,12 - 0.3,12
+23:41:50 [trace] finish selection: 0.3,11 - 0.3,11
+23:41:50 [trace] finish selection: 0.3,10 - 0.3,10
+23:41:50 [trace] finish selection: 0.3,9 - 0.3,9
+23:41:50 [trace] finish selection: 0.3,8 - 0.3,8
+23:41:50 [trace] finish selection: 0.3,8 - 0.3,8
+23:41:51 [trace] finish selection: 0.3,9 - 0.3,9
+23:41:51 [trace] playSub() called
+23:41:51 [trace] goal: 3 goalRow: 0
+23:41:51 [trace] playSub() took 1123µs
+23:41:52 [trace] finish selection: 0.3,14 - 0.3,14
+23:41:52 [trace] finish selection: 0.3,13 - 0.3,13
+23:41:53 [trace] finish selection: 0.3,12 - 0.3,12
+23:41:53 [trace] finish selection: 0.3,13 - 0.3,13
+23:41:53 [trace] finish selection: 0.3,14 - 0.3,14
+23:41:53 [trace] finish selection: 0.3,15 - 0.3,15
+23:41:53 [trace] finish selection: 0.3,16 - 0.3,16
+23:41:53 [trace] finish selection: 0.3,17 - 0.3,17
+23:41:54 [trace] finish selection: 0.3,18 - 0.3,18
+23:41:56 [trace] finish selection: 0.4,18 - 0.4,18
+23:41:56 [trace] playSub() called
+23:41:56 [trace] goal: 3 goalRow: 0
+23:41:56 [trace] playSub() took 1112µs
+23:41:59 [trace] end of orders reached
+23:41:59 [debug] last loop pos: 368 for a size of 512 and runLeftG of 36864
+23:42:04 [trace] finish selection: 0.3,1 - 0.3,1
+23:42:04 [trace] finish selection: 0.3,21 - 0.3,21
+23:42:05 [trace] finish selection: 0.3,5 - 0.3,5
+23:42:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:42:05 [trace] curFileName: 
+23:42:05 [debug] saving backup...
+23:42:05 [trace] writing file...
+23:42:05 [debug] backup saved.
+23:42:05 [trace] playSub() called
+23:42:05 [trace] goal: 0 goalRow: 0
+23:42:05 [trace] playSub() took 134µs
+23:42:15 [trace] playSub() called
+23:42:15 [trace] goal: 2 goalRow: 0
+23:42:15 [trace] playSub() took 822µs
+23:42:16 [trace] finish selection: 0.3,6 - 0.3,6
+23:42:16 [trace] finish selection: 0.4,6 - 0.4,6
+23:42:16 [trace] finish selection: 0.5,6 - 0.5,6
+23:42:16 [trace] finish selection: 0.6,6 - 0.6,6
+23:42:16 [trace] finish selection: 0.6,5 - 0.6,5
+23:42:17 [trace] finish selection: 1.0,5 - 1.0,5
+23:42:17 [trace] finish selection: 1.0,4 - 1.0,4
+23:42:21 [trace] finish selection: 1.1,4 - 1.1,4
+23:42:21 [trace] finish selection: 1.0,4 - 1.0,4
+23:42:21 [trace] finish selection: 0.6,4 - 0.6,4
+23:42:21 [trace] finish selection: 0.5,4 - 0.5,4
+23:42:22 [trace] finish selection: 0.5,0 - 0.5,35
+23:42:22 [trace] finish selection: 0.0,0 - 0.6,35
+23:42:22 [trace] finish selection: 0.0,0 - 0.6,35
+23:42:22 [trace] finish selection: 0.6,4 - 0.6,4
+23:42:23 [trace] finish selection: 1.0,4 - 1.0,4
+23:42:23 [trace] playSub() called
+23:42:23 [trace] goal: 2 goalRow: 0
+23:42:23 [trace] audio is soft-locked (9)
+23:42:23 [trace] playSub() took 1175µs
+23:42:24 [trace] playSub() called
+23:42:24 [trace] goal: 2 goalRow: 0
+23:42:24 [trace] playSub() took 834µs
+23:42:25 [trace] playSub() called
+23:42:25 [trace] goal: 2 goalRow: 0
+23:42:25 [trace] audio is soft-locked (10)
+23:42:25 [trace] playSub() took 803µs
+23:42:26 [trace] finish selection: 1.0,6 - 1.0,6
+23:42:26 [trace] finish selection: 1.1,6 - 1.1,6
+23:42:27 [trace] finish selection: 1.2,6 - 1.2,6
+23:42:27 [trace] finish selection: 1.2,5 - 1.2,5
+23:42:29 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:29 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:29 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:30 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:30 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:30 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:30 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:31 [trace] playSub() called
+23:42:31 [trace] goal: 2 goalRow: 0
+23:42:31 [trace] playSub() took 808µs
+23:42:33 [trace] finish selection: 1.2,4 - 1.2,35
+23:42:33 [trace] finish selection: 1.2,29 - 1.2,29
+23:42:34 [trace] finish selection: 1.2,28 - 1.2,28
+23:42:34 [trace] finish selection: 1.2,27 - 1.2,27
+23:42:34 [trace] finish selection: 1.2,26 - 1.2,26
+23:42:34 [trace] finish selection: 1.2,25 - 1.2,25
+23:42:34 [trace] finish selection: 1.2,24 - 1.2,24
+23:42:34 [trace] finish selection: 1.2,23 - 1.2,23
+23:42:34 [trace] finish selection: 1.2,22 - 1.2,22
+23:42:34 [trace] finish selection: 1.2,21 - 1.2,21
+23:42:34 [trace] playSub() called
+23:42:34 [trace] goal: 2 goalRow: 0
+23:42:34 [trace] playSub() took 811µs
+23:42:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:42:35 [trace] curFileName: 
+23:42:35 [debug] saving backup...
+23:42:35 [trace] writing file...
+23:42:35 [debug] backup saved.
+23:42:35 [trace] finish selection: 1.2,2 - 1.2,2
+23:42:35 [trace] playSub() called
+23:42:35 [trace] goal: 1 goalRow: 0
+23:42:35 [trace] playSub() took 496µs
+23:42:36 [trace] playSub() called
+23:42:36 [trace] goal: 1 goalRow: 0
+23:42:36 [trace] playSub() took 484µs
+23:42:41 [trace] finish selection: 1.2,29 - 1.2,29
+23:42:41 [trace] finish selection: 1.2,28 - 1.2,28
+23:42:41 [trace] finish selection: 1.2,27 - 1.2,27
+23:42:41 [trace] finish selection: 1.2,26 - 1.2,26
+23:42:42 [trace] finish selection: 1.2,25 - 1.2,25
+23:42:42 [trace] finish selection: 1.2,24 - 1.2,24
+23:42:42 [trace] finish selection: 1.2,23 - 1.2,23
+23:42:43 [trace] finish selection: 1.2,22 - 1.2,22
+23:42:43 [trace] finish selection: 1.2,21 - 1.2,21
+23:42:43 [trace] finish selection: 1.2,20 - 1.2,20
+23:42:43 [trace] finish selection: 1.2,19 - 1.2,19
+23:42:43 [trace] finish selection: 1.2,18 - 1.2,18
+23:42:43 [trace] finish selection: 1.2,17 - 1.2,17
+23:42:43 [trace] finish selection: 1.2,16 - 1.2,16
+23:42:43 [trace] finish selection: 1.2,15 - 1.2,15
+23:42:43 [trace] finish selection: 1.2,14 - 1.2,14
+23:42:43 [trace] finish selection: 1.2,13 - 1.2,13
+23:42:43 [trace] finish selection: 1.2,12 - 1.2,12
+23:42:43 [trace] finish selection: 1.2,11 - 1.2,11
+23:42:43 [trace] finish selection: 1.2,10 - 1.2,10
+23:42:43 [trace] finish selection: 1.2,9 - 1.2,9
+23:42:43 [trace] finish selection: 1.2,8 - 1.2,8
+23:42:43 [trace] finish selection: 1.2,7 - 1.2,7
+23:42:43 [trace] finish selection: 1.2,6 - 1.2,6
+23:42:43 [trace] finish selection: 1.2,5 - 1.2,5
+23:42:43 [trace] finish selection: 1.2,4 - 1.2,4
+23:42:44 [trace] finish selection: 1.2,3 - 1.2,3
+23:42:44 [trace] finish selection: 1.2,2 - 1.2,2
+23:42:44 [trace] finish selection: 1.2,1 - 1.2,1
+23:42:45 [trace] finish selection: 1.3,1 - 1.3,1
+23:42:45 [trace] finish selection: 1.3,0 - 1.3,0
+23:42:45 [trace] finish selection: 1.4,0 - 1.4,0
+23:42:47 [trace] finish selection: 1.5,0 - 1.5,0
+23:42:47 [trace] finish selection: 1.5,20 - 1.5,20
+23:42:47 [trace] finish selection: 1.5,4 - 1.5,4
+23:42:47 [trace] finish selection: 1.5,24 - 1.5,24
+23:42:49 [trace] finish selection: 1.5,8 - 1.5,8
+23:42:49 [trace] finish selection: 1.5,7 - 1.5,7
+23:42:49 [trace] finish selection: 1.5,6 - 1.5,6
+23:42:49 [trace] finish selection: 1.5,5 - 1.5,5
+23:42:49 [trace] finish selection: 1.5,4 - 1.5,4
+23:42:49 [trace] finish selection: 1.5,3 - 1.5,3
+23:42:49 [trace] finish selection: 1.5,2 - 1.5,2
+23:42:49 [trace] finish selection: 1.5,1 - 1.5,1
+23:42:49 [trace] finish selection: 1.5,0 - 1.5,0
+23:42:50 [trace] finish selection: 1.4,0 - 1.4,0
+23:42:50 [trace] finish selection: 1.4,35 - 1.4,35
+23:42:51 [trace] finish selection: 1.4,0 - 1.4,0
+23:42:51 [trace] playSub() called
+23:42:51 [trace] goal: 0 goalRow: 0
+23:42:51 [trace] playSub() took 202µs
+23:42:55 [trace] playSub() called
+23:42:55 [trace] goal: 1 goalRow: 0
+23:42:55 [trace] playSub() took 487µs
+23:42:55 [trace] finish selection: 1.3,5 - 1.3,5
+23:42:56 [trace] finish selection: 1.3,4 - 1.3,4
+23:42:56 [trace] finish selection: 1.3,3 - 1.3,3
+23:42:56 [trace] finish selection: 1.3,2 - 1.3,2
+23:42:56 [trace] finish selection: 1.3,1 - 1.3,1
+23:42:56 [trace] finish selection: 1.3,0 - 1.3,0
+23:42:56 [trace] finish selection: 1.3,35 - 1.3,35
+23:42:56 [trace] finish selection: 1.3,34 - 1.3,34
+23:42:56 [trace] finish selection: 1.3,33 - 1.3,33
+23:42:56 [trace] finish selection: 1.3,32 - 1.3,32
+23:42:56 [trace] finish selection: 1.3,31 - 1.3,31
+23:42:56 [trace] finish selection: 1.2,31 - 1.2,31
+23:42:56 [trace] finish selection: 1.1,31 - 1.1,31
+23:42:56 [trace] finish selection: 1.0,31 - 1.0,31
+23:42:56 [trace] finish selection: 0.6,31 - 0.6,31
+23:42:56 [trace] finish selection: 0.5,31 - 0.5,31
+23:42:57 [trace] finish selection: 0.4,31 - 0.4,31
+23:42:57 [trace] finish selection: 0.3,31 - 0.3,31
+23:42:57 [trace] finish selection: 0.2,31 - 0.2,31
+23:42:57 [trace] finish selection: 0.1,31 - 0.1,31
+23:42:57 [trace] finish selection: 0.1,30 - 0.1,30
+23:42:57 [trace] finish selection: 0.2,30 - 0.2,30
+23:42:57 [trace] finish selection: 0.3,30 - 0.3,30
+23:42:57 [trace] finish selection: 0.3,30 - 0.3,30
+23:42:58 [trace] playSub() called
+23:42:58 [trace] goal: 0 goalRow: 0
+23:42:58 [trace] playSub() took 132µs
+23:43:00 [trace] finish selection: 0.3,1 - 0.3,1
+23:43:01 [trace] finish selection: 0.3,0 - 0.3,0
+23:43:01 [trace] finish selection: 0.3,35 - 0.3,35
+23:43:01 [trace] finish selection: 0.3,34 - 0.3,34
+23:43:01 [trace] finish selection: 0.3,33 - 0.3,33
+23:43:01 [trace] playSub() called
+23:43:01 [trace] goal: 0 goalRow: 0
+23:43:01 [trace] playSub() took 136µs
+23:43:02 [trace] finish selection: 0.3,10 - 0.3,10
+23:43:02 [trace] finish selection: 0.3,9 - 0.3,9
+23:43:02 [trace] finish selection: 0.3,8 - 0.3,8
+23:43:02 [trace] finish selection: 0.3,7 - 0.3,7
+23:43:02 [trace] finish selection: 0.3,6 - 0.3,6
+23:43:02 [trace] finish selection: 0.3,5 - 0.3,5
+23:43:02 [trace] finish selection: 0.3,4 - 0.3,4
+23:43:02 [trace] finish selection: 0.3,3 - 0.3,3
+23:43:02 [trace] finish selection: 0.3,2 - 0.3,2
+23:43:02 [trace] finish selection: 0.3,1 - 0.3,1
+23:43:03 [trace] finish selection: 0.4,1 - 0.4,1
+23:43:03 [trace] finish selection: 0.5,1 - 0.5,1
+23:43:03 [trace] finish selection: 0.6,1 - 0.6,1
+23:43:03 [trace] finish selection: 1.0,1 - 1.0,1
+23:43:03 [trace] finish selection: 1.1,1 - 1.1,1
+23:43:03 [trace] finish selection: 1.2,1 - 1.2,1
+23:43:03 [trace] finish selection: 1.3,1 - 1.3,1
+23:43:03 [trace] finish selection: 1.4,1 - 1.4,1
+23:43:03 [trace] finish selection: 1.5,1 - 1.5,1
+23:43:03 [trace] finish selection: 1.6,1 - 1.6,1
+23:43:04 [trace] finish selection: 2.0,1 - 2.0,1
+23:43:04 [trace] finish selection: 2.0,0 - 2.0,0
+23:43:04 [trace] finish selection: 1.6,0 - 1.6,0
+23:43:04 [trace] playSub() called
+23:43:04 [trace] goal: 0 goalRow: 0
+23:43:04 [trace] playSub() took 128µs
+23:43:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:43:05 [trace] curFileName: 
+23:43:05 [debug] saving backup...
+23:43:05 [trace] writing file...
+23:43:05 [debug] backup saved.
+23:43:07 [trace] finish selection: 1.5,34 - 1.5,34
+23:43:07 [trace] finish selection: 1.5,33 - 1.5,33
+23:43:07 [trace] finish selection: 1.5,32 - 1.5,32
+23:43:07 [trace] finish selection: 1.5,31 - 1.5,31
+23:43:07 [trace] finish selection: 1.5,30 - 1.5,30
+23:43:07 [trace] finish selection: 1.5,29 - 1.5,29
+23:43:07 [trace] finish selection: 1.5,28 - 1.5,28
+23:43:07 [trace] finish selection: 1.5,27 - 1.5,27
+23:43:07 [trace] finish selection: 1.5,26 - 1.5,26
+23:43:07 [trace] finish selection: 1.5,25 - 1.5,25
+23:43:07 [trace] finish selection: 1.5,24 - 1.5,24
+23:43:07 [trace] finish selection: 1.5,23 - 1.5,23
+23:43:07 [trace] finish selection: 1.5,22 - 1.5,22
+23:43:07 [trace] finish selection: 1.5,21 - 1.5,21
+23:43:07 [trace] finish selection: 1.5,20 - 1.5,20
+23:43:08 [trace] finish selection: 1.5,19 - 1.5,19
+23:43:08 [trace] finish selection: 1.5,18 - 1.5,18
+23:43:08 [trace] finish selection: 1.5,17 - 1.5,17
+23:43:08 [trace] finish selection: 1.5,16 - 1.5,16
+23:43:08 [trace] finish selection: 1.5,15 - 1.5,15
+23:43:08 [trace] finish selection: 1.5,14 - 1.5,14
+23:43:08 [trace] finish selection: 1.5,13 - 1.5,13
+23:43:08 [trace] finish selection: 1.5,12 - 1.5,12
+23:43:08 [trace] finish selection: 1.5,11 - 1.5,11
+23:43:08 [trace] finish selection: 1.5,10 - 1.5,10
+23:43:08 [trace] finish selection: 1.5,9 - 1.5,9
+23:43:08 [trace] finish selection: 1.5,8 - 1.5,8
+23:43:08 [trace] finish selection: 1.5,7 - 1.5,7
+23:43:08 [trace] finish selection: 1.5,6 - 1.5,6
+23:43:08 [trace] finish selection: 1.5,5 - 1.5,5
+23:43:09 [trace] finish selection: 1.5,4 - 1.5,4
+23:43:09 [trace] finish selection: 1.5,3 - 1.5,3
+23:43:09 [trace] finish selection: 1.5,2 - 1.5,2
+23:43:09 [trace] finish selection: 1.5,1 - 1.5,1
+23:43:09 [trace] finish selection: 1.4,1 - 1.4,1
+23:43:10 [trace] finish selection: 1.4,0 - 1.4,0
+23:43:10 [trace] playSub() called
+23:43:10 [trace] goal: 0 goalRow: 0
+23:43:10 [trace] playSub() took 135µs
+23:43:13 [trace] finish selection: 1.3,33 - 1.3,33
+23:43:13 [trace] finish selection: 1.3,32 - 1.3,32
+23:43:13 [trace] finish selection: 1.3,31 - 1.3,31
+23:43:13 [trace] finish selection: 1.3,30 - 1.3,30
+23:43:13 [trace] finish selection: 1.3,29 - 1.3,29
+23:43:13 [trace] finish selection: 1.3,28 - 1.3,28
+23:43:13 [trace] finish selection: 1.3,27 - 1.3,27
+23:43:13 [trace] finish selection: 1.3,26 - 1.3,26
+23:43:13 [trace] finish selection: 1.3,25 - 1.3,25
+23:43:13 [trace] finish selection: 1.3,24 - 1.3,24
+23:43:14 [trace] finish selection: 1.3,23 - 1.3,23
+23:43:14 [trace] finish selection: 1.2,23 - 1.2,23
+23:43:14 [trace] finish selection: 1.1,23 - 1.1,23
+23:43:14 [trace] finish selection: 1.0,23 - 1.0,23
+23:43:14 [trace] finish selection: 0.6,23 - 0.6,23
+23:43:14 [trace] finish selection: 0.5,23 - 0.5,23
+23:43:14 [trace] finish selection: 0.4,23 - 0.4,23
+23:43:14 [trace] finish selection: 0.4,24 - 0.4,24
+23:43:14 [trace] finish selection: 0.4,25 - 0.4,25
+23:43:14 [trace] finish selection: 0.4,26 - 0.4,26
+23:43:15 [trace] finish selection: 0.4,27 - 0.4,27
+23:43:15 [trace] finish selection: 0.4,28 - 0.4,28
+23:43:15 [trace] finish selection: 0.4,29 - 0.4,29
+23:43:15 [trace] finish selection: 0.4,30 - 0.4,30
+23:43:15 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:15 [trace] finish selection: 0.3,31 - 0.3,31
+23:43:15 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:16 [trace] finish selection: 0.4,30 - 0.4,30
+23:43:17 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:17 [trace] finish selection: 0.4,30 - 0.4,30
+23:43:17 [trace] playSub() called
+23:43:17 [trace] goal: 0 goalRow: 0
+23:43:17 [trace] playSub() took 138µs
+23:43:20 [trace] finish selection: 0.3,0 - 0.3,0
+23:43:20 [trace] finish selection: 0.3,35 - 0.3,35
+23:43:20 [trace] finish selection: 0.3,34 - 0.3,34
+23:43:20 [trace] finish selection: 0.3,33 - 0.3,33
+23:43:21 [trace] finish selection: 0.3,32 - 0.3,32
+23:43:21 [trace] finish selection: 0.3,31 - 0.3,31
+23:43:21 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:21 [trace] finish selection: 0.3,29 - 0.3,29
+23:43:22 [trace] finish selection: 0.3,28 - 0.3,28
+23:43:22 [trace] finish selection: 0.4,28 - 0.4,28
+23:43:22 [trace] finish selection: 0.4,27 - 0.4,27
+23:43:23 [trace] finish selection: 0.3,27 - 0.3,27
+23:43:23 [trace] finish selection: 0.4,27 - 0.4,27
+23:43:23 [trace] finish selection: 0.4,28 - 0.4,28
+23:43:23 [trace] finish selection: 0.3,29 - 0.3,29
+23:43:24 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:24 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:24 [trace] playSub() called
+23:43:24 [trace] goal: 0 goalRow: 0
+23:43:24 [trace] playSub() took 136µs
+23:43:26 [trace] playSub() called
+23:43:26 [trace] goal: 0 goalRow: 0
+23:43:26 [trace] playSub() took 136µs
+23:43:27 [trace] playSub() called
+23:43:27 [trace] goal: 0 goalRow: 0
+23:43:27 [trace] playSub() took 146µs
+23:43:28 [trace] finish selection: 0.3,5 - 0.3,5
+23:43:28 [trace] finish selection: 0.3,4 - 0.3,4
+23:43:28 [trace] finish selection: 0.3,3 - 0.3,3
+23:43:28 [trace] finish selection: 0.3,2 - 0.3,2
+23:43:28 [trace] finish selection: 0.3,1 - 0.3,1
+23:43:29 [trace] playSub() called
+23:43:29 [trace] goal: 0 goalRow: 0
+23:43:29 [trace] playSub() took 133µs
+23:43:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:43:35 [trace] curFileName: 
+23:43:35 [debug] saving backup...
+23:43:35 [trace] writing file...
+23:43:35 [debug] backup saved.
+23:43:42 [trace] finish selection: 0.3,32 - 0.3,32
+23:43:42 [trace] finish selection: 0.3,31 - 0.3,31
+23:43:42 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:42 [trace] finish selection: 0.3,29 - 0.3,29
+23:43:44 [trace] playSub() called
+23:43:44 [trace] goal: 0 goalRow: 0
+23:43:44 [trace] playSub() took 155µs
+23:43:47 [trace] finish selection: 0.3,33 - 0.3,33
+23:43:47 [trace] finish selection: 0.3,32 - 0.3,32
+23:43:47 [trace] finish selection: 0.3,31 - 0.3,31
+23:43:47 [trace] finish selection: 0.3,30 - 0.3,30
+23:43:47 [trace] finish selection: 0.3,29 - 0.3,29
+23:43:47 [trace] finish selection: 0.3,28 - 0.3,28
+23:43:48 [trace] finish selection: 0.3,27 - 0.3,27
+23:43:48 [trace] finish selection: 0.3,27 - 0.3,27
+23:43:48 [trace] playSub() called
+23:43:48 [trace] goal: 0 goalRow: 0
+23:43:48 [trace] playSub() took 159µs
+23:43:49 [trace] finish selection: 0.3,7 - 0.3,7
+23:43:49 [trace] finish selection: 0.4,7 - 0.4,7
+23:43:49 [trace] finish selection: 0.5,7 - 0.5,7
+23:43:49 [trace] finish selection: 0.6,7 - 0.6,7
+23:43:49 [trace] finish selection: 1.0,7 - 1.0,7
+23:43:49 [trace] finish selection: 1.1,7 - 1.1,7
+23:43:49 [trace] finish selection: 1.2,7 - 1.2,7
+23:43:49 [trace] finish selection: 1.3,7 - 1.3,7
+23:43:49 [trace] finish selection: 1.4,7 - 1.4,7
+23:43:49 [trace] finish selection: 1.5,7 - 1.5,7
+23:43:49 [trace] finish selection: 1.6,7 - 1.6,7
+23:43:49 [trace] finish selection: 2.0,7 - 2.0,7
+23:43:49 [trace] finish selection: 2.1,7 - 2.1,7
+23:43:50 [trace] finish selection: 2.1,6 - 2.1,6
+23:43:50 [trace] finish selection: 2.1,5 - 2.1,5
+23:43:50 [trace] finish selection: 2.1,4 - 2.1,4
+23:43:50 [trace] finish selection: 2.1,3 - 2.1,3
+23:43:50 [trace] finish selection: 2.1,2 - 2.1,2
+23:43:50 [trace] finish selection: 2.1,1 - 2.1,1
+23:43:50 [trace] finish selection: 2.1,0 - 2.1,0
+23:43:50 [trace] finish selection: 2.0,0 - 2.0,0
+23:43:51 [trace] finish selection: 1.6,0 - 1.6,0
+23:43:51 [trace] finish selection: 1.5,0 - 1.5,0
+23:43:52 [trace] playSub() called
+23:43:52 [trace] goal: 0 goalRow: 0
+23:43:52 [trace] playSub() took 126µs
+23:43:54 [trace] finish selection: 1.6,13 - 1.6,13
+23:43:54 [trace] finish selection: 1.6,33 - 1.6,33
+23:43:54 [trace] finish selection: 1.5,33 - 1.5,33
+23:43:55 [trace] finish selection: 1.5,35 - 1.5,35
+23:43:55 [trace] finish selection: 1.5,15 - 1.5,15
+23:43:56 [trace] finish selection: 1.5,0 - 1.5,0
+23:43:56 [trace] finish selection: 1.6,0 - 1.6,0
+23:43:57 [trace] playSub() called
+23:43:57 [trace] goal: 0 goalRow: 0
+23:43:57 [trace] playSub() took 141µs
+23:43:57 [trace] audio is soft-locked (11)
+23:43:59 [trace] playSub() called
+23:43:59 [trace] goal: 0 goalRow: 0
+23:43:59 [trace] playSub() took 143µs
+23:44:00 [trace] finish selection: 1.5,5 - 1.5,5
+23:44:00 [trace] finish selection: 1.5,4 - 1.5,4
+23:44:00 [trace] finish selection: 1.5,3 - 1.5,3
+23:44:00 [trace] playSub() called
+23:44:00 [trace] goal: 0 goalRow: 0
+23:44:00 [trace] playSub() took 134µs
+23:44:02 [trace] playSub() called
+23:44:02 [trace] goal: 0 goalRow: 0
+23:44:02 [trace] playSub() took 126µs
+23:44:02 [trace] finish selection: 1.5,4 - 1.5,4
+23:44:02 [trace] finish selection: 1.5,3 - 1.5,3
+23:44:03 [trace] finish selection: 1.4,3 - 1.4,3
+23:44:03 [trace] finish selection: 1.4,2 - 1.4,2
+23:44:03 [trace] finish selection: 1.3,2 - 1.3,2
+23:44:04 [trace] finish selection: 1.3,1 - 1.3,1
+23:44:04 [trace] finish selection: 1.3,2 - 1.3,2
+23:44:04 [trace] finish selection: 1.3,3 - 1.3,3
+23:44:04 [trace] finish selection: 1.3,4 - 1.3,4
+23:44:04 [trace] playSub() called
+23:44:04 [trace] goal: 0 goalRow: 0
+23:44:04 [trace] playSub() took 139µs
+23:44:05 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:44:05 [trace] curFileName: 
+23:44:05 [debug] saving backup...
+23:44:05 [trace] writing file...
+23:44:05 [debug] backup saved.
+23:44:11 [trace] finish selection: 1.4,19 - 1.4,19
+23:44:11 [trace] finish selection: 1.4,3 - 1.4,3
+23:44:11 [trace] playSub() called
+23:44:11 [trace] goal: 1 goalRow: 0
+23:44:11 [trace] playSub() took 487µs
+23:44:12 [trace] finish selection: 1.4,6 - 1.4,6
+23:44:12 [trace] finish selection: 1.4,11 - 1.4,11
+23:44:13 [trace] playSub() called
+23:44:13 [trace] goal: 0 goalRow: 0
+23:44:13 [trace] playSub() took 136µs
+23:44:13 [trace] finish selection: 1.4,4 - 1.4,4
+23:44:13 [trace] finish selection: 1.4,3 - 1.4,3
+23:44:14 [trace] finish selection: 1.3,3 - 1.3,3
+23:44:14 [trace] finish selection: 1.2,3 - 1.2,3
+23:44:15 [trace] finish selection: 1.2,0 - 1.2,35
+23:44:15 [trace] finish selection: 1.2,0 - 1.2,35
+23:44:15 [trace] playSub() called
+23:44:15 [trace] goal: 0 goalRow: 0
+23:44:15 [trace] playSub() took 133µs
+23:44:17 [trace] playSub() called
+23:44:17 [trace] goal: 0 goalRow: 0
+23:44:17 [trace] playSub() took 109µs
+23:44:18 [trace] finish selection: 1.2,0 - 1.2,35
+23:44:18 [trace] finish selection: 1.2,7 - 1.2,7
+23:44:18 [trace] finish selection: 1.2,6 - 1.2,6
+23:44:18 [trace] finish selection: 1.2,5 - 1.2,5
+23:44:19 [trace] finish selection: 1.3,5 - 1.3,5
+23:44:19 [trace] finish selection: 1.3,4 - 1.3,4
+23:44:21 [trace] playSub() called
+23:44:21 [trace] goal: 0 goalRow: 0
+23:44:21 [trace] playSub() took 140µs
+23:44:23 [trace] playSub() called
+23:44:23 [trace] goal: 0 goalRow: 0
+23:44:23 [trace] playSub() took 128µs
+23:44:26 [trace] finish selection: 1.4,32 - 1.4,32
+23:44:26 [trace] finish selection: 1.3,32 - 1.3,32
+23:44:26 [trace] finish selection: 1.3,0 - 1.3,35
+23:44:27 [trace] finish selection: 1.2,32 - 1.2,32
+23:44:28 [trace] finish selection: 1.2,0 - 1.2,35
+23:44:28 [trace] playSub() called
+23:44:28 [trace] goal: 0 goalRow: 0
+23:44:28 [trace] playSub() took 123µs
+23:44:32 [trace] finish selection: 1.2,0 - 1.2,35
+23:44:32 [trace] finish selection: 1.2,10 - 1.2,10
+23:44:32 [trace] finish selection: 1.2,9 - 1.2,9
+23:44:32 [trace] finish selection: 1.2,8 - 1.2,8
+23:44:32 [trace] finish selection: 1.2,7 - 1.2,7
+23:44:32 [trace] finish selection: 1.2,6 - 1.2,6
+23:44:32 [trace] finish selection: 1.2,5 - 1.2,5
+23:44:32 [trace] finish selection: 1.2,4 - 1.2,4
+23:44:32 [trace] finish selection: 1.2,3 - 1.2,3
+23:44:32 [trace] finish selection: 1.2,2 - 1.2,2
+23:44:32 [trace] finish selection: 1.2,1 - 1.2,1
+23:44:32 [trace] finish selection: 1.2,0 - 1.2,0
+23:44:32 [trace] finish selection: 1.2,35 - 1.2,35
+23:44:32 [trace] finish selection: 1.2,34 - 1.2,34
+23:44:32 [trace] finish selection: 1.2,33 - 1.2,33
+23:44:33 [trace] finish selection: 1.2,32 - 1.2,32
+23:44:34 [trace] finish selection: 1.2,16 - 1.2,16
+23:44:34 [trace] finish selection: 1.2,0 - 1.2,0
+23:44:34 [trace] finish selection: 1.3,0 - 1.3,0
+23:44:35 [trace] finish selection: 1.3,1 - 1.3,1
+23:44:35 [trace] finish selection: 1.3,2 - 1.3,2
+23:44:35 [trace] finish selection: 1.3,3 - 1.3,3
+23:44:35 [trace] finish selection: 1.3,4 - 1.3,4
+23:44:35 [trace] finish selection: 1.3,5 - 1.3,5
+23:44:35 [trace] backupPath: /home/thacuber2a03/.config/furnace/backups
+23:44:35 [trace] curFileName: 
+23:44:35 [debug] saving backup...
+23:44:35 [trace] writing file...
+23:44:35 [debug] backup saved.
+23:44:35 [trace] finish selection: 1.3,6 - 1.3,6
+23:44:35 [trace] finish selection: 1.3,5 - 1.3,5
+23:44:36 [trace] finish selection: 1.3,4 - 1.3,4
+23:44:36 [trace] playSub() called
+23:44:36 [trace] goal: 0 goalRow: 0
+23:44:36 [trace] playSub() took 133µs
+23:44:38 [debug] opening save file dialog with curPath /home/thacuber2a03/.local/bin/Furnace/demos/nes/
+23:44:45 [trace] end of orders reached
+23:44:46 [debug] last loop pos: 448 for a size of 512 and runLeftG of 16384
+23:44:50 [debug] returning /home/thacuber2a03/Documentos/furnace projfiles/the infinitely many WIPs and NBTs I have/original???
+23:44:50 [debug] curPath: /home/thacuber2a03/Documentos/furnace projfiles/the infinitely many WIPs and NBTs I have
+23:44:50 [debug] saving file...
+23:44:50 [trace] opening file for writing...
+23:44:50 [debug] save complete.
+23:44:54 [info] closing GUI.
+23:44:54 [info] stopping engine.
+23:44:54 [info] closing audio output.
+23:44:54 [info] closing MIDI input.
+23:44:54 [trace] terminating dispatch...
+23:44:54 [info] saving config.
+23:44:54 [debug] rotating config files...
+23:44:54 [trace] remove /home/thacuber2a03/.config/furnace/furnace.cfg.4
+23:44:54 [trace] move /home/thacuber2a03/.config/furnace/furnace.cfg.3 to /home/thacuber2a03/.config/furnace/furnace.cfg.4
+23:44:54 [trace] move /home/thacuber2a03/.config/furnace/furnace.cfg.2 to /home/thacuber2a03/.config/furnace/furnace.cfg.3
+23:44:54 [trace] move /home/thacuber2a03/.config/furnace/furnace.cfg.1 to /home/thacuber2a03/.config/furnace/furnace.cfg.2
+23:44:54 [trace] move /home/thacuber2a03/.config/furnace/furnace.cfg to /home/thacuber2a03/.config/furnace/furnace.cfg.1
+23:44:54 [debug] opening config for write: /home/thacuber2a03/.config/furnace/furnace.cfg
+23:44:54 [debug] config file written successfully.
