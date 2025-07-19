@@ -1,0 +1,130 @@
+[language.fennel.grammar.source.git]
+url = "https://github.com/travonted/tree-sitter-fennel"
+pin = "15e4f8c417281768db17080c4447297f8ff5343a"
+
+[language.fennel.grammar]
+path = "src"
+compile = "cc"
+compile_args = ["-c", "-fPIC", "../parser.c", "-I", ".."]
+compile_flags = ["-O3"]
+link = "cc"
+link_args = ["-shared", "-fPIC", "parser.o", "-o", "fennel.so"]
+link_flags = ["-O3"]
+
+[language.fennel.queries.source.git]
+url = "https://github.com/helix-editor/helix"
+pin = "bce166290a25af4d921171028748ccca9b27dc3a"
+
+[language.fennel.queries]
+path = "runtime/queries/fennel"
+
+#####################################################################
+
+[language.glsl.grammar.source.git]
+url = "http://github.com/tree-sitter-grammars/tree-sitter-glsl"
+pin = "88408ffc5e27abcffced7010fc77396ae3636d7e"
+
+[language.glsl.grammar]
+path = "src"
+compile = "cc"
+compile_args = ["-c", "-fPIC", "../parser.c", "-I", ".."]
+compile_flags = ["-O3"]
+link = "cc"
+link_args = ["-shared", "-fPIC", "parser.o", "-o", "glsl.so"]
+link_flags = ["-O3"]
+
+[language.glsl.queries.source.git]
+url = "https://git.sr.ht/~hadronized/kak-tree-sitter"
+pin = "1b783cb1a4db29aedb6bf715bf918d51767da31f"
+
+[language.glsl.queries]
+path = "runtime/queries/glsl"
+
+#####################################################################
+
+[language.uxntal.grammar.source.git]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-uxntal"
+pin = "ad9b638b914095320de85d59c49ab271603af048"
+
+[language.uxntal.grammar]
+path = "src"
+compile = "cc"
+compile_args = ["-c", "-fPIC", "../parser.c", "../scanner.c", "-I", ".."]
+compile_flags = ["-O3"]
+link = "cc"
+link_args = ["-shared", "-fPIC", "parser.o", "scanner.o", "-o", "uxntal.so"]
+link_flags = ["-O3"]
+
+[language.uxntal.queries.source.git]
+url = "https://github.com/helix-editor/helix"
+pin = "16ff06370fd5a6d5cfbe8772e52a88fb5453b8e9"
+
+[language.uxntal.queries]
+path = "runtime/queries/uxntal"
+
+#####################################################################
+
+[language.haxe.grammar.source.git]
+url = "https://github.com/vantreeseba/tree-sitter-haxe"
+pin = "12e814cd9b0656b0eaa3e04b0036b3b6625cc0d7"
+
+[language.haxe.grammar]
+path = "src"
+compile = "cc"
+compile_args = ["-c", "-fPIC", "../parser.c", "../scanner.c", "-I", ".."]
+compile_flags = ["-O3"]
+link = "cc"
+link_args = ["-shared", "-fPIC", "parser.o", "scanner.o", "-o", "haxe.so"]
+link_flags = ["-O3"]
+
+[language.haxe.queries.source.git]
+url = "https://github.com/vantreeseba/tree-sitter-haxe"
+pin = "b3ee78f6686d15464846b031049008af89deaf28"
+
+[language.haxe.queries]
+path = "queries"
+
+#####################################################################
+
+[language.ld.grammar.source.git]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript"
+pin = "492c0342dbe0a8fd8f5e056bad0f4695e4af1185"
+
+[language.ld.grammar]
+path = "src"
+compile = "cc"
+compile_args = ["-c", "-fPIC", "../parser.c", "-I", ".."]
+compile_flags = ["-O3"]
+link = "cc"
+link_args = ["-shared", "-fPIC", "parser.o", "-o", "ld.so"]
+link_flags = ["-O3"]
+
+[language.ld.queries.source.git]
+url = "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript"
+pin = "492c0342dbe0a8fd8f5e056bad0f4695e4af1185"
+
+[language.ld.queries]
+path = "queries"
+
+#####################################################################
+
+[language.uiua.grammar.source.git]
+url = "https://github.com/shnarazk/tree-sitter-uiua"
+pin = "0da15357bc1179b187018131dc20c2395e77ce71"
+
+[language.uiua.grammar]
+path = "src"
+compile = "cc"
+compile_args = ["-c", "-fPIC", "../parser.c", "-I", ".."]
+compile_flags = ["-O3"]
+link = "cc"
+link_args = ["-shared", "-fPIC", "parser.o", "-o", "uiua.so"]
+link_flags = ["-O3"]
+
+[language.uiua.queries.source.git]
+url = "https://github.com/shnarazk/tree-sitter-uiua"
+pin = "c917a6cb115154a6b93b4812b50d7630565f4470"
+
+[language.uiua.queries]
+path = "queries"
+

@@ -1,0 +1,77 @@
+BasedOnStyle: Microsoft
+
+AccessModifierOffset: -4
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Left
+
+AlignConsecutiveAssignments:
+	Enabled: true
+AlignConsecutiveBitFields:
+	Enabled: true
+AlignConsecutiveMacros:
+	Enabled: true
+AlignConsecutiveShortCaseStatements:
+	Enabled: true
+AlignConsecutiveTableGenBreakingDAGArgColons:
+	Enabled: true
+AlignConsecutiveTableGenDefinitionColons:
+	Enabled: true
+
+AlignEscapedNewlines: LeftWithLastLine
+AlignOperands:   AlignAfterOperator
+
+AllowBreakBeforeNoexceptSpecifier: OnlyWithParen
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+
+# AllowShortNamespacesOnASingleLine: false # clang-format 20
+
+BraceWrapping:
+  AfterCaseLabel:        false
+  AfterClass:            true
+  AfterControlStatement: Always
+  AfterEnum:             false
+  AfterExternBlock:      true
+  AfterFunction:         true
+  AfterNamespace:        true
+  AfterObjCDeclaration:  true
+  AfterStruct:           true
+  AfterUnion:            false
+  BeforeCatch:           true
+  BeforeElse:            true
+  BeforeLambdaBody:      false
+  BeforeWhile:           false
+  IndentBraces:          false
+  SplitEmptyFunction:    true
+  SplitEmptyRecord:      true
+  SplitEmptyNamespace:   true
+
+BreakArrays:     false
+BreakBeforeBinaryOperators: NonAssignment
+
+ColumnLimit:     0
+DerivePointerAlignment: true
+
+ForEachMacros:
+  - foreach
+  - Q_FOREACH
+  - BOOST_FOREACH
+
+IfMacros:
+  - KJ_IF_MAYBE
+
+IncludeBlocks:   Regroup
+IndentGotoLabels: false
+IndentPPDirectives: BeforeHash
+
+KeepEmptyLines:
+  AtEndOfFile:     false
+  AtStartOfBlock:  false
+  AtStartOfFile:   false
+
+PPIndentWidth: -1
+ReferenceAlignment: Left
+
